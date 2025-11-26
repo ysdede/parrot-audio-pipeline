@@ -1,0 +1,52 @@
+{
+    "currentVersion": {
+        "created": "2016-06-12 21:23:16",
+        "template_version": "e1c9fd36-814f-11e9-af35-0eaa5a9daa9c"
+    },
+    "prevVersions": [],
+    "template_id": "RPT50198",
+    "selectedVersion": "e1c9fd36-814f-11e9-af35-0eaa5a9daa9c",
+    "is_public": "1",
+    "TLAP_Approved": "1",
+    "published_at": "2016-06-12 21:23:16",
+    "title": "Ultrasound Scrotal",
+    "template_status": null,
+    "description": "Ultrasound Scrotal",
+    "author": "34",
+    "firstname": "Parag",
+    "lastname": "Tolat",
+    "originalAuthor": "34",
+    "originalAuthorFirstname": "Parag",
+    "originalAuthorLastName": "Tolat",
+    "views": "5269",
+    "downloads": "7028",
+    "created": "2016-06-12 21:23:16",
+    "dataType": "html",
+    "reviewInProgress": null,
+    "englishName": "English",
+    "langCode": "en",
+    "favCount": "1",
+    "templateData": "<!DOCTYPE html>\n<html>\n    <head>\n        <title>Ultrasound Scrotal</title>\n        <meta charset=\"UTF-8\" />\n        <meta name=\"dcterms.identifier\" content=\"4e5667d9-0717-40e7-984c-a02a04409e6e\" />\n        <meta name=\"dcterms.title\" content=\"Ultrasound Scrotal\" />\n        <meta name=\"dcterms.description\" content=\"Scrotal Ultrasound\" />\n        <meta name=\"dcterms.type\" content=\"IMAGE_REPORT_TEMPLATE\" />\n        <meta name=\"dcterms.language\" content=\"en\" />\n        <meta name=\"dcterms.publisher\" content=\"Medical College of Wisconsin, Department of Radiology\" />\n        <meta name=\"dcterms.rights\" content=\"May be used freely, subject to license agreement\" />\n        <meta name=\"dcterms.license\" content=\"http://www.radreport.org/license.pdf\" />\n        <meta name=\"dcterms.date\" content=\"2016-06-12\" />\n        <meta name=\"dcterms.creator\" content=\"Medical College of Wisconsin, Department of Radiology\" />\n        <script type=\"text/xml\">\n            <template_attributes>\n                <coded_content>\n                    <coding_schemes>\n                        <coding_scheme name=\"RADLEX\" designator=\"2.16.840.1.113883.6.256\"></coding_scheme>\n                    </coding_schemes>\n                    <entry origtxt=\"TEXT_1465485581860\">\n                        <term>\n                            <code meaning=\"varicocele\" value=\"RID39184\" scheme=\"RADLEX\"></code>\n                        </term>\n                    </entry>\n                    <entry origtxt=\"TEXT_1465485581852\">\n                        <term>\n                            <code meaning=\"set of testicles\" value=\"RID39541\" scheme=\"RADLEX\"></code>\n                        </term>\n                    </entry>\n                    <entry origtxt=\"clinicalInformationText\">\n                        <term>\n                            <code meaning=\"clinical information\" value=\"RID13166\" scheme=\"RADLEX\"></code>\n                        </term>\n                    </entry>\n                    <entry origtxt=\"TEXT_1465485581859\">\n                        <term>\n                            <code meaning=\"hydrocele\" value=\"RID3912\" scheme=\"RADLEX\"></code>\n                        </term>\n                    </entry>\n                    <entry origtxt=\"TEXT_1465485581857\">\n                        <term>\n                            <code meaning=\"epididymis\" value=\"RID371\" scheme=\"RADLEX\"></code>\n                        </term>\n                    </entry>\n                    <entry origtxt=\"impressionText\">\n                        <term>\n                            <code meaning=\"impression section\" value=\"RID13170\" scheme=\"RADLEX\"></code>\n                        </term>\n                    </entry>\n                    <entry origtxt=\"comparisonsText\">\n                        <term>\n                            <code meaning=\"comparison\" value=\"RID28483\" scheme=\"RADLEX\"></code>\n                        </term>\n                    </entry>\n                </coded_content>\n            </template_attributes>\n        </script>\n    </head>\n    <body>\n        <section id=\"procedureInformation\" class=\"level1\" data-section-name=\"Procedure Information\">\n            <header class=\"level1\">\n                Procedure Information\n            </header>\n            <p title=\"\">\n                <label for=\"TEXT_1465489781090\">Examination:</label>\n                <input type=\"text\" id=\"TEXT_1465489781090\" name=\"\" data-field-type=\"TEXT\" data-field-completion-action=\"PROHIBIT\" value=\"Scrotal Ultrasound\" />\n            </p>\n        </section>\n        <section id=\"clinicalInformation\" class=\"level1\" data-section-name=\"Clinical Information\">\n            <header class=\"level1\">\n                Clinical Information\n            </header>\n            <p title=\"\">\n                <label for=\"clinicalInformationText\"></label>\n                <textarea rows=\"3\" cols=\"100\" id=\"clinicalInformationText\" name=\"\" data-field-type=\"TEXT\" data-field-completion-action=\"ALERT\"></textarea>\n            </p>\n        </section>\n        <section id=\"comparisons\" class=\"level1\" data-section-name=\"Comparison\">\n            <header class=\"level1\">\n                Comparison\n            </header>\n            <p title=\"\">\n                <label for=\"comparisonsText\"></label>\n                <textarea rows=\"3\" cols=\"100\" id=\"comparisonsText\" name=\"\" data-field-type=\"TEXT\" data-field-completion-action=\"NONE\">None.</textarea>\n            </p>\n        </section>\n        <section id=\"findings\" class=\"level1\" data-section-name=\"Findings\">\n            <header class=\"level1\">\n                Findings\n            </header>\n            <section id=\"SECTION_HEADER_1465485581851\" class=\"level2\" data-section-name=\"Testes:\">\n                <header class=\"level2\">\n                    Testes:\n                </header>\n                <p title=\"\">\n                    <label for=\"TEXT_1465485581852\"></label>\n                    <textarea rows=\"3\" cols=\"100\" id=\"TEXT_1465485581852\" name=\"\" data-field-type=\"TEXT\" data-field-completion-action=\"PROHIBIT\">Normal in size and echotexture without focal lesion.</textarea>\n                </p>\n                <p title=\"\">\n                    <label for=\"TEXT_1465485581853\">Color Doppler:</label>\n                    <input type=\"text\" id=\"TEXT_1465485581853\" name=\"\" data-field-type=\"TEXT\" data-field-completion-action=\"NONE\" value=\"Normal color Doppler flow pattern.\" />\n                </p>\n                <p title=\"\">\n                    <label for=\"NUMBER_1465485581854\">Right testicle size:</label>\n                    <span>\n                        <input type=\"number\" step=\"0.1\" data-field-units=\"cm\" id=\"NUMBER_1465485581854\" name=\"\" data-field-type=\"NUMBER\" data-field-completion-action=\"NONE\" value=\"\" />\n                        cm\n                    </span>\n                </p>\n                <p title=\"\">\n                    <label for=\"NUMBER_1465485581855\">Left testicle size:</label>\n                    <span>\n                        <input type=\"number\" step=\"0.1\" data-field-units=\"cm\" id=\"NUMBER_1465485581855\" name=\"\" data-field-type=\"NUMBER\" data-field-completion-action=\"NONE\" value=\"\" />\n                        cm\n                    </span>\n                </p>\n            </section>\n            <section id=\"SECTION_HEADER_1465485581856\" class=\"level2\" data-section-name=\"Epididymis:\">\n                <header class=\"level2\">\n                    Epididymis:\n                </header>\n                <p title=\"\">\n                    <label for=\"TEXT_1465485581857\"></label>\n                    <textarea rows=\"3\" cols=\"100\" id=\"TEXT_1465485581857\" name=\"\" data-field-type=\"TEXT\" data-field-completion-action=\"PROHIBIT\">Normal in size and echotexture without focal lesion.</textarea>\n                </p>\n                <p title=\"\">\n                    <label for=\"TEXT_1465485581858\">Color Doppler:</label>\n                    <input type=\"text\" id=\"TEXT_1465485581858\" name=\"\" data-field-type=\"TEXT\" data-field-completion-action=\"NONE\" value=\"Normal color Doppler flow pattern.\" />\n                </p>\n            </section>\n            <p title=\"\">\n                <label for=\"TEXT_1465485581859\">Hydrocele:</label>\n                <input type=\"text\" id=\"TEXT_1465485581859\" name=\"\" data-field-type=\"TEXT\" data-field-completion-action=\"PROHIBIT\" value=\"None.\" />\n            </p>\n            <p title=\"\">\n                <label for=\"TEXT_1465485581860\">Varicocele:</label>\n                <input type=\"text\" id=\"TEXT_1465485581860\" name=\"\" data-field-type=\"TEXT\" data-field-completion-action=\"PROHIBIT\" value=\"None.\" />\n            </p>\n            <p title=\"\">\n                <label for=\"TEXT_1465485581861\">Other findings:</label>\n                <input type=\"text\" id=\"TEXT_1465485581861\" name=\"\" data-field-type=\"TEXT\" data-field-completion-action=\"NONE\" value=\"None.\" />\n            </p>\n        </section>\n        <section id=\"impression\" class=\"level1\" data-section-name=\"Impression\">\n            <header class=\"level1\">\n                Impression\n            </header>\n            <p title=\"\">\n                <label for=\"impressionText\"></label>\n                <textarea rows=\"3\" cols=\"100\" id=\"impressionText\" name=\"\" data-field-type=\"TEXT\" data-field-completion-action=\"PROHIBIT\">Normal scrotal sonography.</textarea>\n            </p>\n        </section>\n    </body>\n</html>\n",
+    "organizations": [],
+    "specialty": [
+        {
+            "code": "ER",
+            "name": "Emergency Radiology"
+        },
+        {
+            "code": "GU",
+            "name": "Genitourinary Radiology"
+        },
+        {
+            "code": "US",
+            "name": "Ultrasound"
+        }
+    ],
+    "coauthors": [],
+    "cdeSets": [],
+    "translators": [],
+    "references": [],
+    "procedures": [],
+    "radlex": [],
+    "isFavorite": "0"
+}

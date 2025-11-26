@@ -1,0 +1,76 @@
+{
+    "currentVersion": {
+        "created": "2009-12-01 00:00:00",
+        "template_version": "e1c185ae-814f-11e9-af35-0eaa5a9daa9c"
+    },
+    "prevVersions": [],
+    "template_id": "RPT110",
+    "selectedVersion": "e1c185ae-814f-11e9-af35-0eaa5a9daa9c",
+    "is_public": "1",
+    "TLAP_Approved": "1",
+    "published_at": "2009-12-01 00:00:00",
+    "title": "Peds VCUG",
+    "template_status": null,
+    "description": null,
+    "author": "Meyer JS, et al.",
+    "firstname": null,
+    "lastname": null,
+    "originalAuthor": "Meyer JS, et al.",
+    "originalAuthorFirstname": null,
+    "originalAuthorLastName": null,
+    "views": "724",
+    "downloads": "5037",
+    "created": "2009-12-01 00:00:00",
+    "dataType": "html",
+    "reviewInProgress": null,
+    "englishName": "English",
+    "langCode": "en",
+    "favCount": "0",
+    "templateData": "<!DOCTYPE html>\n<html>\n<head>\n<meta charset=\"UTF-8\"/>\n<meta content=\"Pediatric Voiding Cystourethragram\" name=\"dcterms.title\"/>\n<meta content=\"Pediatric Voiding Cystourethragram template :: Authored by Meyer JS, et al.\" name=\"dcterms.description\"/>\n<meta content=\"http://www.radreport.org/template/0000110\" name=\"dcterms.identifier\"/>\n<meta content=\"en\" name=\"dcterms.language\"/>\n<meta content=\"IMAGE_REPORT_TEMPLATE\" name=\"dcterms.type\"/>\n<meta content=\"Radiological Society of North America (RSNA)\" name=\"dcterms.publisher\"/>\n<meta content=\"May be used gratis, subject to license agreement\" name=\"dcterms.rights\"/>\n<meta content=\"http://www.radreport.org/license.pdf\" name=\"dcterms.license\"/>\n<meta content=\"2012-07-17\" name=\"dcterms.date\"/>\n<meta content=\"Meyer JS, et al.\" name=\"dcterms.creator\"/>\n<meta content=\"Kahn CE Jr [editor]\" name=\"dcterms.contributor\"/>\n<meta content=\"Society for Pediatric Radiology (SPR)\" name=\"dcterms.contributor\"/>\n<link rel=\"stylesheet\" type=\"text/css\" href=\"IHE_Template_Style.css\"/>\n<!-- The absolute link to the CSS file is http://www.radreport.org/html/IHE_Template_Style.css -->\n<script type=\"text/xml\">\n<!--\n<template_attributes>\n<top-level-flag>true</top-level-flag>\n<status>ACTIVE</status>\n<coding_schemes>\n <coding_scheme name=\"RadLex\" designator=\"2.16.840.1.113883.6.256\" />\n <coding_scheme name=\"SNOMEDCT\" designator=\"2.16.840.1.113883.6.96\" />\n <coding_scheme name=\"LOINC\" designator=\"2.16.840.1.113883.6.1\" />\n</coding_schemes>\n<term>\n <code meaning=\"child\" value=\"RID5641\" scheme=\"RadLex\">\n</term>\n<term>\n <code meaning=\"fluoroscopy\" value=\"RID10361\" scheme=\"RadLex\">\n</term>\n<term>\n <code meaning=\"urinary bladder\" value=\"RID237\" scheme=\"RadLex\">\n</term>\n<term>\n <code meaning=\"voiding urethrography\" value=\"RID34433\" scheme=\"RadLex\">\n</term>\n<coded_content>\n<entry ORIGTXT=\"T110_6\">\n <term>\n  <code meaning=\"projection radiography\" value=\"RID10345\" scheme=\"RadLex\">\n </term>\n</entry>\n<entry ORIGTXT=\"T110_7\">\n <term>\n  <code meaning=\"urinary bladder\" value=\"RID237\" scheme=\"RadLex\">\n </term>\n</entry>\n<entry ORIGTXT=\"T110_10\">\n <term>\n  <code meaning=\"contrast agent\" value=\"RID11582\" scheme=\"RadLex\">\n </term>\n</entry>\n<entry ORIGTXT=\"T110_13\">\n <term>\n  <code meaning=\"volume\" value=\"RID28668\" scheme=\"RadLex\">\n </term>\n</entry>\n<entry ORIGTXT=\"T110_15\">\n <term>\n  <code meaning=\"imaging technique\" value=\"RID28482\" scheme=\"RadLex\">\n </term>\n <term>\n  <code meaning=\"imaging technique modifier\" value=\"RID28642\" scheme=\"RadLex\">\n </term>\n</entry>\n<entry ORIGTXT=\"T110_16\">\n <term>\n  <code meaning=\"fluoroscopy\" value=\"RID10361\" scheme=\"RadLex\">\n </term>\n <term>\n  <code meaning=\"fluoroscopy\" value=\"RID10361\" scheme=\"RadLex\">\n </term>\n</entry>\n<entry ORIGTXT=\"T110_17\">\n <term>\n  <code meaning=\"radiation exposure measure\" value=\"RID10544\" scheme=\"RadLex\">\n </term>\n</entry>\n<entry ORIGTXT=\"T110_18\">\n <term>\n  <code meaning=\"clinical information\" value=\"RID13166\" scheme=\"RadLex\">\n </term>\n</entry>\n<entry ORIGTXT=\"T110_20\">\n <term>\n  <code meaning=\"comparison\" value=\"RID28483\" scheme=\"RadLex\">\n </term>\n</entry>\n<entry ORIGTXT=\"T110_26\">\n <term>\n  <code meaning=\"atypical\" value=\"RID27\" scheme=\"RadLex\">\n </term>\n <term>\n  <code meaning=\"calcification\" value=\"RID5196\" scheme=\"RadLex\">\n </term>\n</entry>\n<entry ORIGTXT=\"T110_28\">\n <term>\n  <code meaning=\"mass\" value=\"RID3874\" scheme=\"RadLex\">\n </term>\n <term>\n  <code meaning=\"soft tissue administration\" value=\"RID11185\" scheme=\"RadLex\">\n </term>\n</entry>\n<entry ORIGTXT=\"T110_30\">\n <term>\n  <code meaning=\"set of bones\" value=\"RID28569\" scheme=\"RadLex\">\n </term>\n</entry>\n<entry ORIGTXT=\"T110_33\">\n <term>\n  <code meaning=\"ureterocele\" value=\"RID34640\" scheme=\"RadLex\">\n </term>\n</entry>\n<entry ORIGTXT=\"T110_35\">\n <term>\n  <code meaning=\"contour\" value=\"RID5957\" scheme=\"RadLex\">\n </term>\n</entry>\n<entry ORIGTXT=\"T110_39\">\n <term>\n  <code meaning=\"vesicoureteral reflux\" value=\"RID5261\" scheme=\"RadLex\">\n </term>\n</entry>\n<entry ORIGTXT=\"T110_45\">\n <term>\n  <code meaning=\"urethra\" value=\"RID34890\" scheme=\"RadLex\">\n </term>\n</entry>\n<entry ORIGTXT=\"T110_48\">\n <term>\n  <code meaning=\"residual\" value=\"RID5727\" scheme=\"RadLex\">\n </term>\n <term>\n  <code meaning=\"volume\" value=\"RID28668\" scheme=\"RadLex\">\n </term>\n</entry>\n<entry ORIGTXT=\"T110_54\">\n <term>\n  <code meaning=\"impression section\" value=\"RID13170\" scheme=\"RadLex\">\n </term>\n</entry>\n</coded_content>\n</template_attributes>\n-->\n</script>\n<title>Pediatric Voiding Cystourethragram</title>\n</head>\n<body>\n<section data-section-name=\"Procedure\">\n<header class=\"level1\">Pediatric Voiding Cystourethragram</header>\n<p>\n<textarea id=\"T110_6\" name=\"Prelim\">A preliminary radiograph of the abdomen was obtained. </textarea>\n</p>\n<p>\n<textarea id=\"T110_7\" name=\"Bladder access\">The urinary bladder was catheterized using sterile technique. </textarea>\n</p>\n<p>\n<label for=\"T110_10\">Contrast material:</label>\n<input type=\"text\" id=\"T110_10\" name=\"Contrast name\" value=\"\"/>\n<input type=\"number\" id=\"T110_13\" name=\"Volume\" data-field-units=\"ml\" min=\"\" max=\"\"/> <label for=\"T110_13\">ml</label>\n</p>\n<p>\n<label for=\"T110_14\">Number of filling cycles:</label>\n<input type=\"number\" id=\"T110_14\" name=\"Number of filling cycles\" data-field-units=\"\" min=\"\" max=\"\"/> \n</p>\n<p>\n<textarea id=\"T110_15\" name=\"Procedure\">Contrast was instilled by gravity under fluoroscopic guidance and fluoroscopic evaluation of the urinary tract was performed during bladder filling and voiding. The examination was recorded on digital spot images.</textarea>\n</p>\n<p>\n<label for=\"T110_16\">Fluoroscopy time:</label>\n<input type=\"number\" id=\"T110_16\" name=\"Fluoroscopy time\" data-field-units=\"minutes\" min=\"\" max=\"\" step=\"0.1\"/> <label for=\"T110_16\">minutes</label>\n</p>\n<p>\n<label for=\"T110_17\">Radiation exposure:</label>\n<input type=\"number\" id=\"T110_17\" name=\"Radiation exposure\" data-field-units=\"dGy cm2\" min=\"\" max=\"\"/> <label for=\"T110_17\">dGy cm2</label>\n</p>\n</section>\n<section data-section-name=\"Clinical information\">\n<header class=\"level1\">Clinical information</header>\n<p>\n<textarea id=\"T110_18\" name=\"Clinical information\">UTI. </textarea>\n</p>\n</section>\n<section data-section-name=\"Comparison\">\n<header class=\"level1\">Comparison</header>\n<p>\n<textarea id=\"T110_20\" name=\"Comparison\">None. </textarea>\n</p>\n</section>\n<section data-section-name=\"Findings\">\n<header class=\"level1\">Findings</header>\n<section data-section-name=\"Preliminary radiograph\">\n<header class=\"level2\">Preliminary radiograph</header>\n<p>\n<label for=\"T110_24\">Bowel gas pattern:</label>\n<input type=\"text\" id=\"T110_24\" name=\"Bowel gas pattern\" value=\"Normal.\"/>\n</p>\n<p>\n<label for=\"T110_26\">Atypical calcification:</label>\n<input type=\"text\" id=\"T110_26\" name=\"Atypical calcification\" value=\"None.\"/>\n</p>\n<p>\n<label for=\"T110_28\">Soft-tissue mass:</label>\n<input type=\"text\" id=\"T110_28\" name=\"Soft-tissue mass\" value=\"None.\"/>\n</p>\n<p>\n<label for=\"T110_30\">Bones:</label>\n<input type=\"text\" id=\"T110_30\" name=\"Bones\" value=\"Normal.\"/>\n</p>\n</section>\n<section data-section-name=\"Urinary bladder\">\n<header class=\"level2\">Urinary bladder</header>\n<p>\n<label for=\"T110_33\">Ureterocele:</label>\n<input type=\"text\" id=\"T110_33\" name=\"Ureterocele\" value=\"Early filling of the urinary bladder demonstrates no filling defect to suggest a ureterocele.\"/>\n</p>\n<p>\n<label for=\"T110_35\">Contour:</label>\n<input type=\"text\" id=\"T110_35\" name=\"Contour\" value=\"Normal.\"/>\n</p>\n<p>\n<label for=\"T110_37\">Capacity:</label>\n<input type=\"text\" id=\"T110_37\" name=\"Capacity\" value=\"Normal.\"/>\n</p>\n<p>\n<label for=\"T110_39\">Vesicoureteral reflux:</label>\n<input type=\"text\" id=\"T110_39\" name=\"Vesicoureteral reflux\" value=\"There is no vesicoureteral reflux with bladder filling or voiding.\"/>\n</p>\n<p>\n<label for=\"T110_45\">Urethra:</label>\n<input type=\"text\" id=\"T110_45\" name=\"Urethra\" value=\"Voiding delineates a normal urethra. \"/>\n</p>\n<p>\n<label for=\"T110_48\">Post-void residual volume:</label>\n<input type=\"text\" id=\"T110_48\" name=\"Post-void residual volume\" value=\"Insignificant. \"/>\n</p>\n</section>\n</section>\n<section data-section-name=\"Impression\">\n<header class=\"level1\">Impression</header>\n<p>\n<textarea id=\"T110_54\" name=\"Impression\">Normal. </textarea>\n</p>\n</section>\n</body>\n</html>\n",
+    "organizations": [
+        {
+            "id": "183",
+            "name": "Society for Pediatric Radiology",
+            "code": "SPR"
+        },
+        {
+            "id": "160",
+            "name": "Radiological Society of North America",
+            "code": "RSNA"
+        }
+    ],
+    "specialty": [
+        {
+            "code": "PD",
+            "name": "Pediatric Radiology"
+        },
+        {
+            "code": "GU",
+            "name": "Genitourinary Radiology"
+        }
+    ],
+    "coauthors": [],
+    "cdeSets": [],
+    "translators": [],
+    "references": [],
+    "procedures": [],
+    "radlex": [
+        {
+            "id": "RID5641",
+            "prefLabel": "child"
+        },
+        {
+            "id": "RID237",
+            "prefLabel": "urinary bladder"
+        },
+        {
+            "id": "RID10361",
+            "prefLabel": "fluoroscopy"
+        },
+        {
+            "id": "RID34433",
+            "prefLabel": "voiding urethrography"
+        }
+    ],
+    "isFavorite": "0"
+}

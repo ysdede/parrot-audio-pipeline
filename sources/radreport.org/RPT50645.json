@@ -1,0 +1,64 @@
+{
+    "currentVersion": {
+        "created": "2019-03-20 15:53:28",
+        "template_version": "eb6dc708-823a-11e9-af35-0eaa5a9daa9c"
+    },
+    "prevVersions": [],
+    "template_id": "RPT50645",
+    "selectedVersion": "eb6dc708-823a-11e9-af35-0eaa5a9daa9c",
+    "is_public": "1",
+    "TLAP_Approved": null,
+    "published_at": "2019-03-20 15:53:28",
+    "title": "MR Brain - Pediatric Epilepsy",
+    "template_status": null,
+    "description": " ",
+    "author": "rsna_00456600",
+    "firstname": "Mark",
+    "lastname": "Mamlouk",
+    "originalAuthor": "rsna_00456600",
+    "originalAuthorFirstname": "Mark",
+    "originalAuthorLastName": "Mamlouk",
+    "views": "1313",
+    "downloads": "4471",
+    "created": "2019-03-20 15:53:28",
+    "dataType": "html",
+    "reviewInProgress": "1",
+    "englishName": "English",
+    "langCode": "en",
+    "favCount": "1",
+    "templateData": "<html><head><meta charset=\"UTF-8\"><meta content=\"base mri brain peds epilepsy\" name=\"dcterms.title\"><meta content=\"4d58eebd-14e0-4cc8-a171-8edadd806a5d\" name=\"dcterms.identifier\"><meta content=\"en\" name=\"dcterms.language\"><meta content=\"2019-01-31\" name=\"dcterms.date\"><meta content=\"Nuance System\" name=\"dcterms.creator\"><title>base mri brain peds epilepsy</title></head><body><section data-section-name=\"MRI BRAIN WITHOUT CONTRAST\"><header class=\"Level1\">MRI BRAIN WITHOUT CONTRAST</header><p><label>HISTORY:</label><input type=\"text\" name=\"Patient Age\" value=\"Patient Age\"></p><p><label> old </label><input type=\"text\" name=\"Patient Gender\" value=\"Patient Gender\"></p><p><label>, </label><input type=\"text\" name=\"history\" value=\"seizure\"></p></section><section data-section-name=\"TECHNIQUE:\"><header class=\"Level1\">TECHNIQUE:</header><p><label>MR images of the brain were acquired without intravenous contrast.</label><br><label>COMPARISON: </label><input type=\"text\" name=\"Comparison\" value=\"None available.\"></p></section><section data-section-name=\"FINDINGS:\"><header class=\"Level1\">FINDINGS:</header><p><label>MALFORMATIONS OF CORTICAL DEVELOPMENT: </label><input type=\"text\" name=\"cortex\" value=\"No heterotopia, focal cortical dysplasia, polymicrogyria, pachygyria, schizencephaly, or hemimegalencephaly.\"></p><p><label>MASS: </label><input type=\"text\" name=\"mass?\" value=\"None.\"></p><p><label>REMOTE INJURY: </label><input type=\"text\" name=\"describe focal gliosis and if it correspond to patient's seizure symptoms, look for Rasmussen encephalitis\" value=\"None.\"></p><p><label>VASCULAR LESION: </label><input type=\"text\" name=\"vascular lesion\" value=\"No cavernous malformation, arteriovenous malformation, or pial angiomatosis (Sturge-Weber).\"></p><p><label>HIPPOCAMPI: </label><input type=\"text\" name=\"hippocampi\" value=\"No evidence of mesial temporal sclerosis.\"></p><p><label>MYELINATION: </label><select name=\"myelination\"><option name=\"\" value=\"\">Normal</option><option name=\"\" value=\"\">Delayed</option></select><label>for age.</label></p><p><label>INFARCT OR HEMORRHAGE: </label><input type=\"text\" name=\"infarct/hemorrhage?\" value=\"None.\"></p><p><label>EXTRA-AXIAL SPACES: </label><input type=\"text\" name=\"subdural collection/encephalocele?\" value=\"Normal.\"></p><p><label>OTHER: </label><input type=\"text\" name=\"other\" value=\"None.\"></p></section><section data-section-name=\"IMPRESSION:\"><header class=\"Level1\">IMPRESSION:</header><p><textarea name=\"impression\">Normal MRI brain. </textarea></p></section></body></html>",
+    "organizations": [
+        {
+            "id": "284",
+            "name": "Kaiser Permanente",
+            "code": null
+        }
+    ],
+    "specialty": [
+        {
+            "code": "HN",
+            "name": "Head and Neck"
+        },
+        {
+            "code": "NR",
+            "name": "Neuroradiology"
+        },
+        {
+            "code": "MR",
+            "name": "Magnetic Resonance Imaging"
+        }
+    ],
+    "coauthors": [],
+    "cdeSets": [],
+    "translators": [],
+    "references": [],
+    "procedures": [
+        {
+            "procedure_id": "30657-1",
+            "procedure_name": "MR Brain WO contrast",
+            "source": "LOINC"
+        }
+    ],
+    "radlex": [],
+    "isFavorite": "0"
+}

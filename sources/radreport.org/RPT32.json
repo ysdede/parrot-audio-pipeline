@@ -1,0 +1,72 @@
+{
+    "currentVersion": {
+        "created": "0000-00-00 00:00:00",
+        "template_version": "e1c01108-814f-11e9-af35-0eaa5a9daa9c"
+    },
+    "prevVersions": [],
+    "template_id": "RPT32",
+    "selectedVersion": "e1c01108-814f-11e9-af35-0eaa5a9daa9c",
+    "is_public": "1",
+    "TLAP_Approved": "1",
+    "published_at": "0000-00-00 00:00:00",
+    "title": "Fleischner Society Guidelines",
+    "template_status": null,
+    "description": null,
+    "author": "",
+    "firstname": null,
+    "lastname": null,
+    "originalAuthor": "",
+    "originalAuthorFirstname": null,
+    "originalAuthorLastName": null,
+    "views": "1621",
+    "downloads": "5702",
+    "created": "0000-00-00 00:00:00",
+    "dataType": "html",
+    "reviewInProgress": null,
+    "englishName": "English",
+    "langCode": "en",
+    "favCount": "4",
+    "templateData": "<!DOCTYPE html>\r\n<html>\r\n\t<head>\r\n\t\t<meta charset=\"UTF-8\" />\r\n\t\t<meta content=\"Fleischner Society Guidelines\" name=\"dcterms.title\" />\r\n\t\t<meta content=\"Fleischner Society Guidelines module :: Authored by Kahn CE Jr\" name=\"dcterms.description\" />\r\n\t\t<meta content=\"http://www.radreport.org/template/0000032\" name=\"dcterms.identifier\" />\r\n\t\t<meta content=\"en\" name=\"dcterms.language\" />\r\n\t\t<meta content=\"IMAGE_REPORT_TEMPLATE\" name=\"dcterms.type\" />\r\n\t\t<meta content=\"Radiological Society of North America (RSNA)\" name=\"dcterms.publisher\" />\r\n\t\t<meta content=\"May be used gratis, subject to license agreement\" name=\"dcterms.rights\" />\r\n\t\t<meta content=\"http://www.radreport.org/license.pdf\" name=\"dcterms.license\" />\r\n\t\t<meta content=\"2013-12-08\" name=\"dcterms.date\" />\r\n\t\t<meta content=\"Kahn CE Jr\" name=\"dcterms.creator\" />\r\n\t\t<link rel=\"stylesheet\" type=\"text/css\" href=\"IHE_Template_Style.css\" />\r\n\t\t<!-- The absolute link to the CSS file is http://www.radreport.org/html/IHE_Template_Style.css -->\r\n\t\t<style>\r\n\t\t\tselect\r\n\t\t\t\t{ height:60px; line-break:loose; word-wrap:normal;}\r\n\t\t\toption\r\n\t\t\t\t{ height:60px; line-break:loose; }\r\n\t\t</style>\r\n\t\t<script type=\"text/xml\">\r\n\t\t\t<!--\r\n\t\t\t<template_attributes>\r\n\t\t\t\t<top-level-flag>false</top-level-flag>\r\n\t\t\t\t<status>ACTIVE</status>\t\t\t\r\n\t\t\t</template_attributes>\r\n\t\t\t<coded_content>\n</coded_content>\r\n\t\t\t-->\r\n\t\t</script>\r\n\t\t<title>Fleischner Society Guidelines</title>\r\n\t</head>\r\n\t<body>\r\n\t\t<section data-section-name=\"Impression\">\r\n\t\t\t<header class=\"level1\">Fleischner Society Guidelines</header>\r\n\t\t\t<p>\r\n\t\t\t\tFleischner Society guidelines for follow-up and management of incidental pulmonary nodule (Radiology 2005; 237:395-400): \r\n\t\t\t\t<select name=\"Nodule\">\r\n\t\t\t\t\t<option name=\"4\" value=\"4\">Nodule &lt;= 4 mm: \r\n\r\nLOW-RISK patient (minimal or absent history of smoking and other known risk factors):\r\n    No follow-up needed. \r\n\r\nHIGH-RISK patient (history of smoking or other known risk factors):\r\n    Follow-up CT at 12 months; if unchanged, no further follow-up.</option>\r\n\t\t\t\t\t<option name=\"6\" value=\"6\">Nodule 5 - 6 mm:\r\n\r\nLOW-RISK patient (minimal or absent history of smoking and other known risk factors):\r\n    Follow-up CT at 12 months; if unchanged, no further follow-up.\r\n\r\nHIGH-RISK patient (history of smoking or other known risk factors):\r\n    Initial follow-up CT at 6-12 months, then at 18-24 months if no change.</option>\r\n\t\t\t\t\t<option name=\"8\" value=\"8\">Nodule 7 - 8 mm:\r\n\r\nLOW-RISK patient (minimal or absent history of smoking and other known risk factors):\r\n    Initial follow-up CT at 6-12 months then at 18-24 months if no change.\r\n\r\nHIGH-RISK patient (history of smoking or other known risk factors): \r\n    Initial follow-up CT at 3-6 months, then at 9-12 months and 24 months if no change.</option>\r\n\t\t\t\t\t<option name=\"big\" value=\"big\">Nodule &gt; 8 mm:\r\n\r\nALL patients:  Follow-up CT at around 3, 9, and 24 months, dynamic contrast-enhanced CT, PET, and/or biopsy.</option>\r\n</select>\r\n\t\t\t</p>\r\n\t\t</section>\r\n\t</body>\r\n</html>",
+    "organizations": [
+        {
+            "id": "97",
+            "name": "Fleischner Society",
+            "code": "FS"
+        },
+        {
+            "id": "274",
+            "name": "Medical College of Wisconsin",
+            "code": "MCW"
+        }
+    ],
+    "specialty": [
+        {
+            "code": "CH",
+            "name": "Chest Radiology"
+        },
+        {
+            "code": "OI",
+            "name": "Oncologic Imaging"
+        }
+    ],
+    "coauthors": [],
+    "cdeSets": [],
+    "translators": [],
+    "references": [],
+    "procedures": [],
+    "radlex": [
+        {
+            "id": "RID1243",
+            "prefLabel": "thorax"
+        },
+        {
+            "id": "RID1301",
+            "prefLabel": "lung"
+        },
+        {
+            "id": "RID3874",
+            "prefLabel": "mass"
+        }
+    ],
+    "isFavorite": "0"
+}

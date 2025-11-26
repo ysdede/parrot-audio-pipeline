@@ -1,0 +1,86 @@
+{
+    "currentVersion": {
+        "created": "2019-10-15 11:27:44",
+        "template_version": "b779048c-ef68-11e9-af35-0eaa5a9daa9c"
+    },
+    "prevVersions": [],
+    "template_id": "RPT50792",
+    "selectedVersion": "b779048c-ef68-11e9-af35-0eaa5a9daa9c",
+    "is_public": "1",
+    "TLAP_Approved": null,
+    "published_at": "2019-10-15 11:27:44",
+    "title": "MR Elastography - Liver",
+    "template_status": null,
+    "description": "INSTRUCTIONS FOR USING THIS TEMPLATE: This MR elastography structured report template can be used for a standalone MR elastography examination or can be added to a diagnostic MRI report template.",
+    "author": "rsna_00005112",
+    "firstname": "Flavius F.",
+    "lastname": "Guglielmo",
+    "originalAuthor": "rsna_00005112",
+    "originalAuthorFirstname": "Flavius F.",
+    "originalAuthorLastName": "Guglielmo",
+    "views": "3631",
+    "downloads": "4568",
+    "created": "2019-10-15 11:27:44",
+    "dataType": "html",
+    "reviewInProgress": null,
+    "englishName": "English",
+    "langCode": "en",
+    "favCount": "5",
+    "templateData": "<!DOCTYPE html>\n<html>\n    <head>\n        <title>MR Elastography</title>\n        <meta charset=\"UTF-8\" />\n        <meta name=\"dcterms.identifier\" content=\"1a14d9f7-e741-4c94-98a0-fe667dc3b5fe\" />\n        <meta name=\"dcterms.title\" content=\"MR Elastography\" />\n        <meta name=\"dcterms.description\" content=\"INSTRUCTIONS FOR USING THIS TEMPLATE: This MR elastography structured report template can be used for a standalone MR elastography examination or can be added to a diagnostic MRI report template.\" />\n        <meta name=\"dcterms.type\" content=\"IMAGE_REPORT_TEMPLATE\" />\n        <meta name=\"dcterms.language\" content=\"en\" />\n        <meta name=\"dcterms.publisher\" content=\"\" />\n        <meta name=\"dcterms.rights\" content=\"May be used freely, subject to license agreement\" />\n        <meta name=\"dcterms.license\" content=\"http://www.radreport.org/license.pdf\" />\n        <meta name=\"dcterms.date\" content=\"2019-10-15\" />\n        <meta name=\"dcterms.creator\" content=\"Flavius F. Guglielmo\" />\n        <script type=\"text/xml\">\n            <template_attributes>\n                <coded_content>\n                    <coding_schemes>\n                        <coding_scheme name=\"RADLEX\" designator=\"2.16.840.1.113883.6.256\"></coding_scheme>\n                        <coding_scheme name=\"LOINC\" designator=\"2.16.840.1.113883.6.1\"></coding_scheme>\n                    </coding_schemes>\n                    <entry origtxt=\"SELECTION_LIST_1569249677778\">\n                        <term>\n                            <code meaning=\"confluent fibrosis (liver)\" value=\"http://radlex.org/RID/RID39441\" scheme=\"RADLEX\"></code>\n                        </term>\n                    </entry>\n                    <entry origtxt=\"SELECTION_LIST_1569249677778_0\">\n                        <term>\n                            <code meaning=\"normal\" value=\"http://radlex.org/RID/RID13173\" scheme=\"RADLEX\"></code>\n                        </term>\n                    </entry>\n                    <entry origtxt=\"SELECTION_LIST_1569249677778_1\">\n                        <term>\n                            <code meaning=\"hepatitis\" value=\"http://radlex.org/RID/RID3467\" scheme=\"RADLEX\"></code>\n                        </term>\n                    </entry>\n                    <entry origtxt=\"SELECTION_LIST_1569249677778_2\">\n                        <term>\n                            <code meaning=\"confluent fibrosis (liver)\" value=\"http://radlex.org/RID/RID39441\" scheme=\"RADLEX\"></code>\n                        </term>\n                    </entry>\n                    <entry origtxt=\"SELECTION_LIST_1569249677778_3\">\n                        <term>\n                            <code meaning=\"confluent fibrosis (liver)\" value=\"http://radlex.org/RID/RID39441\" scheme=\"RADLEX\"></code>\n                        </term>\n                    </entry>\n                    <entry origtxt=\"SELECTION_LIST_1569249677778_4\">\n                        <term>\n                            <code meaning=\"confluent fibrosis (liver)\" value=\"http://radlex.org/RID/RID39441\" scheme=\"RADLEX\"></code>\n                        </term>\n                    </entry>\n                    <entry origtxt=\"SELECTION_LIST_1569249677778_5\">\n                        <term>\n                            <code meaning=\"cirrhosis\" value=\"http://radlex.org/RID/RID3822\" scheme=\"RADLEX\"></code>\n                        </term>\n                    </entry>\n                    <entry origtxt=\"findings\">\n                        <term>\n                            <code meaning=\"Procedure Findings\" value=\"59776-5\" scheme=\"LOINC\"></code>\n                        </term>\n                    </entry>\n                    <entry origtxt=\"procedureInformation\">\n                        <term>\n                            <code meaning=\"Current Imaging Procedure Description\" value=\"55111-9\" scheme=\"LOINC\"></code>\n                        </term>\n                    </entry>\n                    <entry origtxt=\"NUMBER_1568728984915\">\n                        <term>\n                            <code meaning=\"elastography\" value=\"http://radlex.org/RID/RID10932\" scheme=\"RADLEX\"></code>\n                        </term>\n                    </entry>\n                    <entry origtxt=\"comparisons\">\n                        <term>\n                            <code meaning=\"Radiology Comparison Study\" value=\"18834-2\" scheme=\"LOINC\"></code>\n                        </term>\n                    </entry>\n                    <entry origtxt=\"impression\">\n                        <term>\n                            <code meaning=\"Impressions\" value=\"19005-8\" scheme=\"LOINC\"></code>\n                        </term>\n                    </entry>\n                    <entry origtxt=\"clinicalInformation\">\n                        <term>\n                            <code meaning=\"Clinical Information\" value=\"55752-0\" scheme=\"LOINC\"></code>\n                        </term>\n                    </entry>\n                    <entry origtxt=\"TEXT_1568728984895\">\n                        <term>\n                            <code meaning=\"imaging technique section\" value=\"http://radlex.org/RID/RID28482\" scheme=\"RADLEX\"></code>\n                        </term>\n                    </entry>\n                </coded_content>\n            </template_attributes>\n        </script>\n    </head>\n    <body>\n        <section id=\"procedureInformation\" class=\"level1\" data-section-name=\"Procedure Information\">\n            <header class=\"level1\">\n                Procedure Information\n            </header>\n            <p title=\"\">\n                <label for=\"procedureInformationText\">Exam</label>\n                <textarea rows=\"3\" cols=\"100\" id=\"procedureInformationText\" name=\"\" data-field-type=\"TEXTAREA\" data-field-completion-action=\"NONE\">MR elastography without contrast</textarea>\n            </p>\n            <section id=\"SECTION_HEADER_1568728984896\" class=\"level2\" data-section-name=\"Technique\">\n                <header class=\"level2\">\n                    Technique\n                </header>\n                <p title=\"\">\n                    <label for=\"TEXT_1568728984895\"></label>\n                    <textarea rows=\"3\" cols=\"100\" id=\"TEXT_1568728984895\" name=\"\" data-field-type=\"TEXTAREA\" data-field-completion-action=\"NONE\">Noncontrast MR Elastography</textarea>\n                </p>\n                <p title=\"\">\n                    <label for=\"SELECTION_LIST_1568728984897\">Magnet Strength</label>\n                    <select id=\"SELECTION_LIST_1568728984897\" name=\"\" data-field-type=\"SELECTION_LIST\" data-field-completion-action=\"NONE\" value=\"1.5 Tesla\">\n                        <option id=\"SELECTION_LIST_1568728984897_0\" value=\"1.5 Tesla\" name=\"SELECTION_LIST_1568728984897\" selected=\"\">1.5 Tesla</option>\n                        <option id=\"SELECTION_LIST_1568728984897_1\" value=\"3.0 Tesla\" name=\"SELECTION_LIST_1568728984897\">3.0 Tesla</option>\n                    </select>\n                </p>\n            </section>\n        </section>\n        <section id=\"clinicalInformation\" class=\"level1\" data-section-name=\"Clinical Information\">\n            <header class=\"level1\">\n                Clinical Information\n            </header>\n            <p title=\"\">\n                <label for=\"clinicalInformationText\"></label>\n                <textarea rows=\"3\" cols=\"100\" id=\"clinicalInformationText\" name=\"\" data-field-type=\"TEXTAREA\" data-field-completion-action=\"NONE\">Evaluate for liver fibrosis</textarea>\n            </p>\n        </section>\n        <section id=\"comparisons\" class=\"level1\" data-section-name=\"Comparison\">\n            <header class=\"level1\">\n                Comparison\n            </header>\n            <p title=\"\">\n                <label for=\"comparisonsText\"></label>\n                <input type=\"text\" id=\"comparisonsText\" name=\"\" data-field-type=\"TEXT\" data-field-completion-action=\"NONE\" value=\"None\" />\n            </p>\n        </section>\n        <section id=\"findings\" class=\"level1\" data-section-name=\"Findings\">\n            <header class=\"level1\">\n                Findings\n            </header>\n            <section id=\"SECTION_HEADER_1568728984910\" class=\"level2\" data-section-name=\"Liver Elastography: \">\n                <header class=\"level2\">\n                    Liver Elastography: \n                </header>\n                <p title=\"Liver stiffness CDE\">\n                    <label for=\"NUMBER_1568728984915\">Mean liver stiffness (calculated weighted mean):</label>\n                    <span>\n                        <input type=\"number\" step=\"0.1\" data-field-units=\"kPa\" id=\"NUMBER_1568728984915\" name=\"\" data-field-type=\"NUMBER\" data-field-completion-action=\"NONE\" value=\"\" />\n                        kPa\n                    </span>\n                </p>\n                <p title=\"\">\n                    <label for=\"NUMBER_1568728984916\">Number of measurements used to calculate the mean liver stiffness:</label>\n                    <span>\n                        <input type=\"number\" step=\"1.0\" data-field-units=\"\" id=\"NUMBER_1568728984916\" name=\"\" data-field-type=\"NUMBER\" data-field-completion-action=\"NONE\" value=\"\" />\n                    </span>\n                </p>\n            </section>\n            <p title=\"\">\n                <label for=\"TEXT_1570656247963\"></label>\n                <textarea rows=\"3\" cols=\"100\" id=\"TEXT_1570656247963\" name=\"\" data-field-type=\"TEXTAREA\" data-field-completion-action=\"NONE\">MR elastography estimates of hepatic stiffness (at 60 Hz) correlate with hepatic fibrosis stages as: &lt;2.5 kPa: Normal; 2.5 - 2.9 kPa: Normal or Inflammation; 2.9 - 3.5 kPa: Stage 1 to 2 Fibrosis; 3.5 - 4 kPa: Stage 2 to 3 Fibrosis; 4 - 5 kPa: Stage 3 to 4 Fibrosis; &gt;5 kPa: Stage 4 Fibrosis or Cirrhosis. (These are broad categories and results should be interpreted with clinical and laboratory findings for other possible causes of increased liver stiffness.)</textarea>\n            </p>\n            <p title=\"\">\n                <label for=\"TEXT_1570656247964\"></label>\n                <textarea rows=\"3\" cols=\"100\" id=\"TEXT_1570656247964\" name=\"\" data-field-type=\"TEXTAREA\" data-field-completion-action=\"NONE\">The standalone liver MR elastography protocol is a limited MRI protocol designed to quantitatively evaluate for liver fibrosis. The imaging techniques used in this protocol are not suitable for detection or characterization of focal liver lesions or evaluation of lesions in other organs.</textarea>\n            </p>\n        </section>\n        <section id=\"impression\" class=\"level1\" data-section-name=\"Impression\">\n            <header class=\"level1\">\n                Impression\n            </header>\n            <p title=\"\">\n                <label for=\"SELECTION_LIST_1569249677778\">Mean liver stiffness consistent with:</label>\n                <select id=\"SELECTION_LIST_1569249677778\" name=\"\" data-field-type=\"SELECTION_LIST\" data-field-completion-action=\"NONE\" value=\"Normal\">\n                    <option id=\"SELECTION_LIST_1569249677778_0\" value=\"Normal\" name=\"SELECTION_LIST_1569249677778\" selected=\"\">Normal</option>\n                    <option id=\"SELECTION_LIST_1569249677778_1\" value=\"Normal or Inflammation\" name=\"SELECTION_LIST_1569249677778\">Normal or Inflammation</option>\n                    <option id=\"SELECTION_LIST_1569249677778_2\" value=\"Stage 1 to 2 Fibrosis\" name=\"SELECTION_LIST_1569249677778\">Stage 1 to 2 Fibrosis</option>\n                    <option id=\"SELECTION_LIST_1569249677778_3\" value=\"Stage 2 to 3 Fibrosis\" name=\"SELECTION_LIST_1569249677778\">Stage 2 to 3 Fibrosis</option>\n                    <option id=\"SELECTION_LIST_1569249677778_4\" value=\"Stage 3 to 4 Fibrosis\" name=\"SELECTION_LIST_1569249677778\">Stage 3 to 4 Fibrosis</option>\n                    <option id=\"SELECTION_LIST_1569249677778_5\" value=\"Stage 4 Fibrosis or Cirrhosis\" name=\"SELECTION_LIST_1569249677778\">Stage 4 Fibrosis or Cirrhosis</option>\n                </select>\n            </p>\n        </section>\n    </body>\n</html>\n",
+    "organizations": [
+        {
+            "id": "279",
+            "name": "Thomas Jefferson University",
+            "code": "TJU"
+        },
+        {
+            "id": "301",
+            "name": "Mayo Clinic",
+            "code": null
+        }
+    ],
+    "specialty": [
+        {
+            "code": "MR",
+            "name": "Magnetic Resonance Imaging"
+        },
+        {
+            "code": "GI",
+            "name": "Gastrointestinal Radiology"
+        }
+    ],
+    "coauthors": [
+        {
+            "id": null,
+            "fullname": "Sudhakar K. Venkatesh"
+        },
+        {
+            "id": null,
+            "fullname": "Donald G. Mitchell"
+        }
+    ],
+    "cdeSets": [],
+    "translators": [],
+    "references": [
+        "Guglielmo FF, Venkatesh SK, Mitchell DG. Liver MR Elastography Technique and Image Interpretation: Pearls and Pitfalls. RadioGraphics 2019:39 (https://doi.org/10.1148/rg.20190034)",
+        "Venkatesh SK, Ehman RL. Magnetic resonance elastography of liver. Magn Reson Imaging Clin N Am 2014;22(3):433-446."
+    ],
+    "procedures": [
+        {
+            "procedure_id": "30669-6",
+            "procedure_name": "MR Liver WO contrast",
+            "source": "LOINC"
+        }
+    ],
+    "radlex": [
+        {
+            "id": "RID10932",
+            "prefLabel": "elastography"
+        },
+        {
+            "id": "RID58",
+            "prefLabel": "liver"
+        }
+    ],
+    "isFavorite": "0"
+}

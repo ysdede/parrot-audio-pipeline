@@ -1,0 +1,71 @@
+{
+    "currentVersion": {
+        "created": "2014-02-12 00:00:00",
+        "template_version": "e1c5fb9a-814f-11e9-af35-0eaa5a9daa9c"
+    },
+    "prevVersions": [],
+    "template_id": "RPT288",
+    "selectedVersion": "e1c5fb9a-814f-11e9-af35-0eaa5a9daa9c",
+    "is_public": "1",
+    "TLAP_Approved": "1",
+    "published_at": "2014-02-12 00:00:00",
+    "title": "US Liver Biopsy",
+    "template_status": null,
+    "description": null,
+    "author": "Tolat P, Kahn CE Jr",
+    "firstname": null,
+    "lastname": null,
+    "originalAuthor": "Tolat P, Kahn CE Jr",
+    "originalAuthorFirstname": null,
+    "originalAuthorLastName": null,
+    "views": "1243",
+    "downloads": "5886",
+    "created": "2014-02-12 00:00:00",
+    "dataType": "html",
+    "reviewInProgress": null,
+    "englishName": "English",
+    "langCode": "en",
+    "favCount": "0",
+    "templateData": "\r\n<!DOCTYPE html>\r\n<html>\r\n<head>\r\n<meta charset=\"UTF-8\"/>\r\n<meta content=\"US liver biopsy\" name=\"dcterms.title\"/>\r\n<meta content=\"US liver biopsy report template\" name=\"dcterms.description\"/>\r\n<meta content=\"http://www.radreport.org/template/0000288\" name=\"dcterms.identifier\"/>\r\n<meta content=\"en\" name=\"dcterms.language\"/>\r\n<meta content=\"IMAGE_REPORT_TEMPLATE\" name=\"dcterms.type\"/>\r\n<meta content=\"Radiological Society of North America (RSNA)\" name=\"dcterms.publisher\"/>\r\n<meta content=\"May be used gratis, subject to license agreement\" name=\"dcterms.rights\"/>\r\n<meta content=\"http://www.radreport.org/license.pdf\" name=\"dcterms.license\"/>\r\n<meta content=\"2014-02-12\" name=\"dcterms.date\"/>\r\n<meta content=\"Tolat P, Kahn CE Jr\" name=\"dcterms.creator\"/>\r\n\r\n<meta content=\"Kahn CE Jr [editor]\" name=\"dcterms.contributor\"/>\r\n<meta content=\"Medical College of Wisconsin (MCW)\" name=\"dcterms.contributor\"/>\r\n<link rel=\"stylesheet\" type=\"text/css\" href=\"IHE_Template_Style.css\" />\r\n<!-- The absolute link to the CSS file is http://www.radreport.org/html/IHE_Template_Style.css -->\r\n<script type=\"text/xml\">\r\n<!--\r\n<template_attributes>\r\n<top-level-flag>true</top-level-flag>\r\n<status>ACTIVE</status>\r\n<coded_content>\n</coded_content>\r\n</template_attributes>\r\n-->\r\n</script>\r\n<title>US liver biopsy</title>\r\n</head>\r\n<body>\r\n<section data-section-name=\"Procedure\">\r\n<header class=\"level1\">Ultrasound-guided liver biopsy</header>\r\n</section>\r\n<section data-section-name=\"Clinical information\">\r\n<header class=\"level1\">Clinical information</header>\r\n<p>\r\n<textarea id=\"T288_01\" name=\"Clinical information\"></textarea>\r\n</p>\r\n</section>\r\n<section data-section-name=\"Comparison\">\r\n<header class=\"level1\">Comparison</header>\r\n<p>\r\n<textarea id=\"T288_02\" name=\"Comparison\">None. </textarea>\r\n</p>\r\n</section>\r\n<section data-section-name=\"Procedure\">\r\n<header class=\"level1\">Procedure</header>\r\n<p>\r\n<label for=\"T288_03\">Informed consent:</label>\r\n<select id=\"T288_03\" name=\"Consent\">\r\n<option id=\"T288_04\" name=\"yes\" value=\"yes\">The risks, benefits, and alternatives of the procedure were discussed with the patient. Verbal and written consent was obtained. </option>\r\n<option id=\"T288_05\" name=\"POA\" value=\"POA\">The risks, benefits, and alternatives of the procedure were discussed with the patient's Power of Attorney. Verbal and written consent was obtained. </option>\r\n<option id=\"T288_06\" name=\"no\" value=\"no\">Consent was not obtained.</option>\r\n</select>\r\n</p>\r\n<p>\r\n<label for=\"T288_07\">Time-out</label>\r\n<select id=\"T288_07\" name=\"Time-Out\">\r\n<option id=\"T288_08\" name=\"yes\" value=\"yes\">Time-out performed to confirm the correct patient, procedure, and site. </option>\r\n<option id=\"T288_09\" name=\"no\" value=\"no\">Not performed. </option>\r\n</select>\r\n</p>\r\n<p>\r\n<label for=\"T288_10\">Preparation:</label>\r\n<input id=\"T288_10\" name=\"Preparation\" type=\"text\" value=\"A suitable skin site was identified. The patient was prepped and draped in usual sterile fashion.\">\r\n</p>\r\n<p>\r\n<label for=\"T288_11\">Local anesthesia:</label>\r\n<input id=\"T288_11\" name=\"Local anesthesia\" type=\"text\" value=\"Lidocaine 1%.\">\r\n</p>\r\n<p>\r\n<label for=\"T288_12\">Biopsy device:</label>\r\n<input id=\"T288_12\" name=\"Biopsy device\" type=\"text\" value=\"\">\r\n</p>\r\n<p>\r\n<label for=\"T288_13\">Site:</label>\r\n<input id=\"T288_13\" type=\"text\" name=\"Biopsy site\"/>\r\n</p>\r\n<p>\r\n<label for=\"T288_14\">Number of samples:</label>\r\n<input id=\"T288_14\" type=\"number\" name=\"Number of samples\" value=\"\" />\r\n</p>\r\n<p>\r\n<label for=\"T288_15\">Medium:</label>\r\n<input id=\"T288_15\" name=\"Medium\" type=\"text\" value=\"Samples were placed in formalin. \">\r\n</p>\r\n<p>\r\n<label for=\"T288_16\">Complications:</label>\r\n<input id=\"T288_16\" name=\"Complications\" type=\"text\" value=\"None. \">\r\n</p>\r\n<p>\r\n<label for=\"T288_17\">Patient disposition:</label>\r\n<input id=\"T288_17\" name=\"Patient disposition\" type=\"text\" value=\"Discharged from the department in stable condition. Will be held for observation for 3 hours. \">\r\n</p>\r\n</section>\r\n<section data-section-name=\"Impression\">\r\n<header class=\"level1\">Impression</header>\r\n<p>\r\n<textarea id=\"T288_18\" name=\"Impression\">Ultrasound-guided liver biopsy.</textarea>\r\n</p>\r\n</section>\r\n</body>\r\n</html>",
+    "organizations": [
+        {
+            "id": "274",
+            "name": "Medical College of Wisconsin",
+            "code": "MCW"
+        }
+    ],
+    "specialty": [
+        {
+            "code": "US",
+            "name": "Ultrasound"
+        },
+        {
+            "code": "GI",
+            "name": "Gastrointestinal Radiology"
+        },
+        {
+            "code": "IR",
+            "name": "Interventional Radiology"
+        }
+    ],
+    "coauthors": [],
+    "cdeSets": [],
+    "translators": [],
+    "references": [],
+    "procedures": [],
+    "radlex": [
+        {
+            "id": "RID58",
+            "prefLabel": "liver"
+        },
+        {
+            "id": "RID38611",
+            "prefLabel": "biopsy"
+        },
+        {
+            "id": "RID10326",
+            "prefLabel": "ultrasound"
+        }
+    ],
+    "isFavorite": "0"
+}

@@ -1,0 +1,64 @@
+{
+    "currentVersion": {
+        "created": "2019-03-20 15:53:33",
+        "template_version": "ecce61c3-823a-11e9-af35-0eaa5a9daa9c"
+    },
+    "prevVersions": [],
+    "template_id": "RPT50669",
+    "selectedVersion": "ecce61c3-823a-11e9-af35-0eaa5a9daa9c",
+    "is_public": "1",
+    "TLAP_Approved": null,
+    "published_at": "2019-03-20 15:53:33",
+    "title": "CT Facial Bones W Contrast",
+    "template_status": null,
+    "description": " ",
+    "author": "rsna_00456600",
+    "firstname": "Mark",
+    "lastname": "Mamlouk",
+    "originalAuthor": "rsna_00456600",
+    "originalAuthorFirstname": "Mark",
+    "originalAuthorLastName": "Mamlouk",
+    "views": "1762",
+    "downloads": "4511",
+    "created": "2019-03-20 15:53:33",
+    "dataType": "html",
+    "reviewInProgress": "1",
+    "englishName": "English",
+    "langCode": "en",
+    "favCount": "0",
+    "templateData": "<html><head><meta charset=\"UTF-8\"><meta content=\"base ct face contrast\" name=\"dcterms.title\"><meta content=\"f37cb6de-8d5c-485b-8022-36c76e20b9b3\" name=\"dcterms.identifier\"><meta content=\"en\" name=\"dcterms.language\"><meta content=\"2019-01-31\" name=\"dcterms.date\"><meta content=\"Nuance System\" name=\"dcterms.creator\"><title>base ct face contrast</title></head><body><section data-section-name=\"CT FACIAL BONES WITH CONTRAST\"><header class=\"Level1\">CT FACIAL BONES WITH CONTRAST</header><p><label>HISTORY:</label><input type=\"text\" name=\"Patient Age\" value=\"Patient Age\"></p><p><label> old </label><input type=\"text\" name=\"Patient Gender\" value=\"Patient Gender\"></p><p><label>, </label><input type=\"text\" name=\"history\" value=\"face pain, evaluate for infection\"></p></section><section data-section-name=\"TECHNIQUE:\"><header class=\"Level1\">TECHNIQUE:</header><p><label>CT images of the facial bones were acquired with </label><input type=\"number\" name=\"contrast dose\"><label>mL Omnipaque 300 intravenous contrast.</label></p><p><label>CTDI: </label><input type=\"number\" name=\"CTDI\"><label>mGy</label></p><p><label>DLP: </label><input type=\"number\" name=\"DLP\"><label>mGy-cm</label></p><p><label>COMPARISON: </label><input type=\"text\" name=\"comparison\" value=\"None available\"></p><p><label> </label><br><label>FINDINGS:</label><br><label>SOFT TISSUES: </label><input type=\"text\" name=\"soft tissues/enhancement\" value=\"Normal. No abnormal enhancement.\"></p><p><label>PARANASAL SINUSES: </label><input type=\"text\" name=\"sinuses\" value=\"Clear.\"></p><p><label>BONES: </label><input type=\"text\" name=\"orbital floor, zygoma, maxillary sinus, nasal bones, pterygoid plate, mandible\" value=\"No acute fracture.\"></p><p><label>OTHER: </label><input type=\"text\" name=\"other\" value=\"None.\"></p></section><section data-section-name=\"IMPRESSION:\"><header class=\"Level1\">IMPRESSION:</header><p><textarea name=\"impression\">Normal CT face.</textarea></p></section></body></html>",
+    "organizations": [
+        {
+            "id": "284",
+            "name": "Kaiser Permanente",
+            "code": null
+        }
+    ],
+    "specialty": [
+        {
+            "code": "HN",
+            "name": "Head and Neck"
+        },
+        {
+            "code": "NR",
+            "name": "Neuroradiology"
+        },
+        {
+            "code": "CT",
+            "name": "Computed Tomography"
+        }
+    ],
+    "coauthors": [],
+    "cdeSets": [],
+    "translators": [],
+    "references": [],
+    "procedures": [
+        {
+            "procedure_id": "24697-5",
+            "procedure_name": "CT Facial bones W contrast IV",
+            "source": "LOINC"
+        }
+    ],
+    "radlex": [],
+    "isFavorite": "0"
+}

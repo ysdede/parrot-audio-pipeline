@@ -1,0 +1,67 @@
+{
+    "currentVersion": {
+        "created": "2019-11-23 12:04:34",
+        "template_version": "b4aaed93-0e1b-11ea-af35-0eaa5a9daa9c"
+    },
+    "prevVersions": [],
+    "template_id": "RPT50803",
+    "selectedVersion": "b4aaed93-0e1b-11ea-af35-0eaa5a9daa9c",
+    "is_public": "1",
+    "TLAP_Approved": "1",
+    "published_at": "2019-11-23 12:04:34",
+    "title": "Endometrial cancer staging",
+    "template_status": null,
+    "description": "Society of Abdominal Radiology, Uterine and Ovarian Cancer Diseased Focused Panel",
+    "author": "rsna_00354303",
+    "firstname": "Olga",
+    "lastname": "Brook",
+    "originalAuthor": "rsna_00354303",
+    "originalAuthorFirstname": "Olga",
+    "originalAuthorLastName": "Brook",
+    "views": "2006",
+    "downloads": "4845",
+    "created": "2019-11-23 12:04:34",
+    "dataType": "txt",
+    "reviewInProgress": null,
+    "englishName": "English",
+    "langCode": "en",
+    "favCount": "2",
+    "templateData": "Study:  MRI Pelvis without and with contrast\nClinical Information/History: [free text]\nComparison: [free text]\nTechnique:  Prior to and following the uneventful intravenous administration of contrast, T1 and T2 weighted images in multiple planes were obtained through the pelvis. Prior to contrast administration, diffusion-weighted images were obtained through the pelvis. \nFindings:\nUTERUS: Measures [ ] x [ ] x [ ] cm [Describe other uterine findings, excluding the tumor.]\nTUMOR SITE: [Describe the tumor location: posterior/anterior/fundal/body/lower uterine segment] \nTUMOR SIZE: [Give 3 dimensions (eg: 2 cm x 2 cm x 5 cm), unless the tumor is too small or ill-defined to measure, then dictate: tumor too small or too ill-defined to measure.]\nMYOMETRIAL INVASION: [less than 50% myometrial wall thickness invasion/greater than or equal to  50% myometrial wall thickness invasion]\nINVASION of the tumor into the cervix stroma: [yes/no/indeterminate]\nEXTENSION of tumor into adjacent structures: [None/vagina/parametrium/bowel/bladder]; [presence/absence of ureteral dilatation]\nADDITIONAL COMMENTS: [None or add any specific comments related to the tumor here if appropriate] \nOVARIES: The ovaries are [not visualized/visualized] and are [normal/abnormal] in appearance. [Right Ovary measures # x # x #cm and left ovary measures # x # x #cm.] [If abnormal describe.]\nLYMPH NODES:\nThere are [no/few/many] lymph nodes; [The largest pelvic lymph node is located (give location) and measures (give size).] [The largest para-aortic lymph node measures (give size)]. These lymph nodes are [likely/possibly/less likely to be/unlikely to be] malignant.\nADDITIONAL PELVIC FINDINGS: [None; presence/absence pelvic fluid; presence/absence pelvic peritoneal implants; other findings]\nBONES:  [No aggressive bone lesions]\nImpression:\n1.\tEndometrial cancer [summarize the endometrial tumor, including extent of invasion and provide your impression of whether there are suspicious lymph nodes].",
+    "organizations": [
+        {
+            "id": "281",
+            "name": "Society of Abdominal Radiology",
+            "code": "SAR"
+        }
+    ],
+    "specialty": [
+        {
+            "code": "GU",
+            "name": "Genitourinary Radiology"
+        },
+        {
+            "code": "MR",
+            "name": "Magnetic Resonance Imaging"
+        },
+        {
+            "code": "OB",
+            "name": "OB/GYN Radiology"
+        },
+        {
+            "code": "OI",
+            "name": "Oncologic Imaging"
+        }
+    ],
+    "coauthors": [
+        {
+            "id": null,
+            "fullname": "Elizabeth Sadowski, Kate Maturen, Alberto Vargas, Jeanne Hor"
+        }
+    ],
+    "cdeSets": [],
+    "translators": [],
+    "references": [],
+    "procedures": [],
+    "radlex": [],
+    "isFavorite": "0"
+}

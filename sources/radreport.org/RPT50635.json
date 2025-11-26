@@ -1,0 +1,64 @@
+{
+    "currentVersion": {
+        "created": "2019-03-20 15:53:26",
+        "template_version": "ead8aa0e-823a-11e9-af35-0eaa5a9daa9c"
+    },
+    "prevVersions": [],
+    "template_id": "RPT50635",
+    "selectedVersion": "ead8aa0e-823a-11e9-af35-0eaa5a9daa9c",
+    "is_public": "1",
+    "TLAP_Approved": null,
+    "published_at": "2019-03-20 15:53:26",
+    "title": "MR Brain - Fast Protocol",
+    "template_status": null,
+    "description": " ",
+    "author": "rsna_00456600",
+    "firstname": "Mark",
+    "lastname": "Mamlouk",
+    "originalAuthor": "rsna_00456600",
+    "originalAuthorFirstname": "Mark",
+    "originalAuthorLastName": "Mamlouk",
+    "views": "525",
+    "downloads": "4182",
+    "created": "2019-03-20 15:53:26",
+    "dataType": "html",
+    "reviewInProgress": null,
+    "englishName": "English",
+    "langCode": "en",
+    "favCount": "1",
+    "templateData": "<html><head><meta charset=\"UTF-8\"><meta content=\"base mri brain fast protocol\" name=\"dcterms.title\"><meta content=\"56c5dc02-7e71-4889-b454-6ec335a24023\" name=\"dcterms.identifier\"><meta content=\"en\" name=\"dcterms.language\"><meta content=\"2019-01-31\" name=\"dcterms.date\"><meta content=\"Nuance System\" name=\"dcterms.creator\"><title>base mri brain fast protocol</title></head><body><section data-section-name=\"MRI BRAIN WITHOUT CONTRAST FAST PROTOCOL\"><header class=\"Level1\">MRI BRAIN WITHOUT CONTRAST FAST PROTOCOL</header><p><label>HISTORY:</label><input type=\"text\" name=\"Patient Age\" value=\"Patient Age\"></p><p><label> old </label><input type=\"text\" name=\"Patient Gender\" value=\"Patient Gender\"></p><p><label>, </label><input type=\"text\" name=\"history\" value=\"evaluate ventricles\"></p></section><section data-section-name=\"TECHNIQUE:\"><header class=\"Level1\">TECHNIQUE:</header><p><label>Fast protocol MR images of the brain were acquired.</label><br><label>COMPARISON: </label><input type=\"text\" name=\"Comparison\" value=\"None available.\"></p></section><section data-section-name=\"FINDINGS:\"><header class=\"Level1\">FINDINGS:</header><p><label>VENTRICLES: </label><input type=\"text\" name=\"ventricles\" value=\"Normal.\"></p><p><label>INFARCT: </label><input type=\"text\" name=\"diffusion\" value=\"None.\"></p><p><label>OTHER: </label><input type=\"text\" name=\"other\" value=\"None.\"></p></section><section data-section-name=\"IMPRESSION:\"><header class=\"Level1\">IMPRESSION:</header><p><textarea name=\"impression\">No hydrocephalus.</textarea></p></section></body></html>",
+    "organizations": [
+        {
+            "id": "284",
+            "name": "Kaiser Permanente",
+            "code": null
+        }
+    ],
+    "specialty": [
+        {
+            "code": "HN",
+            "name": "Head and Neck"
+        },
+        {
+            "code": "NR",
+            "name": "Neuroradiology"
+        },
+        {
+            "code": "MR",
+            "name": "Magnetic Resonance Imaging"
+        }
+    ],
+    "coauthors": [],
+    "cdeSets": [],
+    "translators": [],
+    "references": [],
+    "procedures": [
+        {
+            "procedure_id": "30657-1",
+            "procedure_name": "MR Brain WO contrast",
+            "source": "LOINC"
+        }
+    ],
+    "radlex": [],
+    "isFavorite": "0"
+}

@@ -1,0 +1,67 @@
+{
+    "currentVersion": {
+        "created": "2012-05-29 00:00:00",
+        "template_version": "e1c2e8e4-814f-11e9-af35-0eaa5a9daa9c"
+    },
+    "prevVersions": [],
+    "template_id": "RPT180",
+    "selectedVersion": "e1c2e8e4-814f-11e9-af35-0eaa5a9daa9c",
+    "is_public": "1",
+    "TLAP_Approved": "1",
+    "published_at": "2012-05-29 00:00:00",
+    "title": "Chest Tube Removal",
+    "template_status": null,
+    "description": null,
+    "author": "Kahn CE Jr",
+    "firstname": null,
+    "lastname": null,
+    "originalAuthor": "Kahn CE Jr",
+    "originalAuthorFirstname": null,
+    "originalAuthorLastName": null,
+    "views": "727",
+    "downloads": "5287",
+    "created": "2012-05-29 00:00:00",
+    "dataType": "html",
+    "reviewInProgress": null,
+    "englishName": "English",
+    "langCode": "en",
+    "favCount": "1",
+    "templateData": "<!DOCTYPE html>\n<html>\n<head>\n<meta charset=\"UTF-8\"/>\n<meta content=\"Chest Tube Removal\" name=\"dcterms.title\"/>\n<meta content=\"Chest Tube Removal template :: Authored by Kahn CE Jr\" name=\"dcterms.description\"/>\n<meta content=\"http://www.radreport.org/template/0000180\" name=\"dcterms.identifier\"/>\n<meta content=\"en\" name=\"dcterms.language\"/>\n<meta content=\"IMAGE_REPORT_TEMPLATE\" name=\"dcterms.type\"/>\n<meta content=\"Radiological Society of North America (RSNA)\" name=\"dcterms.publisher\"/>\n<meta content=\"May be used gratis, subject to license agreement\" name=\"dcterms.rights\"/>\n<meta content=\"http://www.radreport.org/license.pdf\" name=\"dcterms.license\"/>\n<meta content=\"2012-06-19\" name=\"dcterms.date\"/>\n<meta content=\"Kahn CE Jr\" name=\"dcterms.creator\"/>\n\n<meta content=\"Kahn CE Jr [editor]\" name=\"dcterms.contributor\"/>\n<meta content=\"Medical College of Wisconsin (MCW)\" name=\"dcterms.contributor\"/>\n<link rel=\"stylesheet\" type=\"text/css\" href=\"IHE_Template_Style.css\"/>\n<!-- The absolute link to the CSS file is http://www.radreport.org/html/IHE_Template_Style.css -->\n<script type=\"text/xml\">\r\n<!--\r\n<template_attributes>\n<top-level-flag>true</top-level-flag>\n<status>ACTIVE</status>\r\n<term>\n <code meaning=\"device removal\" value=\"RID10415\" scheme=\"RadLex\">\n</term>\r\n<term>\n <code meaning=\"thoracostomy tube\" value=\"RID5573\" scheme=\"RadLex\">\n</term>\r\n<term>\n <code meaning=\"thorax\" value=\"RID1243\" scheme=\"RadLex\">\n</term>\r\n<coded_content>\n<entry ORIGTXT=\"T180_4\">\r\n     <term>\n  <code meaning=\"thoracostomy tube\" value=\"RID5573\" scheme=\"RadLex\">\n </term>\r\n  </entry>\n<entry ORIGTXT=\"T180_4_5\">\r\n     <term>\n  <code meaning=\"right\" value=\"RID5825\" scheme=\"RadLex\">\n </term>\r\n  </entry>\n<entry ORIGTXT=\"T180_4_6\">\r\n     <term>\n  <code meaning=\"left\" value=\"RID5824\" scheme=\"RadLex\">\n </term>\r\n  </entry>\n<entry ORIGTXT=\"T180_7\">\r\n     <term>\n  <code meaning=\"clinical information\" value=\"RID13166\" scheme=\"RadLex\">\n </term>\r\n  </entry>\n<entry ORIGTXT=\"T180_8\">\r\n     <term>\n  <code meaning=\"comparison\" value=\"RID28483\" scheme=\"RadLex\">\n </term>\r\n  </entry>\n<entry ORIGTXT=\"T180_10\">\r\n     <term>\n  <code meaning=\"observations section\" value=\"RID28486\" scheme=\"RadLex\">\n </term>\r\n  </entry>\n<entry ORIGTXT=\"T180_10\">\r\n     <term>\n  <code meaning=\"Radiology Study observation (narrative)\" value=\"18782-3\" scheme=\"LOINC\">\n </term>\r\n  </entry>\n<entry ORIGTXT=\"T180_11\">\r\n     <term>\n  <code meaning=\"impression section\" value=\"RID13170\" scheme=\"RadLex\">\n </term>\r\n  </entry>\n</coded_content>\r\n</template_attributes>\r\n-->\r\n</script>\n<title>Chest Tube Removal</title>\n</head>\n<body>\n<section data-section-name=\"Procedure\">\n<header class=\"level1\">Chest Tube Removal</header>\n</section>\n<section data-section-name=\"Clinical information\">\n<header class=\"level1\">Clinical information</header>\n<p>\n<select id=\"T180_4\" name=\"Clinical information\">\n<option id=\"T180_4_5\" name=\"Right\" value=\"Right\">Right</option>\n<option id=\"T180_4_6\" name=\"Left\" value=\"Left\">Left</option>\n</select>\n<input type=\"text\" id=\"T180_7\" name=\"Clinical information text\" value=\"chest tube no longer needed.\"/>\n</p>\n</section>\n<section data-section-name=\"Comparison\">\n<header class=\"level1\">Comparison</header>\n<p>\n<textarea id=\"T180_8\" name=\"Comparison\">None. </textarea>\n</p>\n</section>\n<section data-section-name=\"Findings\">\n<header class=\"level1\">Findings</header>\n<p>\n<textarea id=\"T180_10\" name=\"Findings\">The procedure was performed at the patient's bedside. After the procedure was explained to the patient, the dressing was removed from the current chest tube. The area was prepped with sterile cleansing solution. The retention suture was removed. While pinching the chest tube, the catheter was cut to disengage the pigtail. While the patient was holding their breath on inhalation and bearing down, the chest tube was removed. A vasoline occlusive dressing was applied over the insertion site.  The patient's oxygen saturation, as measured by pulse oximetry, remained stable throughout the procedure.</textarea>\n</p>\n</section>\n<section data-section-name=\"Impression\">\n<header class=\"level1\">Impression</header>\n<p>\n<textarea id=\"T180_11\" name=\"Impression\">Chest tube removed. </textarea>\n</p>\n</section>\n</body>\n</html>",
+    "organizations": [
+        {
+            "id": "274",
+            "name": "Medical College of Wisconsin",
+            "code": "MCW"
+        }
+    ],
+    "specialty": [
+        {
+            "code": "CH",
+            "name": "Chest Radiology"
+        },
+        {
+            "code": "IR",
+            "name": "Interventional Radiology"
+        }
+    ],
+    "coauthors": [],
+    "cdeSets": [],
+    "translators": [],
+    "references": [],
+    "procedures": [],
+    "radlex": [
+        {
+            "id": "RID1243",
+            "prefLabel": "thorax"
+        },
+        {
+            "id": "RID5573",
+            "prefLabel": "thoracostomy tube"
+        },
+        {
+            "id": "RID10415",
+            "prefLabel": "device removal"
+        }
+    ],
+    "isFavorite": "0"
+}

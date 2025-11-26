@@ -1,0 +1,67 @@
+{
+    "currentVersion": {
+        "created": "2013-12-20 00:00:00",
+        "template_version": "e1c5596a-814f-11e9-af35-0eaa5a9daa9c"
+    },
+    "prevVersions": [],
+    "template_id": "RPT267",
+    "selectedVersion": "e1c5596a-814f-11e9-af35-0eaa5a9daa9c",
+    "is_public": "1",
+    "TLAP_Approved": "1",
+    "published_at": "2013-12-20 00:00:00",
+    "title": "CT DIEP Mapping",
+    "template_status": null,
+    "description": null,
+    "author": "Tolat P, Kahn CE Jr",
+    "firstname": null,
+    "lastname": null,
+    "originalAuthor": "Tolat P, Kahn CE Jr",
+    "originalAuthorFirstname": null,
+    "originalAuthorLastName": null,
+    "views": "904",
+    "downloads": "5285",
+    "created": "2013-12-20 00:00:00",
+    "dataType": "html",
+    "reviewInProgress": null,
+    "englishName": "English",
+    "langCode": "en",
+    "favCount": "0",
+    "templateData": "<!DOCTYPE html>\r\n<html>\r\n<head>\r\n<meta charset=\"UTF-8\"/>\r\n<meta content=\"CT DIEP\" name=\"dcterms.title\"/>\r\n<meta content=\"CT DIEP report template\" name=\"dcterms.description\"/>\r\n<meta content=\"http://www.radreport.org/template/0000267\" name=\"dcterms.identifier\"/>\r\n<meta content=\"en\" name=\"dcterms.language\"/>\r\n<meta content=\"IMAGE_REPORT_TEMPLATE\" name=\"dcterms.type\"/>\r\n<meta content=\"Radiological Society of North America (RSNA)\" name=\"dcterms.publisher\"/>\r\n<meta content=\"May be used gratis, subject to license agreement\" name=\"dcterms.rights\"/>\r\n<meta content=\"http://www.radreport.org/license.pdf\" name=\"dcterms.license\"/>\r\n<meta content=\"2013-12-20\" name=\"dcterms.date\"/>\r\n<meta content=\"Tolat P, Kahn CE Jr\" name=\"dcterms.creator\"/>\r\n\r\n<meta content=\"Kahn CE Jr [editor]\" name=\"dcterms.contributor\"/>\r\n<meta content=\"Medical College of Wisconsin (MCW)\" name=\"dcterms.contributor\"/>\r\n<link rel=\"stylesheet\" type=\"text/css\" href=\"IHE_Template_Style.css\" />\r\n<!-- The absolute link to the CSS file is http://www.radreport.org/html/IHE_Template_Style.css -->\r\n<script type=\"text/xml\">\r\n<!--\r\n<template_attributes>\r\n<top-level-flag>true</top-level-flag>\r\n<status>ACTIVE</status>\r\n<coded_content>\n</coded_content>\r\n</template_attributes>\r\n-->\r\n</script>\r\n<title>CT DIEP</title>\r\n</head>\r\n<body>\r\n<section data-section-name=\"Procedure\">\r\n<header class=\"level1\">CT DIEP Study</header>\r\n<p>\r\n<textarea id=\"\" name=\"\">Axial 2.5 mm images of the abdomen and pelvis were obtained using the deep inferior epigastric perforator (DIEP) artery mapping protocol. DIEP arterial mapping was performed.</textarea>\r\n</p>\r\n<p>\r\n<label>IV contrast:</label>\r\n<select id=\"T267_1\" name=\"Contrast agent\">\r\n<option id=\"T267_2\" name=\"Omnipaque\" value=\"Omnipaque\">Omnipaque-350</option>\r\n<option id=\"T267_3\" name=\"Visipaque\" value=\"Visipaque\">Visipaque-320</option>\r\n<option id=\"T267_4\" name=\"Isovue\" value=\"Isovue\">Isovue-370</option>\r\n</select>\r\n<input id=\"T267_5\" type=\"number\" name=\"Contrast dose\" value=\"125\"/> mL.\r\n</p>\r\n</section>\r\n<section data-section-name=\"Clinical information\">\r\n<header class=\"level1\">Clinical information</header>\r\n<p>\r\n<textarea id=\"T267_6\" name=\"Clinical information\">History of breast cancer. Mapping of deep inferior epigastric perforator (DIEP) arteries for planned reconstruction. </textarea>\r\n</p>\r\n</section>\r\n<section data-section-name=\"Comparison\">\r\n<header class=\"level1\">Comparison</header>\r\n<p>\r\n<textarea id=\"T267_7\" name=\"Comparison\">None. </textarea>\r\n</p>\r\n</section>\r\n<section data-section-name=\"Findings\">\r\n<header class=\"level1\">Findings</header>\r\n<section data-section-name=\"Deep inferior epigastric perforator artery mapping\">\r\n<header class=\"level2\">Deep inferior epigastric perforator (DIEP) artery mapping</header>\r\n<p>\r\nThe major perforating vessels are identified with coordinates specifying distance right/left and cranial/caudal from the umbilicus. The depth is the thickness of the subcutaneous layer to the musculature at the level of the perforator.\r\n</p>\r\n<section data-section-name=\"Right side\">\r\n<header class=\"level3\">RIGHT SIDE</header>\r\n<p>\r\n<label for=\"T267_8\">(1)</label>\r\n<input type=\"number\" id=\"T267_8\" name=\"Distance right\" value=\"\" min=\"0\" max=\"9\" /> cm right --\r\n<input type=\"number\" id=\"T267_9\" name=\"Cranial-caudal distance\" value=\"\" min=\"0\" max=\"9\"/> cm\r\n<select id=\"T267_10\" name=\"Cranial or caudal\">\r\n<option id=\"T267_12\" name=\"Cranial\" value=\"Cranial\">cranial</option>\r\n<option id=\"T267_13\" name=\"Caudal\" value=\"Caudal\">caudal</option>\r\n</select>\r\n--\r\n<input type=\"number\" id=\"T267_14\" name=\"Depth\" value=\"\" min=\"0\" max=\"9\"/> cm deep\r\n</p>\r\n<p>\r\n<label for=\"T267_15\">(2)</label>\r\n<input type=\"number\" id=\"T267_15\" name=\"Distance right\" value=\"\" min=\"0\" max=\"9\"/> cm right --\r\n<input type=\"number\" id=\"T267_16\" name=\"Cranial-caudal distance\" value=\"\" min=\"0\" max=\"9\"/> cm\r\n<select id=\"T267_17\" name=\"Cranial or caudal\">\r\n<option id=\"T267_19\" name=\"Cranial\" value=\"Cranial\">cranial</option>\r\n<option id=\"T267_20\" name=\"Caudal\" value=\"Caudal\">caudal</option>\r\n</select>\r\n--\r\n<input type=\"number\" id=\"T267_21\" name=\"Depth\" value=\"\" min=\"0\" max=\"9\"/> cm deep\r\n</p>\r\n<p>\r\n<label for=\"T267_22\">(3)</label>\r\n<input type=\"number\" id=\"T267_22\" name=\"Distance right\" value=\"\" min=\"0\" max=\"9\" /> cm right -- \r\n<input type=\"number\" id=\"T267_23\" name=\"Cranial-caudal distance\" value=\"\" min=\"0\" max=\"9\"/> cm\r\n<select id=\"T267_24\" name=\"Cranial or caudal\">\r\n<option id=\"T267_26\" name=\"Cranial\" value=\"Cranial\">cranial</option>\r\n<option id=\"T267_27\" name=\"Caudal\" value=\"Caudal\">caudal</option>\r\n</select>\r\n--\r\n<input type=\"number\" id=\"T267_28\" name=\"Depth\" value=\"\" min=\"0\" max=\"9\" /> cm deep\r\n</p>\r\n</section>\r\n<section data-section-name=\"Left side\">\r\n<header class=\"level3\">LEFT SIDE</header>\r\n<p>\r\n<label for=\"T267_29\">(1)</label>\r\n<input type=\"number\" id=\"T267_29\" name=\"Distance left\" value=\"\" min=\"0\" max=\"9\" /> cm left --\r\n<input type=\"number\" id=\"T267_30\" name=\"Cranial-caudal distance\" value=\"\" min=\"0\" max=\"9\" /> cm\r\n<select id=\"T267_31\" name=\"Cranial or caudal\">\r\n<option id=\"T267_33\" name=\"Cranial\" value=\"Cranial\">cranial</option>\r\n<option id=\"T267_34\" name=\"Caudal\" value=\"Caudal\">caudal</option>\r\n</select>\r\n--\r\n<input type=\"number\" id=\"T267_35\" name=\"Depth\" value=\"\" min=\"0\" max=\"9\" /> cm deep\r\n</p>\r\n<p>\r\n<label for=\"T267_36\">(2)</label>\r\n<input type=\"number\" id=\"T267_36\" name=\"Distance left\" value=\"\" min=\"0\" max=\"9\" /> cm left --\r\n<input type=\"number\" id=\"T267_37\" name=\"Cranial-caudal distance\" value=\"\" min=\"0\" max=\"9\" /> cm\r\n<select id=\"T267_38\" name=\"Cranial or caudal\">\r\n<option id=\"T267_40\" name=\"Cranial\" value=\"Cranial\">cranial</option>\r\n<option id=\"T267_41\" name=\"Caudal\" value=\"Caudal\">caudal</option>\r\n</select>\r\n--\r\n<input type=\"number\" id=\"T267_42\" name=\"Depth\" value=\"\" min=\"0\" max=\"9\" /> cm deep\r\n</p>\r\n<p>\r\n<label for=\"T267_43\">(3)</label>\r\n<input type=\"number\" id=\"T267_43\" name=\"Distance left\" value=\"\" min=\"0\" max=\"9\" /> cm left --\r\n<input type=\"number\" id=\"T267_44\" name=\"Cranial-caudal distance\" value=\"\" min=\"0\" max=\"9\" /> cm\r\n<select id=\"T267_45\" name=\"Cranial or caudal\">\r\n<option id=\"T267_47\" name=\"Cranial\" value=\"Cranial\">cranial</option>\r\n<option id=\"T267_48\" name=\"Caudal\" value=\"Caudal\">caudal</option>\r\n</select>\r\n--\r\n<input type=\"number\" id=\"T267_49\" name=\"Depth\" value=\"\" min=\"0\" max=\"9\" /> cm deep\r\n</p>\r\n</section>\r\n</section>\r\n<section data-section-name=\"Other findings\">\r\n<header class=\"level2\">Other findings</header>\r\n<p>\r\n<label>Aorto-liac and visceral arteries:</label>\r\n<textarea id=\"T267_50\" name=\"Aorto-liac and visceral arteries\">Imaged distal abdominal aorta, both common/internal/external arteries, and imaged femoral arteries are normal in caliber without stenosis or aneurysmal dilatation. Imaged branches of the SMA and IMA are normally patent.</textarea>\r\n</p>\r\n<p>\r\n<label>Abdomen and pelvis:</label>\r\n<textarea id=\"T267_51\" name=\"Abdomen and pelvis\">Arterial-phase images of the visualized solid organs and bowel are normal.</textarea>\r\n</p>\r\n<p>\r\n<label>Lymph nodes:</label>\r\n<textarea id=\"T267_52\" name=\"Lymph nodes\" >No retroperitoneal, iliac, or inguinal adenopathy is seen.</textarea>\r\n</p>\r\n<p>\r\n<label>Bones:</label>\r\n<textarea id=\"T267_53\" name=\"Bones\">No focal osseous lesion is seen.</textarea>\r\n</p>\r\n</section>\r\n</section>\r\n<section data-section-name=\"Impression\">\r\n<header class=\"level1\">Impression</header>\r\n<p>\r\n<textarea id=\"T267_54\" name=\"Impression\">DIEP study. For coordinate positions in relation to midpoint of umbilicus and depth from skin surface, see text of report. </textarea>\r\n</p>\r\n</section>\r\n</body>\r\n</html>",
+    "organizations": [
+        {
+            "id": "274",
+            "name": "Medical College of Wisconsin",
+            "code": "MCW"
+        }
+    ],
+    "specialty": [
+        {
+            "code": "CT",
+            "name": "Computed Tomography"
+        },
+        {
+            "code": "VI",
+            "name": "Vascular Imaging"
+        }
+    ],
+    "coauthors": [],
+    "cdeSets": [],
+    "translators": [],
+    "references": [],
+    "procedures": [],
+    "radlex": [
+        {
+            "id": "RID13091",
+            "prefLabel": "inferior epigastric artery"
+        },
+        {
+            "id": "RID10321",
+            "prefLabel": "computed tomography"
+        },
+        {
+            "id": "RID30008",
+            "prefLabel": "anterior abdominal wall"
+        }
+    ],
+    "isFavorite": "0"
+}

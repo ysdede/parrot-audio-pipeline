@@ -1,0 +1,48 @@
+{
+    "currentVersion": {
+        "created": "2018-03-26 10:03:08",
+        "template_version": "e1ccad79-814f-11e9-af35-0eaa5a9daa9c"
+    },
+    "prevVersions": [],
+    "template_id": "RPT50319",
+    "selectedVersion": "e1ccad79-814f-11e9-af35-0eaa5a9daa9c",
+    "is_public": "1",
+    "TLAP_Approved": "1",
+    "published_at": "2018-03-26 10:03:08",
+    "title": "Placenta accreta evaluation MRI ",
+    "template_status": null,
+    "description": "Template for evaluating the placenta for MRI findings of accreta with reporting structured to help guide surgical planning",
+    "author": "322",
+    "firstname": "Courtney",
+    "lastname": "Woodfield",
+    "originalAuthor": "322",
+    "originalAuthorFirstname": "Courtney",
+    "originalAuthorLastName": "Woodfield",
+    "views": "1103",
+    "downloads": "5396",
+    "created": "2018-03-26 10:03:08",
+    "dataType": "txt",
+    "reviewInProgress": null,
+    "englishName": "English",
+    "langCode": "en",
+    "favCount": "3",
+    "templateData": "MR Placenta\r\n\r\nMR imaging of the gravid uterus was performed for purposes of placental evaluation utilizing Axial, Sagittal, and Coronal T2-weighted single shot fast spin echo and steady state free precession images, Sagittal gradient echo T1 and T2-weighted images, and Axial diffusion weighted images through the pelvis.  \r\n\r\nField strength: [1.5] T\r\n\r\nIntravenous contrast: [None]\r\n\r\nClinical Information:\r\n[ ]\r\n\r\nComparison:\r\n[ ]\r\n\r\nFindings:\r\n\r\nGestation:\r\nIntrauterine gestation: [Single] [Twin]\r\nFetal lie: [Cephalic] [Breech] [Transverse] \r\nFetal spine maternal orientation: [Right] [Left] [Superior] [Inferior] [Anterior] [Posterior]\r\n\r\nPlacenta:\r\nPlacental location: [Anterior] [Posterior] [Right lateral] [Left lateral] [Fundal]\r\nSuccenturiate lobe: [None] [Present*]\r\n(*if present) Succenturiate lobe location and size: [Location], [ ] cm\r\n\r\nPlacenta previa: [None] [Low lying] [Marginal] [Partial previa] [Complete previa]\r\n\r\nUmbilical cord insertion on placenta: [Central] [Marginal] [Velamentous]\r\n\r\nDistance from the most inferior [anterior] [posterior] [right lateral] [left lateral] placental edge to the leading margin of the internal cervical os: [ ] cm [Covers the internal os]\r\n\r\nFor anterior placenta, distance from the inferior placental edge to the level of the bladder dome: [ ] cm [Extends below the level of the bladder dome level] [Not applicable, the placenta is not located anteriorly]\r\n\r\nFor anterior placenta, length of placental extent above the level of the umbilicus: [ ] cm [Not applicable, the placenta is not located anteriorly]\r\n\r\nDistance from the superior placental margin to the uterine fundus: [ ] cm [Covers the fundus]\r\n\r\nPlacental contour: [Smooth] [Focal bulge*]\r\n(*If present) Focal bulge location and length: [Location], [ ] cm\r\n\r\nMaximum placental thickness: [ ] cm\r\n\r\nPlacental myometrial interface: [Fully visible] [Partially nonvisible*]\r\n(*if present) Nonvisible location and length: [Location], [ ] cm\r\n\r\nPlacental heterogeneity: [None] [Mild] [Moderate] [Marked] \r\nPlacental heterogeneity for gestation age: [Normal] [Greater than expected] [Less than expected]\r\n\r\nPlacental T2 dark bands: [None] [Present*]\r\n(*if present) T2 dark band number: [ ]\r\n                       T2 dark band location and size: [Location], [ ] cm\r\n\r\nPlacental vascularity: [Normal] [Disorganized prominent vasculature*]\r\n(*if present) Abnormal vessel number: [ ]\r\nAbnormal vessel location and maximum diameter: [Location], [ ] mm\r\n\r\nPlacental hemorrhage: [None] [Present*]\r\n(*If present) Hemorrhage number: [ ]\r\n          Hemorrhage location and size: [Subchorionic] [Marginal] [Retroplacental]\r\n                       [Preplacental], [ ] cm\r\n\r\nPlacental mass: [None]\r\nPlacental cyst: [None]\r\n\r\nUterus:\r\nContour: [Smooth, pear shaped] [Abnormal bulge*]\r\n(*if present) Abnormal bulge location and length: [Location], [ ] cm\r\n\r\nMyometrium: [No abnormal thinning or disruption] [Normal gradual myometrial thinning over lower uterine segment] [Normal gradual myometrial thinning in posterior pre-aortic region] [Abnormal focal myometrial thinning*] [Abnormal focal myometrial absence*]\r\n(*if present) Abnormal myometrial thinning/absence location and thickness: [Location], \r\n          [ ] mm [No visible measurable myometrial thickness at this location]\r\n\r\nUterine post surgical changes: [Visible*] [Not visible] [Not applicable]\r\n(*if present) Type of surgical change: [Cesarean section] [Myomectomy] [Other]\r\n         Surgical change location: [ ]\r\n\t\t         Surgical change overlies placenta: [Yes] [No]\r\n\r\nFibroids: [None][Yes*]\r\n\t(*if present) Fibroid number: [ ]\r\n\t\t          Fibroid location and size: [Location], [ ] cm\r\n\r\nContraction: [None] [Present*]\r\n\t(*if present) Location:\r\n\r\nCervix:\r\nCervical length: [ ] cm\r\nCervical zonal anatomy: [Normal][Placental protrusion into cervix*]\r\n(*if present): Extent of placental protrusion into cervix: [ ] cm\r\nEndocervical blood products: [None] [Present]\r\nPeriuterine/pericervical varicosities: [None] [Present*] [Mild*] [Moderate*] [Marked*]\r\n(*if present) Largest varicosity diameter: [ ] mm\r\n\r\nBladder:\r\nDegree of distention: [None, collapsed] [Mild] [Moderate] [Marked]\r\nWall: [Intact, normal low T2 signal intensity] [Placental abutment*] [Placental invasion*]\r\n(*if present) Location of bladder wall placental [abutment] [invasion]: [ ]\r\n         Length of bladder wall placental [abutment] [invasion]: [ ] cm \r\n         Length and depth of bladder wall placental invasion: [ ] cm \r\nBladder dome tenting: [None] [Present]\r\n\r\nParametrium:\r\nParametrium: [No placental extension] [Placental abutment*] [Placental invasion*]\r\n(*if present) Placental [abutment] [invasion] location and extent: [Location], [ ] cm\r\n\r\nOvaries:\r\n[Normal size and appearance of the ovaries]\r\nRight ovary: [ ] cm\r\nLeft ovary: [ ] cm\r\n\r\nOsseous Structures:\r\n[Normal for age]\r\n\r\nAdditional findings:\r\nPelvic free fluid: [None}\r\nAdnexal mass: [None]\r\nAdnexal cyst: [None]\r\nMaternal hydronephrosis: [None] [Physiologic] [Obstructive] [Bilateral] [Right] [Left]\r\nGonadal varicosities: [None] [Patent] [Thrombosed] [Bilateral] [Right] [Left]\r\n\r\nOther:\r\n[The remainder of the imaged pelvic and abdominal organs are unremarkable.]\r\n\r\nImpression:\r\n[ ]\r\n",
+    "organizations": [],
+    "specialty": [
+        {
+            "code": "MR",
+            "name": "Magnetic Resonance Imaging"
+        },
+        {
+            "code": "OB",
+            "name": "OB/GYN Radiology"
+        }
+    ],
+    "coauthors": [],
+    "cdeSets": [],
+    "translators": [],
+    "references": [],
+    "procedures": [],
+    "radlex": [],
+    "isFavorite": "0"
+}

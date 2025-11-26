@@ -1,0 +1,63 @@
+{
+    "currentVersion": {
+        "created": "2014-04-30 00:00:00",
+        "template_version": "e1c81924-814f-11e9-af35-0eaa5a9daa9c"
+    },
+    "prevVersions": [],
+    "template_id": "RPT303",
+    "selectedVersion": "e1c81924-814f-11e9-af35-0eaa5a9daa9c",
+    "is_public": "1",
+    "TLAP_Approved": "1",
+    "published_at": "2014-04-30 00:00:00",
+    "title": "MR Right Knee",
+    "template_status": null,
+    "description": null,
+    "author": "Erickson SJ",
+    "firstname": null,
+    "lastname": null,
+    "originalAuthor": "Erickson SJ",
+    "originalAuthorFirstname": null,
+    "originalAuthorLastName": null,
+    "views": "8334",
+    "downloads": "8074",
+    "created": "2014-04-30 00:00:00",
+    "dataType": "html",
+    "reviewInProgress": null,
+    "englishName": "English",
+    "langCode": "en",
+    "favCount": "2",
+    "templateData": "\r\n<!DOCTYPE html>\r\n<html>\r\n<head>\r\n<meta charset=\"UTF-8\"/>\r\n<meta content=\"MR Right Knee\" name=\"dcterms.title\"/>\r\n<meta content=\"MR Right Knee report template\" name=\"dcterms.description\"/>\r\n<meta content=\"http://www.radreport.org/template/0000303\" name=\"dcterms.identifier\"/>\r\n<meta content=\"en\" name=\"dcterms.language\"/>\r\n<meta content=\"IMAGE_REPORT_TEMPLATE\" name=\"dcterms.type\"/>\r\n<meta content=\"Radiological Society of North America (RSNA)\" name=\"dcterms.publisher\"/>\r\n<meta content=\"May be used gratis, subject to license agreement\" name=\"dcterms.rights\"/>\r\n<meta content=\"http://www.radreport.org/license.pdf\" name=\"dcterms.license\"/>\r\n<meta content=\"2014-04-30\" name=\"dcterms.date\"/>\r\n<meta content=\"Tolat P, Kahn CE Jr\" name=\"dcterms.creator\"/>\r\n\r\n<meta content=\"Kahn CE Jr [editor]\" name=\"dcterms.contributor\"/>\r\n<meta content=\"Medical College of Wisconsin (MCW)\" name=\"dcterms.contributor\"/>\r\n<link rel=\"stylesheet\" type=\"text/css\" href=\"IHE_Template_Style.css\" />\r\n<!-- The absolute link to the CSS file is http://www.radreport.org/html/IHE_Template_Style.css -->\r\n<script type=\"text/xml\">\r\n<!--\r\n<template_attributes>\r\n<top-level-flag>true</top-level-flag>\r\n<status>ACTIVE</status>\r\n<coded_content>\n</coded_content>\r\n</template_attributes>\r\n-->\r\n</script>\r\n<title>MR Right Knee</title>\r\n</head>\r\n<body>\r\n<section data-section-name=\"Procedure\">\r\n<header class=\"level1\">MR Right Knee</header>\r\n<p>\r\n<textarea id=\"T303_001\" name=\"Procedure\">Long-TR axial, sagittal and coronal MR images of the right knee were obtained. </textarea>\r\n</p>\r\n</section>\r\n<section data-section-name=\"Clinical information\">\r\n<header class=\"level1\">Clinical information</header>\r\n<p>\r\n<textarea id=\"T303_002\" name=\"Clinical information\">Knee pain.</textarea>\r\n</p>\r\n</section>\r\n<section data-section-name=\"Comparison\">\r\n<header class=\"level1\">Comparison</header>\r\n<p>\r\n<textarea id=\"T303_003\" name=\"Comparison\">None. </textarea>\r\n</p>\r\n</section>\r\n<section data-section-name=\"Findings\">\r\n<header class=\"level1\">Findings</header>\r\n<section data-section-name=\"MENISCI\">\r\n<header class=\"level2\">MENISCI</header>\r\n<p>\r\n<label for=\"T303_004\">Medial meniscus:</label>\r\n<input type=\"text\" id=\"T303_004\" name=\"Medial meniscus\" value=\"Intact.\"/>\r\n</p>\r\n<p>\r\n<label for=\"T303_005\">Lateral meniscus:</label>\r\n<input type=\"text\" id=\"T303_005\" name=\"Lateral meniscus\" value=\"Intact.\"/>\r\n</p>\r\n</section>\r\n<section data-section-name=\"LIGAMENTS\">\r\n<header class=\"level2\">LIGAMENTS</header>\r\n<p>\r\n<label for=\"T303_006\">Cruciate ligaments:</label>\r\n<input type=\"text\" id=\"T303_006\" name=\"Cruciate ligaments\" value=\"Intact.\"/></p>\r\n<p>\r\n<label for=\"T303_007\">Medial collateral ligament:</label>\r\n<input type=\"text\" id=\"T303_007\" name=\"MCL\" value=\"Superficial and deep components intact. No periligamentous edema.\"/></p>\r\n<p>\r\n<label for=\"T303_008\">Lateral collateral ligament:</label>\r\n<input type=\"text\" id=\"T303_008\" name=\"LCL\" value=\"Intact.\"/></p>\r\n<p>\r\n<label for=\"T303_009\">Posterolateral corner structures:</label>\r\n<input type=\"text\" id=\"T303_009\" name=\"Posterolateral corner structures\" value=\"Intact.\"/></p>\r\n</section>\r\n<section data-section-name=\"EXTENSOR MECHANISM\">\r\n<header class=\"level2\">EXTENSOR MECHANISM</header>\r\n<p>\r\n<textarea id=\"T303_010\" name=\"Extensor mechanism\">The distal quadriceps and patellar tendons are intact. The patella is normally positioned within the femoral groove. There is no retinacular disruption.</textarea>\r\n</p>\r\n</section>\r\n<section data-section-name=\"FLUID\">\r\n<header class=\"level2\">FLUID</header>\r\n<p>\r\n<textarea id=\"T303_011\" name=\"Fluid\">No joint effusion. No Baker's cyst.</textarea>\r\n</p>\r\n</section>\r\n<section data-section-name=\"OSSEOUS and ARTICULAR STRUCTURES\">\r\n<header class=\"level2\">OSSEOUS and ARTICULAR STRUCTURES</header>\r\n<p>\r\n<label for=\"T303_012\">Bones:</label>\r\n<input type=\"text\" id=\"T303_012\" name=\"Bones\" value=\"No fracture, stress reaction, or osseous lesion is seen.\"/>\r\n</p>\r\n<p>\r\n<label for=\"T303_013\">Patellofemoral compartment:</label>\r\n<input type=\"text\" id=\"T303_013\" name=\"Patellofemoral compartment\" value=\"No hyaline cartilage disease.\"/>\r\n</p>\r\n<p>\r\n<label for=\"T303_014\">Medial compartment:</label>\r\n<input type=\"text\" id=\"T303_014\" name=\"Medial compartment\" value=\"No hyaline cartilage disease.\"/>\r\n</p>\r\n<p>\r\n<label for=\"T303_015\">Lateral compartment:</label>\r\n<input type=\"text\" id=\"T303_015\" name=\"Lateral compartment\" value=\"No hyaline cartilage disease.\"/>\r\n</p>\r\n</section>\r\n</section>\r\n<section data-section-name=\"Impression\">\r\n<header class=\"level1\">Impression</header>\r\n<p>\r\n<label for=\"T303_016\">1. </label>\r\n<input type=\"text\" id=\"T303_016\" name=\"Menisci\" value=\"Normal menisci.\"/>\r\n</p>\r\n<p>\r\n<label for=\"T303_017\">2. </label>\r\n<input type=\"text\" id=\"T303_017\" name=\"Ligaments\" value=\"No cruciate or collateral ligament tears.\"/>\r\n</p>\r\n<p>\r\n<label for=\"T303_018\">3. </label>\r\n<input type=\"text\" id=\"T303_018\" name=\"Bone and cartilage\" value=\"No osseous or cartilaginous abnormality.\"/>\r\n</p>\r\n</section>\r\n</body>\r\n</html>",
+    "organizations": [
+        {
+            "id": "274",
+            "name": "Medical College of Wisconsin",
+            "code": "MCW"
+        }
+    ],
+    "specialty": [
+        {
+            "code": "MR",
+            "name": "Magnetic Resonance Imaging"
+        },
+        {
+            "code": "MK",
+            "name": "Musculoskeletal Radiology"
+        }
+    ],
+    "coauthors": [],
+    "cdeSets": [],
+    "translators": [],
+    "references": [],
+    "procedures": [],
+    "radlex": [
+        {
+            "id": "RID10312",
+            "prefLabel": "magnetic resonance imaging"
+        },
+        {
+            "id": "RID2743",
+            "prefLabel": "knee"
+        }
+    ],
+    "isFavorite": "0"
+}

@@ -1,0 +1,63 @@
+{
+    "currentVersion": {
+        "created": "2013-12-20 00:00:00",
+        "template_version": "e1c5e57e-814f-11e9-af35-0eaa5a9daa9c"
+    },
+    "prevVersions": [],
+    "template_id": "RPT285",
+    "selectedVersion": "e1c5e57e-814f-11e9-af35-0eaa5a9daa9c",
+    "is_public": "1",
+    "TLAP_Approved": "1",
+    "published_at": "2013-12-20 00:00:00",
+    "title": "CT-guided Biopsy",
+    "template_status": null,
+    "description": null,
+    "author": "Tolat P, Kahn CE Jr",
+    "firstname": null,
+    "lastname": null,
+    "originalAuthor": "Tolat P, Kahn CE Jr",
+    "originalAuthorFirstname": null,
+    "originalAuthorLastName": null,
+    "views": "1063",
+    "downloads": "5447",
+    "created": "2013-12-20 00:00:00",
+    "dataType": "html",
+    "reviewInProgress": null,
+    "englishName": "English",
+    "langCode": "en",
+    "favCount": "0",
+    "templateData": "<!DOCTYPE html>\r\n<html>\r\n<head>\r\n<meta charset=\"UTF-8\"/>\r\n<meta content=\"CT biopsy\" name=\"dcterms.title\"/>\r\n<meta content=\"CT biopsy report template\" name=\"dcterms.description\"/>\r\n<meta content=\"http://www.radreport.org/template/0000285\" name=\"dcterms.identifier\"/>\r\n<meta content=\"en\" name=\"dcterms.language\"/>\r\n<meta content=\"IMAGE_REPORT_TEMPLATE\" name=\"dcterms.type\"/>\r\n<meta content=\"Radiological Society of North America (RSNA)\" name=\"dcterms.publisher\"/>\r\n<meta content=\"May be used gratis, subject to license agreement\" name=\"dcterms.rights\"/>\r\n<meta content=\"http://www.radreport.org/license.pdf\" name=\"dcterms.license\"/>\r\n<meta content=\"2013-12-20\" name=\"dcterms.date\"/>\r\n<meta content=\"Tolat P, Kahn CE Jr\" name=\"dcterms.creator\"/>\r\n\r\n<meta content=\"Kahn CE Jr [editor]\" name=\"dcterms.contributor\"/>\r\n<meta content=\"Medical College of Wisconsin (MCW)\" name=\"dcterms.contributor\"/>\r\n<link rel=\"stylesheet\" type=\"text/css\" href=\"IHE_Template_Style.css\" />\r\n<!-- The absolute link to the CSS file is http://www.radreport.org/html/IHE_Template_Style.css -->\r\n<script type=\"text/xml\">\r\n<!--\r\n<template_attributes>\r\n<top-level-flag>true</top-level-flag>\r\n<status>ACTIVE</status>\r\n<coded_content>\n</coded_content>\r\n</template_attributes>\r\n-->\r\n</script>\r\n<title>CT biopsy</title>\r\n</head>\r\n<body>\r\n<section data-section-name=\"Procedure\">\r\n<header class=\"level1\">CT biopsy</header>\r\n</section>\r\n<section data-section-name=\"Clinical information\">\r\n<header class=\"level1\">Clinical information</header>\r\n<p>\r\n<textarea id=\"T285_1\" name=\"Clinical information\"></textarea>\r\n</p>\r\n</section>\r\n<section data-section-name=\"Comparison\">\r\n<header class=\"level1\">Comparison</header>\r\n<p>\r\n<textarea id=\"T285_2\" name=\"Comparison\">None. </textarea>\r\n</p>\r\n</section>\r\n<section data-section-name=\"Findings\">\r\n<header class=\"level1\">Findings</header>\r\n<p>\r\n<label for=\"T285_3\">Consent</label>\r\n<select id=\"T285_3\" name=\"Consent\">\r\n<option id=\"T285_4\" name=\"yes\" value=\"yes\">The risks, benefits, and alternatives of the procedure were discussed with the patient. Verbal and written consent was obtained. \r\n</option>\r\n<option id=\"T285_5\" name=\"POA\" value=\"POA\">The risks, benefits, and alternatives of the procedure were discussed with the patient's Power of Attorney. Verbal and written consent was obtained. \r\n</option>\r\n<option id=\"T285_6\" name=\"no\" value=\"no\">Consent was not obtained.</option>\r\n</select>\r\n</p>\r\n<p>\r\n<label for=\"T285_7\">Time-Out</label>\r\n<select id=\"T285_7\" name=\"Time-Out\">\r\n<option id=\"T285_8\" name=\"yes\" value=\"yes\">Time-out performed to confirm the correct patient, procedure, and site. </option>\r\n<option id=\"T285_9\" name=\"no\" value=\"no\">Not performed. </option>\r\n</select>\r\n</p>\r\n<p>\r\n<label for=\"T285_10\">Biopsy device:</label>\r\n<input type=\"text\" id=\"T285_10\" name=\"Biopsy device\" value=\"\" />\r\n</p>\r\n<p>\r\n<label for=\"T285_11\">Biopsy site:</label>\r\n<input type=\"text\" id=\"T285_11\" name=\"Biopsy site\" value=\"\" />\r\n</p>\r\n<p>\r\n<label for=\"T285_12\">Number of samples:</label>\r\n<input type=\"number\" id=\"T285_12\" name=\"Number of samples\" value=\"\" />\r\n</p>\r\n<p>\r\n<label for=\"T285_13\">Medium:</label>\r\n<input type=\"text\" id=\"T285_13\" name=\"Medium\" value=\"Formalin. \" />\r\n</p>\r\n<p>\r\n<label for=\"T285_14\">Complications:</label>\r\n<input type=\"text\" id=\"T285_14\" name=\"Complications\" value=\"None.\" />\r\n</p>\r\n<p>\r\n<label for=\"T285_15\">Patient disposition:</label>\r\n<input type=\"text\" id=\"T285_15\" name=\"Patient disposition\" value=\"Discharged from the department in stable condition.\" />\r\n</p>\r\n</section>\r\n<section data-section-name=\"Impression\">\r\n<header class=\"level1\">Impression</header>\r\n<p>\r\n<textarea id=\"T285_16\" name=\"Impression\">CT-guided biopsy. </textarea>\r\n</p>\r\n</section>\r\n</body>\r\n</html>",
+    "organizations": [
+        {
+            "id": "274",
+            "name": "Medical College of Wisconsin",
+            "code": "MCW"
+        }
+    ],
+    "specialty": [
+        {
+            "code": "CT",
+            "name": "Computed Tomography"
+        },
+        {
+            "code": "IR",
+            "name": "Interventional Radiology"
+        }
+    ],
+    "coauthors": [],
+    "cdeSets": [],
+    "translators": [],
+    "references": [],
+    "procedures": [],
+    "radlex": [
+        {
+            "id": "RID10321",
+            "prefLabel": "computed tomography"
+        },
+        {
+            "id": "RID38611",
+            "prefLabel": "biopsy"
+        }
+    ],
+    "isFavorite": "0"
+}

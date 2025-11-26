@@ -1,0 +1,60 @@
+{
+    "currentVersion": {
+        "created": "2019-03-20 15:53:31",
+        "template_version": "ec3bc9b4-823a-11e9-af35-0eaa5a9daa9c"
+    },
+    "prevVersions": [],
+    "template_id": "RPT50659",
+    "selectedVersion": "ec3bc9b4-823a-11e9-af35-0eaa5a9daa9c",
+    "is_public": "1",
+    "TLAP_Approved": null,
+    "published_at": "2019-03-20 15:53:31",
+    "title": "MR Neck WO and W Contrast - Cancer Follow-up",
+    "template_status": null,
+    "description": " ",
+    "author": "rsna_00456600",
+    "firstname": "Mark",
+    "lastname": "Mamlouk",
+    "originalAuthor": "rsna_00456600",
+    "originalAuthorFirstname": "Mark",
+    "originalAuthorLastName": "Mamlouk",
+    "views": "749",
+    "downloads": "4441",
+    "created": "2019-03-20 15:53:31",
+    "dataType": "html",
+    "reviewInProgress": null,
+    "englishName": "English",
+    "langCode": "en",
+    "favCount": "0",
+    "templateData": "<html><head><meta charset=\"UTF-8\"><meta content=\"base mri neck contrast cancer followup\" name=\"dcterms.title\"><meta content=\"d79db422-610a-40cf-b093-9544587b4c41\" name=\"dcterms.identifier\"><meta content=\"en\" name=\"dcterms.language\"><meta content=\"2019-01-31\" name=\"dcterms.date\"><meta content=\"Nuance System\" name=\"dcterms.creator\"><title>base mri neck contrast cancer followup</title></head><body><section data-section-name=\"MRI NECK WITHOUT AND WITH CONTRAST\"><header class=\"Level1\">MRI NECK WITHOUT AND WITH CONTRAST</header><p><label>HISTORY:</label><input type=\"text\" name=\"Patient Age\" value=\"Patient Age\"></p><p><label> old </label><input type=\"text\" name=\"Patient Gender\" value=\"Patient Gender\"></p><p><label>, </label><input type=\"text\" name=\"history\" value=\"follow-up neck mass.\"></p></section><section data-section-name=\"TECHNIQUE:\"><header class=\"Level1\">TECHNIQUE:</header><p><label>MR images of the neck were acquired without and with </label><input type=\"number\" name=\"contrast dose\"><label>mL Gadavist intravenous contrast.</label></p><p><label>COMPARISON: </label><input type=\"text\" name=\"Comparison\" value=\"None available.\"></p></section><section data-section-name=\"FINDINGS:\"><header class=\"Level1\">FINDINGS:</header><p><label>TUMOR SITE: No locoregional tumor recurrence or recurrent mass in the </label><input type=\"text\" name=\"tumor location\"><label>.</label></p><p><label>LYMPH NODES: </label><input type=\"text\" name=\"nodes\" value=\"No pathologic cervical lymph nodes by size or morphologic criteria.\"></p><p><label>TREATMENT/SURGICAL CHANGES: </label><input type=\"text\" name=\"describe treatment changes\"></p><p><label>OTHER: </label><input type=\"text\" name=\"other\" value=\"None.\"></p></section><section data-section-name=\"IMPRESSION:\"><header class=\"Level1\">IMPRESSION:</header><p><textarea name=\"impression\"></textarea></p></section></body></html>",
+    "organizations": [
+        {
+            "id": "284",
+            "name": "Kaiser Permanente",
+            "code": null
+        }
+    ],
+    "specialty": [
+        {
+            "code": "HN",
+            "name": "Head and Neck"
+        },
+        {
+            "code": "NR",
+            "name": "Neuroradiology"
+        }
+    ],
+    "coauthors": [],
+    "cdeSets": [],
+    "translators": [],
+    "references": [],
+    "procedures": [
+        {
+            "procedure_id": "24840-1",
+            "procedure_name": "MR Neck WO and W contrast IV",
+            "source": "LOINC"
+        }
+    ],
+    "radlex": [],
+    "isFavorite": "0"
+}

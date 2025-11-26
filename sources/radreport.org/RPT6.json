@@ -1,0 +1,84 @@
+{
+    "currentVersion": {
+        "created": "2010-12-01 00:00:00",
+        "template_version": "e1be9092-814f-11e9-af35-0eaa5a9daa9c"
+    },
+    "prevVersions": [],
+    "template_id": "RPT6",
+    "selectedVersion": "e1be9092-814f-11e9-af35-0eaa5a9daa9c",
+    "is_public": "1",
+    "TLAP_Approved": "1",
+    "published_at": "2010-12-01 00:00:00",
+    "title": "CT Appendicitis",
+    "template_status": null,
+    "description": null,
+    "author": "Heilbrun ME, et al.",
+    "firstname": null,
+    "lastname": null,
+    "originalAuthor": "Heilbrun ME, et al.",
+    "originalAuthorFirstname": null,
+    "originalAuthorLastName": null,
+    "views": "1482",
+    "downloads": "6080",
+    "created": "2010-12-01 00:00:00",
+    "dataType": "html",
+    "reviewInProgress": null,
+    "englishName": "English",
+    "langCode": "en",
+    "favCount": "0",
+    "templateData": "<!DOCTYPE html>\n<html>\n<head>\n<meta charset=\"UTF-8\"/>\n<meta content=\"CT Appendicitis\" name=\"dcterms.title\"/>\n<meta content=\"CT Appendicitis template :: Authored by Heilbrun ME, et al.\" name=\"dcterms.description\"/>\n<meta content=\"http://www.radreport.org/template/0000006\" name=\"dcterms.identifier\"/>\n<meta content=\"en\" name=\"dcterms.language\"/>\n<meta content=\"IMAGE_REPORT_TEMPLATE\" name=\"dcterms.type\"/>\n<meta content=\"Radiological Society of North America (RSNA)\" name=\"dcterms.publisher\"/>\n<meta content=\"May be used gratis, subject to license agreement\" name=\"dcterms.rights\"/>\n<meta content=\"http://www.radreport.org/license.pdf\" name=\"dcterms.license\"/>\n<meta content=\"2012-05-31\" name=\"dcterms.date\"/>\n<meta content=\"Heilbrun ME, et al.\" name=\"dcterms.creator\"/>\n<meta content=\"Society of Abdominal Radiology (SAR)\" name=\"dcterms.contributor\"/>\n<link rel=\"stylesheet\" type=\"text/css\" href=\"IHE_Template_Style.css\"/>\n<!-- The absolute link to the CSS file is http://www.radreport.org/html/IHE_Template_Style.css -->\n<script type=\"text/xml\">\n<!--\n<template_attributes>\n<top-level-flag>true</top-level-flag>\n<status>ACTIVE</status>\n<coding_schemes>\n <coding_scheme name=\"RadLex\" designator=\"2.16.840.1.113883.6.256\" />\n <coding_scheme name=\"SNOMEDCT\" designator=\"2.16.840.1.113883.6.96\" />\n <coding_scheme name=\"LOINC\" designator=\"2.16.840.1.113883.6.1\" />\n</coding_schemes>\n<term>\n <code meaning=\"abdomen\" value=\"RID56\" scheme=\"RadLex\">\n</term>\n<term>\n <code meaning=\"appendicitis\" value=\"RID3383\" scheme=\"RadLex\">\n</term>\n<term>\n <code meaning=\"appendix\" value=\"RID168\" scheme=\"RadLex\">\n</term>\n<term>\n <code meaning=\"computed tomography\" value=\"RID10321\" scheme=\"RadLex\">\n</term>\n<term>\n <code meaning=\"pelvis\" value=\"RID2507\" scheme=\"RadLex\">\n</term>\n<coded_content>\n<entry ORIGTXT=\"T6_2\">\n <term>\n  <code meaning=\"procedure\" value=\"RID1559\" scheme=\"RadLex\">\n </term>\n</entry>\n<entry ORIGTXT=\"T6_3\">\n <term>\n  <code meaning=\"imaging with IV contrast\" value=\"RID28769\" scheme=\"RadLex\">\n </term>\n</entry>\n<entry ORIGTXT=\"T6_5\">\n <term>\n  <code meaning=\"oral contrast\" value=\"RID35817\" scheme=\"RadLex\">\n </term>\n</entry>\n<entry ORIGTXT=\"T6_7\">\n <term>\n  <code meaning=\"clinical information\" value=\"RID13166\" scheme=\"RadLex\">\n </term>\n</entry>\n<entry ORIGTXT=\"T6_11\">\n <term>\n  <code meaning=\"comparison\" value=\"RID28483\" scheme=\"RadLex\">\n </term>\n</entry>\n<entry ORIGTXT=\"T6_17\">\n <term>\n  <code meaning=\"diameter\" value=\"RID13432\" scheme=\"RadLex\">\n </term>\n</entry>\n<entry ORIGTXT=\"T6_18\">\n <term>\n  <code meaning=\"wall\" value=\"RID5987\" scheme=\"RadLex\">\n </term>\n <term>\n  <code meaning=\"thickness descriptor\" value=\"RID28671\" scheme=\"RadLex\">\n </term>\n</entry>\n<entry ORIGTXT=\"T6_21\">\n <term>\n  <code meaning=\"fluid\" value=\"RID1547\" scheme=\"RadLex\">\n </term>\n</entry>\n<entry ORIGTXT=\"T6_23\">\n <term>\n  <code meaning=\"abscess\" value=\"RID3711\" scheme=\"RadLex\">\n </term>\n</entry>\n<entry ORIGTXT=\"T6_25\">\n <term>\n  <code meaning=\"adjacent\" value=\"RID5849\" scheme=\"RadLex\">\n </term>\n <term>\n  <code meaning=\"intestine\" value=\"RID130\" scheme=\"RadLex\">\n </term>\n <term>\n  <code meaning=\"wall\" value=\"RID5987\" scheme=\"RadLex\">\n </term>\n <term>\n  <code meaning=\"thickening\" value=\"RID28509\" scheme=\"RadLex\">\n </term>\n</entry>\n<entry ORIGTXT=\"T6_27\">\n <term>\n  <code meaning=\"appendicolith\" value=\"RID4988\" scheme=\"RadLex\">\n </term>\n</entry>\n<entry ORIGTXT=\"T6_29\">\n <term>\n  <code meaning=\"enlargement\" value=\"RID3775\" scheme=\"RadLex\">\n </term>\n <term>\n  <code meaning=\"lymphadenopathy\" value=\"RID3798\" scheme=\"RadLex\">\n </term>\n <term>\n  <code meaning=\"mesenteric lymph node\" value=\"RID451\" scheme=\"RadLex\">\n </term>\n</entry>\n<entry ORIGTXT=\"T6_31\">\n <term>\n  <code meaning=\"small\" value=\"RID5774\" scheme=\"RadLex\">\n </term>\n <term>\n  <code meaning=\"intestine\" value=\"RID130\" scheme=\"RadLex\">\n </term>\n <term>\n  <code meaning=\"colon\" value=\"RID31011\" scheme=\"RadLex\">\n </term>\n</entry>\n<entry ORIGTXT=\"T6_33\">\n <term>\n  <code meaning=\"gallbladder\" value=\"RID187\" scheme=\"RadLex\">\n </term>\n <term>\n  <code meaning=\"biliary system\" value=\"RID28753\" scheme=\"RadLex\">\n </term>\n</entry>\n<entry ORIGTXT=\"T6_39\">\n <term>\n  <code meaning=\"spleen\" value=\"RID86\" scheme=\"RadLex\">\n </term>\n</entry>\n<entry ORIGTXT=\"T6_41\">\n <term>\n  <code meaning=\"pancreas\" value=\"RID170\" scheme=\"RadLex\">\n </term>\n</entry>\n<entry ORIGTXT=\"T6_43\">\n <term>\n  <code meaning=\"set of adrenal glands\" value=\"RID28752\" scheme=\"RadLex\">\n </term>\n</entry>\n<entry ORIGTXT=\"T6_45\">\n <term>\n  <code meaning=\"kidney\" value=\"RID205\" scheme=\"RadLex\">\n </term>\n <term>\n  <code meaning=\"set of ureters\" value=\"RID31090\" scheme=\"RadLex\">\n </term>\n</entry>\n<entry ORIGTXT=\"T6_47\">\n <term>\n  <code meaning=\"major\" value=\"RID5692\" scheme=\"RadLex\">\n </term>\n <term>\n  <code meaning=\"abdominal aorta\" value=\"RID905\" scheme=\"RadLex\">\n </term>\n</entry>\n<entry ORIGTXT=\"T6_49\">\n <term>\n  <code meaning=\"lymphadenopathy\" value=\"RID3798\" scheme=\"RadLex\">\n </term>\n</entry>\n<entry ORIGTXT=\"T6_53\">\n <term>\n  <code meaning=\"lower lung zone\" value=\"RID1354\" scheme=\"RadLex\">\n </term>\n</entry>\n<entry ORIGTXT=\"T6_55\">\n  <term>\n  <code meaning=\"Uterus, fallopian tubes and ovaries (combined site) (body structure)\" value=\"110636009\" scheme=\"SNOMEDCT\">\n </term>\n</entry>\n<entry ORIGTXT=\"T6_57\">\n <term>\n  <code meaning=\"set of bones\" value=\"RID28569\" scheme=\"RadLex\">\n </term>\n</entry>\n<entry ORIGTXT=\"T6_60\">\n <term>\n  <code meaning=\"impression section\" value=\"RID13170\" scheme=\"RadLex\">\n </term>\n</entry>\n</coded_content>\n</template_attributes>\n-->\n</script>\n<title>CT Appendicitis</title>\n</head>\n<body>\n<section data-section-name=\"Procedure\">\n<header class=\"level1\">CT Appendicitis</header>\n<p>\n<textarea id=\"T6_2\" name=\"Procedure\"> </textarea>\n</p>\n<p>\n<label for=\"T6_3\">IV contrast:</label>\n<input type=\"text\" id=\"T6_3\" name=\"T6_3\" value=\"None.\"/>\n</p>\n<p>\n<label for=\"T6_5\">Oral contrast:</label>\n<input type=\"text\" id=\"T6_5\" name=\"T6_5\" value=\"None.\"/>\n</p>\n</section>\n<section data-section-name=\"Clinical information\">\n<header class=\"level1\">Clinical information</header>\n<p>\n<textarea id=\"T6_7\" name=\"Clinical information\"> </textarea>\n</p>\n</section>\n<section data-section-name=\"Comparison\">\n<header class=\"level1\">Comparison</header>\n<p>\n<textarea id=\"T6_11\" name=\"Comparison\">None. </textarea>\n</p>\n</section>\n<section data-section-name=\"Findings\">\n<header class=\"level1\">Findings</header>\n<section data-section-name=\"Appendix\">\n<header class=\"level2\">Appendix</header>\n<p>\n<label for=\"T6_17\">Diameter:</label>\n<input type=\"number\" id=\"T6_17\" name=\"T6_17\" data-field-units=\"mm\" min=\"\" max=\"\"/> mm\n</p>\n<p>\n<label for=\"T6_18\">Wall thickness:</label>\n<input type=\"number\" id=\"T6_18\" name=\"T6_18\" data-field-units=\"mm\" min=\"\" max=\"\"/> mm\n</p>\n<p>\n<label for=\"T6_19\">Peri-appendiceal stranding:</label>\n<input type=\"text\" id=\"T6_19\" name=\"T6_19\" value=\"None.\"/>\n</p>\n<p>\n<label for=\"T6_21\">Peri-appendiceal fluid:</label>\n<input type=\"text\" id=\"T6_21\" name=\"T6_21\" value=\"None.\"/>\n</p>\n<p>\n<label for=\"T6_23\">Peri-appendiceal abscess:</label>\n<input type=\"text\" id=\"T6_23\" name=\"T6_23\" value=\"None.\"/>\n</p>\n<p>\n<label for=\"T6_25\">Adjacent bowel wall thickening:</label>\n<input type=\"text\" id=\"T6_25\" name=\"T6_25\" value=\"None.\"/>\n</p>\n<p>\n<label for=\"T6_27\">Appendicolith:</label>\n<input type=\"text\" id=\"T6_27\" name=\"T6_27\" value=\"None.\"/>\n</p>\n</section>\n<section data-section-name=\"Other findings\">\n<header class=\"level2\">Other findings</header>\n<p>\n<label for=\"T6_29\">Mesenteric lymph node enlargement:</label>\n<input type=\"text\" id=\"T6_29\" name=\"T6_29\" value=\"None.\"/>\n</p>\n<p>\n<label for=\"T6_31\">Small bowel and colon:</label>\n<input type=\"text\" id=\"T6_31\" name=\"T6_31\" value=\"Normal in caliber without appreciable wall thickening.\"/>\n</p>\n<p>\n<label for=\"T6_33\">Gallbladder and biliary system:</label>\n<input type=\"text\" id=\"T6_33\" name=\"T6_33\" value=\"No evidence of gallstones or biliary ductal dilatation.\"/>\n</p>\n<p>\n<label for=\"T6_39\">Spleen:</label>\n<input type=\"text\" id=\"T6_39\" name=\"T6_39\" value=\"Normal.\"/>\n</p>\n<p>\n<label for=\"T6_41\">Pancreas:</label>\n<input type=\"text\" id=\"T6_41\" name=\"T6_41\" value=\"Normal.\"/>\n</p>\n<p>\n<label for=\"T6_43\">Adrenals:</label>\n<input type=\"text\" id=\"T6_43\" name=\"T6_43\" value=\"Normal.\"/>\n</p>\n<p>\n<label for=\"T6_45\">Kidneys and ureters:</label>\n<input type=\"text\" id=\"T6_45\" name=\"T6_45\" value=\"Normal.\"/>\n</p>\n<p>\n<label for=\"T6_47\">Abdominal aorta and major branches:</label>\n<input type=\"text\" id=\"T6_47\" name=\"T6_47\" value=\"Normal.\"/>\n</p>\n<p>\n<label for=\"T6_49\">Adenopathy:</label>\n<input type=\"text\" id=\"T6_49\" name=\"T6_49\" value=\"None.\"/>\n</p>\n<p>\n<label for=\"T6_53\">Lung bases:</label>\n<input type=\"text\" id=\"T6_53\" name=\"T6_53\" value=\"Normal.\"/>\n</p>\n<p>\n<label for=\"T6_55\">Reproductive organs:</label>\n<input type=\"text\" id=\"T6_55\" name=\"T6_55\" value=\"Normal.\"/>\n</p>\n<p>\n<label for=\"T6_57\">Bones:</label>\n<input type=\"text\" id=\"T6_57\" name=\"T6_57\" value=\"Normal.\"/>\n</p>\n</section>\n</section>\n<section data-section-name=\"Impression\">\n<header class=\"level1\">Impression</header>\n<p>\n<textarea id=\"T6_60\" name=\"Impression\"> </textarea>\n</p>\n</section>\n</body>\n</html>\n",
+    "organizations": [
+        {
+            "id": "281",
+            "name": "Society of Abdominal Radiology",
+            "code": "SAR"
+        },
+        {
+            "id": "160",
+            "name": "Radiological Society of North America",
+            "code": "RSNA"
+        }
+    ],
+    "specialty": [
+        {
+            "code": "CT",
+            "name": "Computed Tomography"
+        },
+        {
+            "code": "ER",
+            "name": "Emergency Radiology"
+        },
+        {
+            "code": "GI",
+            "name": "Gastrointestinal Radiology"
+        }
+    ],
+    "coauthors": [],
+    "cdeSets": [],
+    "translators": [],
+    "references": [],
+    "procedures": [],
+    "radlex": [
+        {
+            "id": "RID10321",
+            "prefLabel": "computed tomography"
+        },
+        {
+            "id": "RID168",
+            "prefLabel": "appendix"
+        },
+        {
+            "id": "RID3383",
+            "prefLabel": "appendicitis"
+        },
+        {
+            "id": "RID56",
+            "prefLabel": "abdomen"
+        },
+        {
+            "id": "RID2507",
+            "prefLabel": "pelvis"
+        }
+    ],
+    "isFavorite": "0"
+}

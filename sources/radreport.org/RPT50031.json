@@ -1,0 +1,44 @@
+{
+    "currentVersion": {
+        "created": "2013-12-30 14:16:07",
+        "template_version": "e1c85c53-814f-11e9-af35-0eaa5a9daa9c"
+    },
+    "prevVersions": [],
+    "template_id": "RPT50031",
+    "selectedVersion": "e1c85c53-814f-11e9-af35-0eaa5a9daa9c",
+    "is_public": "1",
+    "TLAP_Approved": "1",
+    "published_at": "2013-12-30 14:16:07",
+    "title": "Nuclear Medicine Hepatobiliary (HIDA) Scan",
+    "template_status": null,
+    "description": "Nuclear Medicine Hepatobiliary (HIDA) Scan with ejection fraction",
+    "author": "19",
+    "firstname": "Ali",
+    "lastname": "Malik",
+    "originalAuthor": "19",
+    "originalAuthorFirstname": "Ali",
+    "originalAuthorLastName": "Malik",
+    "views": "4176",
+    "downloads": "4683",
+    "created": "2013-12-30 14:16:07",
+    "dataType": "txt",
+    "reviewInProgress": null,
+    "englishName": "English",
+    "langCode": "en",
+    "favCount": "0",
+    "templateData": "Indication: [ ].\r\n\r\nComparison: []\r\n\r\nTechnique: [] MCi Tc 99m mebrofenin were administered intravenously and serial images were obtained over the anterior abdomen till the gallbladder was full and there was small bowel activity. \r\n\r\n[The the patient consumed a fatty meal and the gall bladder ejection fraction was determined at 30 mins. [and 60 mins.] ]\r\n\r\nFindings: \r\nAt [] minutes, there is uniform uptake by the liver.\r\n\r\nAt [] minutes, activity is seen in the bile ducts\r\n\r\nBy [] minutes, [] activity is seen in the gallbladder. \r\n\r\nBy [] minutes, [] radioactivity is present in the small bowel.\r\n\r\n[ Gallbladder ejection fraction is []% at [] mins, [within normal limits].\r\nNormal value is 35% at 60 minutes post fatty meal. ]\r\n\r\nImpression:\r\n1. [No scintigraphic evidence of cystic or common bile duct obstruction].\r\n\r\n2. [Normal gallbladder ejection fraction.]",
+    "organizations": [],
+    "specialty": [
+        {
+            "code": "NM",
+            "name": "Nuclear Medicine"
+        }
+    ],
+    "coauthors": [],
+    "cdeSets": [],
+    "translators": [],
+    "references": [],
+    "procedures": [],
+    "radlex": [],
+    "isFavorite": "0"
+}

@@ -1,0 +1,97 @@
+{
+    "currentVersion": {
+        "created": "2021-03-16 12:33:39",
+        "template_version": "bea4efe4-867d-11eb-a1f6-0eaa5a9daa9c"
+    },
+    "prevVersions": [],
+    "template_id": "RPT50844",
+    "selectedVersion": "bea4efe4-867d-11eb-a1f6-0eaa5a9daa9c",
+    "is_public": "1",
+    "TLAP_Approved": null,
+    "published_at": "2021-03-16 12:33:39",
+    "title": "CT Mastoid and Middle Ear Postoperative",
+    "template_status": null,
+    "description": "This postoperative middle ear and mastoid CT structured template can be utilized for the evaluation of surgical changes and complications in cases of tympanoplasty,  ossicular chain reconstruction and mastoidectomy.",
+    "author": "rsna_00660569",
+    "firstname": "Hugo",
+    "lastname": "Tames",
+    "originalAuthor": "rsna_00660569",
+    "originalAuthorFirstname": "Hugo",
+    "originalAuthorLastName": "Tames",
+    "views": "4110",
+    "downloads": "4137",
+    "created": "2021-03-16 12:33:39",
+    "dataType": "html",
+    "reviewInProgress": "1",
+    "englishName": "English",
+    "langCode": "en",
+    "favCount": "0",
+    "templateData": "<!DOCTYPE html>\n<html>\n    <head>\n        <title>CT Mastoid and Middle Ear Postoperative</title>\n        <meta charset=\"UTF-8\" />\n        <meta name=\"dcterms.identifier\" content=\"21f47221-c915-4606-a8b0-5fb8c1cae34f\" />\n        <meta name=\"dcterms.title\" content=\"CT Mastoid and Middle Ear Postoperative\" />\n        <meta name=\"dcterms.description\" content=\"\" />\n        <meta name=\"dcterms.type\" content=\"IMAGE_REPORT_TEMPLATE\" />\n        <meta name=\"dcterms.language\" content=\"en\" />\n        <meta name=\"dcterms.publisher\" content=\"\" />\n        <meta name=\"dcterms.rights\" content=\"May be used freely, subject to license agreement\" />\n        <meta name=\"dcterms.license\" content=\"http://www.radreport.org/license.pdf\" />\n        <meta name=\"dcterms.date\" content=\"2021-03-08\" />\n        <meta name=\"dcterms.creator\" content=\"Hugo Tames\" />\n        <script type=\"text/xml\">\n            <template_attributes>\n                <coded_content>\n                    <coding_schemes>\n                        <coding_scheme name=\"RADLEX\" designator=\"2.16.840.1.113883.6.256\"></coding_scheme>\n                        <coding_scheme name=\"LOINC\" designator=\"2.16.840.1.113883.6.1\"></coding_scheme>\n                    </coding_schemes>\n                    <entry origtxt=\"findings\">\n                        <term>\n                            <code meaning=\"Procedure Findings\" value=\"59776-5\" scheme=\"LOINC\"></code>\n                        </term>\n                    </entry>\n                    <entry origtxt=\"procedureInformation\">\n                        <term>\n                            <code meaning=\"Current Imaging Procedure Description\" value=\"55111-9\" scheme=\"LOINC\"></code>\n                        </term>\n                    </entry>\n                    <entry origtxt=\"comparisons\">\n                        <term>\n                            <code meaning=\"Radiology Comparison Study\" value=\"18834-2\" scheme=\"LOINC\"></code>\n                        </term>\n                    </entry>\n                    <entry origtxt=\"impression\">\n                        <term>\n                            <code meaning=\"Impressions\" value=\"19005-8\" scheme=\"LOINC\"></code>\n                        </term>\n                    </entry>\n                    <entry origtxt=\"clinicalInformation\">\n                        <term>\n                            <code meaning=\"Clinical Information\" value=\"55752-0\" scheme=\"LOINC\"></code>\n                        </term>\n                    </entry>\n                </coded_content>\n            </template_attributes>\n        </script>\n    </head>\n    <body>\n        <section id=\"procedureInformation\" class=\"level1\" data-section-name=\"Procedure Information\">\n            <header class=\"level1\">\n                Procedure Information\n            </header>\n            <p title=\"\">\n                <label for=\"procedureInformationText\">Technique</label>\n                <textarea rows=\"3\" cols=\"100\" id=\"procedureInformationText\" name=\"\" data-field-type=\"TEXTAREA\" data-field-completion-action=\"NONE\">CT images of the temporal bones were acquired without contrast.</textarea>\n            </p>\n        </section>\n        <section id=\"clinicalInformation\" class=\"level1\" data-section-name=\"Clinical Information\">\n            <header class=\"level1\">\n                Clinical Information\n            </header>\n            <p title=\"Describe the reason for the study. \">\n                <label for=\"clinicalInformationText\"></label>\n                <textarea rows=\"3\" cols=\"100\" id=\"clinicalInformationText\" name=\"\" data-field-type=\"TEXTAREA\" data-field-completion-action=\"NONE\">Recurrent hearing loss.</textarea>\n            </p>\n        </section>\n        <section id=\"comparisons\" class=\"level1\" data-section-name=\"Comparison\">\n            <header class=\"level1\">\n                Comparison\n            </header>\n            <p title=\"\">\n                <label for=\"comparisonsText\"></label>\n                <textarea rows=\"3\" cols=\"100\" id=\"comparisonsText\" name=\"\" data-field-type=\"TEXTAREA\" data-field-completion-action=\"NONE\">None available.</textarea>\n            </p>\n        </section>\n        <section id=\"findings\" class=\"level1\" data-section-name=\"Findings\">\n            <header class=\"level1\">\n                Findings\n            </header>\n            <p title=\"\">\n                <label for=\"CHECKBOX_1615229482482\">Surgery performed</label>\n                <span id=\"CHECKBOX_1615229482482\" name=\"\" data-field-type=\"CHECKBOX\" data-field-completion-action=\"NONE\" value=\"\">\n                    <br />\n                    <input id=\"CHECKBOX_1615229482482_0\" type=\"checkbox\" name=\"CHECKBOX_1615229482482\" value=\"canal wall-up mastoidectomy\" checked=\"\">canal wall-up mastoidectomy</input>\n                    <br />\n                    <input id=\"CHECKBOX_1615229482482_1\" type=\"checkbox\" name=\"CHECKBOX_1615229482482\" value=\"canal wall-down mastoidectomy\">canal wall-down mastoidectomy</input>\n                    <br />\n                    <input id=\"CHECKBOX_1615229482482_2\" type=\"checkbox\" name=\"CHECKBOX_1615229482482\" value=\"tympanomastoidectomy\">tympanomastoidectomy</input>\n                    <br />\n                    <input id=\"CHECKBOX_1615229482482_3\" type=\"checkbox\" name=\"CHECKBOX_1615229482482\" value=\"tympanoplasty\">tympanoplasty</input>\n                    <br />\n                    <input id=\"CHECKBOX_1615229482482_4\" type=\"checkbox\" name=\"CHECKBOX_1615229482482\" value=\"ossicular reconstruction\">ossicular reconstruction</input>\n                </span>\n            </p>\n            <p title=\"\">\n                <label for=\"RADIO_1614105483630\">Ossicular reconstruction method</label>\n                <span id=\"RADIO_1614105483630\" name=\"\" data-field-type=\"RADIO\" data-field-completion-action=\"NONE\" value=\"\">\n                    <br />\n                    <input id=\"RADIO_1614105483630_0\" type=\"radio\" name=\"RADIO_1614105483630\" value=\"stapes prosthesis\" checked=\"\">stapes prosthesis</input>\n                    <br />\n                    <input id=\"RADIO_1614105483630_1\" type=\"radio\" name=\"RADIO_1614105483630\" value=\"partial ossicular replacement prosthesis (PORP)\">partial ossicular replacement prosthesis (PORP)</input>\n                    <br />\n                    <input id=\"RADIO_1614105483630_2\" type=\"radio\" name=\"RADIO_1614105483630\" value=\"total ossicular replacement prosthesis (TORP)\">total ossicular replacement prosthesis (TORP)</input>\n                    <br />\n                    <input id=\"RADIO_1614105483630_3\" type=\"radio\" name=\"RADIO_1614105483630\" value=\"not applicable\">not applicable</input>\n                </span>\n            </p>\n            <p title=\"\">\n                <label for=\"RADIO_1614105483633\">Ossicular chain</label>\n                <span id=\"RADIO_1614105483633\" name=\"\" data-field-type=\"RADIO\" data-field-completion-action=\"NONE\" value=\"\">\n                    <br />\n                    <input id=\"RADIO_1614105483633_0\" type=\"radio\" name=\"RADIO_1614105483633\" value=\"intact\" checked=\"\">intact</input>\n                    <br />\n                    <input id=\"RADIO_1614105483633_1\" type=\"radio\" name=\"RADIO_1614105483633\" value=\"absent\">absent</input>\n                    <br />\n                    <input id=\"RADIO_1614105483633_2\" type=\"radio\" name=\"RADIO_1614105483633\" value=\"continuity of reconstructed ossicular chain\">continuity of reconstructed ossicular chain</input>\n                    <br />\n                    <input id=\"RADIO_1614105483633_3\" type=\"radio\" name=\"RADIO_1614105483633\" value=\"discontinuity of reconstructed ossicular chain\">discontinuity of reconstructed ossicular chain</input>\n                    <br />\n                    <input id=\"RADIO_1614105483633_4\" type=\"radio\" name=\"RADIO_1614105483633\" value=\"prosthesis luxation\">prosthesis luxation</input>\n                </span>\n            </p>\n            <p title=\"Additional information may be given, e.g. posterior displacement of the medial end of the partial ossicular replacement prosthesis (PORP).\">\n                <label for=\"TEXT_1614105483639\">Additional surgical information</label>\n                <textarea rows=\"3\" cols=\"100\" id=\"TEXT_1614105483639\" name=\"\" data-field-type=\"TEXTAREA\" data-field-completion-action=\"NONE\"></textarea>\n            </p>\n            <p title=\"MR imaging may provide further information.\">\n                <label for=\"CHECKBOX_1614105483640\">Mastoid bowl and middle ear</label>\n                <span id=\"CHECKBOX_1614105483640\" name=\"\" data-field-type=\"CHECKBOX\" data-field-completion-action=\"NONE\" value=\"\">\n                    <br />\n                    <input id=\"CHECKBOX_1614105483640_0\" type=\"checkbox\" name=\"CHECKBOX_1614105483640\" value=\"clear\" checked=\"\">clear</input>\n                    <br />\n                    <input id=\"CHECKBOX_1614105483640_1\" type=\"checkbox\" name=\"CHECKBOX_1614105483640\" value=\"mild soft tissue thickening\">mild soft tissue thickening</input>\n                    <br />\n                    <input id=\"CHECKBOX_1614105483640_2\" type=\"checkbox\" name=\"CHECKBOX_1614105483640\" value=\"lobulated soft tissue thickening\">lobulated soft tissue thickening</input>\n                    <br />\n                    <input id=\"CHECKBOX_1614105483640_3\" type=\"checkbox\" name=\"CHECKBOX_1614105483640\" value=\"opacified\">opacified</input>\n                </span>\n            </p>\n            <p title=\"\">\n                <label for=\"CHECKBOX_1614105483645\">Osseous margins</label>\n                <span id=\"CHECKBOX_1614105483645\" name=\"\" data-field-type=\"CHECKBOX\" data-field-completion-action=\"NONE\" value=\"\">\n                    <br />\n                    <input id=\"CHECKBOX_1614105483645_0\" type=\"checkbox\" name=\"CHECKBOX_1614105483645\" value=\"erosion of osseous margins of surgical cavity\" checked=\"\">erosion of osseous margins of surgical cavity</input>\n                    <br />\n                    <input id=\"CHECKBOX_1614105483645_1\" type=\"checkbox\" name=\"CHECKBOX_1614105483645\" value=\"signs of perilymphatic fistula\">signs of perilymphatic fistula</input>\n                    <br />\n                    <input id=\"CHECKBOX_1614105483645_2\" type=\"checkbox\" name=\"CHECKBOX_1614105483645\" value=\"signs of cerebrospinal fluid (CSF) leak \">signs of cerebrospinal fluid (CSF) leak </input>\n                    <br />\n                    <input id=\"CHECKBOX_1614105483645_3\" type=\"checkbox\" name=\"CHECKBOX_1614105483645\" value=\"meningoencephalocele\">meningoencephalocele</input>\n                </span>\n            </p>\n            <p title=\"\">\n                <label for=\"TEXT_1615229482475\">Additional information regarding complications</label>\n                <textarea rows=\"3\" cols=\"100\" id=\"TEXT_1615229482475\" name=\"\" data-field-type=\"TEXTAREA\" data-field-completion-action=\"NONE\"></textarea>\n            </p>\n            <p title=\"Specify the segment.\">\n                <label for=\"RADIO_1614105483650\">Facial nerve canal</label>\n                <span id=\"RADIO_1614105483650\" name=\"\" data-field-type=\"RADIO\" data-field-completion-action=\"NONE\" value=\"\">\n                    <br />\n                    <input id=\"RADIO_1614105483650_0\" type=\"radio\" name=\"RADIO_1614105483650\" value=\"preserved\" checked=\"\">preserved</input>\n                    <br />\n                    <input id=\"RADIO_1614105483650_1\" type=\"radio\" name=\"RADIO_1614105483650\" value=\"dehiscent\">dehiscent</input>\n                </span>\n            </p>\n            <p title=\"\">\n                <label for=\"TEXT_1614105483653\">Vascular structures</label>\n                <textarea rows=\"3\" cols=\"100\" id=\"TEXT_1614105483653\" name=\"\" data-field-type=\"TEXTAREA\" data-field-completion-action=\"NONE\">Sigmoid plate and carotid canal preserved.</textarea>\n            </p>\n            <p title=\"\">\n                <label for=\"RADIO_1614105483657\">Otic capsule</label>\n                <span id=\"RADIO_1614105483657\" name=\"\" data-field-type=\"RADIO\" data-field-completion-action=\"NONE\" value=\"\">\n                    <br />\n                    <input id=\"RADIO_1614105483657_0\" type=\"radio\" name=\"RADIO_1614105483657\" value=\"normal mineralization\" checked=\"\">normal mineralization</input>\n                    <br />\n                    <input id=\"RADIO_1614105483657_1\" type=\"radio\" name=\"RADIO_1614105483657\" value=\"otosclerosis\">otosclerosis</input>\n                </span>\n            </p>\n            <section id=\"SECTION_HEADER_1614105483660\" class=\"level2\" data-section-name=\"Labyrinthine Structures\">\n                <header class=\"level2\">\n                    Labyrinthine Structures\n                </header>\n            </section>\n            <p title=\"\">\n                <label for=\"TEXT_1614105483661\">Cochlea, vestibule, semicircular canals and vestibular aqueduct</label>\n                <textarea rows=\"3\" cols=\"100\" id=\"TEXT_1614105483661\" name=\"\" data-field-type=\"TEXTAREA\" data-field-completion-action=\"NONE\">Normal morphology.</textarea>\n            </p>\n            <p title=\"\">\n                <label for=\"TEXT_1614105483665\">Oval window and round windows</label>\n                <textarea rows=\"3\" cols=\"100\" id=\"TEXT_1614105483665\" name=\"\" data-field-type=\"TEXTAREA\" data-field-completion-action=\"NONE\">Patent.</textarea>\n            </p>\n            <p title=\"\">\n                <label for=\"TEXT_1614105483668\">Internal auditory canal</label>\n                <textarea rows=\"3\" cols=\"100\" id=\"TEXT_1614105483668\" name=\"\" data-field-type=\"TEXTAREA\" data-field-completion-action=\"NONE\">Symmetric.</textarea>\n            </p>\n            <p title=\"\">\n                <label for=\"TEXT_1615229482476\">Other findings</label>\n                <textarea rows=\"3\" cols=\"100\" id=\"TEXT_1615229482476\" name=\"\" data-field-type=\"TEXTAREA\" data-field-completion-action=\"NONE\"></textarea>\n            </p>\n        </section>\n        <section id=\"impression\" class=\"level1\" data-section-name=\"Impression\">\n            <header class=\"level1\">\n                Impression\n            </header>\n            <p title=\"Summarize the postoperative changes and complications.\">\n                <label for=\"impressionText\"></label>\n                <textarea rows=\"3\" cols=\"100\" id=\"impressionText\" name=\"\" data-field-type=\"TEXTAREA\" data-field-completion-action=\"NONE\"></textarea>\n            </p>\n        </section>\n    </body>\n</html>\n",
+    "organizations": [
+        {
+            "id": "340",
+            "name": "InRad - Universidade de S\u00e3o Paulo",
+            "code": null
+        }
+    ],
+    "specialty": [
+        {
+            "code": "CT",
+            "name": "Computed Tomography"
+        },
+        {
+            "code": "HN",
+            "name": "Head and Neck"
+        },
+        {
+            "code": "NR",
+            "name": "Neuroradiology"
+        }
+    ],
+    "coauthors": [
+        {
+            "id": null,
+            "fullname": "M\u00e1rio Padula"
+        },
+        {
+            "id": null,
+            "fullname": "Ma\u00edra O. Sarpi"
+        },
+        {
+            "id": null,
+            "fullname": "Regina L. E. Gomes"
+        },
+        {
+            "id": null,
+            "fullname": "Carlos Toyama"
+        },
+        {
+            "id": null,
+            "fullname": "Rodrigo W. Murakoshi"
+        },
+        {
+            "id": null,
+            "fullname": "Bruno C. Olivetti"
+        },
+        {
+            "id": null,
+            "fullname": "Elo\u00edsa M. M. S. Gebrim"
+        }
+    ],
+    "cdeSets": [],
+    "translators": [],
+    "references": [
+        "Tames HLVC, Padula M, Sarpi MO, Gomes RLE, Toyama C, Murakoshi RW, Olivetti BC, Gebrim EMMS. Postoperative Imaging of the Temporal Bone RadioGraphics 2021:41(3) https://doi.org/10.1148/rg.2021200126",
+        "Juliano AF, Ginat DT, Moonis G. Imaging Review of the Temporal Bone: Part II. Traumatic, Postoperative, and Noninflammatory Nonneoplastic Conditions. Radiology 2015;276(3):655\u2013672.",
+        "Ginat DT, Moonis G, Mukherji SK, Gluth MB. Imaging of the Postoperative Ear and Temporal Bone. In: Ginat DT, Westesson PA. Atlas Postsurgical Neuroradiology Imaging Brain, Spine, Head, Neck. 2nd ed. New York: Springer-Verlag; 2017. p. 351\u2013419."
+    ],
+    "procedures": [
+        {
+            "procedure_id": "36866-2",
+            "procedure_name": "CT Temporal bone WO contrast",
+            "source": "LOINC"
+        }
+    ],
+    "radlex": [],
+    "isFavorite": "0"
+}

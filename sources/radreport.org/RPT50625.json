@@ -1,0 +1,64 @@
+{
+    "currentVersion": {
+        "created": "2019-03-20 15:53:24",
+        "template_version": "ea447839-823a-11e9-af35-0eaa5a9daa9c"
+    },
+    "prevVersions": [],
+    "template_id": "RPT50625",
+    "selectedVersion": "ea447839-823a-11e9-af35-0eaa5a9daa9c",
+    "is_public": "1",
+    "TLAP_Approved": null,
+    "published_at": "2019-03-20 15:53:24",
+    "title": "MRA Neck WO Contrast",
+    "template_status": null,
+    "description": " ",
+    "author": "rsna_00456600",
+    "firstname": "Mark",
+    "lastname": "Mamlouk",
+    "originalAuthor": "rsna_00456600",
+    "originalAuthorFirstname": "Mark",
+    "originalAuthorLastName": "Mamlouk",
+    "views": "380",
+    "downloads": "4100",
+    "created": "2019-03-20 15:53:24",
+    "dataType": "html",
+    "reviewInProgress": "1",
+    "englishName": "English",
+    "langCode": "en",
+    "favCount": "0",
+    "templateData": "<html><head><meta charset=\"UTF-8\"><meta content=\"base mra neck\" name=\"dcterms.title\"><meta content=\"ad78f491-7d15-47eb-a3df-eec37b889c65\" name=\"dcterms.identifier\"><meta content=\"en\" name=\"dcterms.language\"><meta content=\"2019-01-31\" name=\"dcterms.date\"><meta content=\"Nuance System\" name=\"dcterms.creator\"><title>base mra neck</title></head><body><section data-section-name=\"MRA NECK WITHOUT CONTRAST\"><header class=\"Level1\">MRA NECK WITHOUT CONTRAST</header><p><label>HISTORY:</label><input type=\"text\" name=\"Patient Age\" value=\"Patient Age\"></p><p><label> old </label><input type=\"text\" name=\"Patient Gender\" value=\"Patient Gender\"></p><p><label>, </label><select name=\"history\"><option name=\"\" value=\"\" selected=\"\">neck pain.</option><option name=\"\" value=\"\" selected=\"\">stroke symptoms.</option></select></p></section><section data-section-name=\"TECHNIQUE:\"><header class=\"Level1\">TECHNIQUE:</header><p><label>MR angiogram images of the neck were acquired without intravenous contrast.</label><br><label>COMPARISON: </label><input type=\"text\" name=\"Comparison\" value=\"None available.\"></p></section><section data-section-name=\"FINDINGS:\"><header class=\"Level1\">FINDINGS:</header><p><label>GREAT VESSELS: </label><input type=\"text\" name=\"great vessels\" value=\"Visualized segments are patent.\"></p><p><label>RIGHT ICA: </label><select name=\"right ICA\"><option name=\"\" value=\"\">No stenosis</option><option name=\"\" value=\"\">Less than 50%</option><option name=\"\" value=\"\">50-69%</option><option name=\"\" value=\"\">70-99%</option><option name=\"\" value=\"\">Occluded</option></select><label>by NASCET criteria at the carotid bifurcation.</label></p><p><label>LEFT ICA: </label><select name=\"left ICA\"><option name=\"\" value=\"\">No stenosis</option><option name=\"\" value=\"\">Less than 50%</option><option name=\"\" value=\"\">50-69%</option><option name=\"\" value=\"\">70-99%</option><option name=\"\" value=\"\">Occluded</option></select><label>by NASCET criteria at the carotid bifurcation.</label></p><p><label>VERTEBRAL ARTERIES: </label><input type=\"text\" name=\"vertebrals\" value=\"Patent extracranial segments.\"></p></section><section data-section-name=\"IMPRESSION:\"><header class=\"Level1\">IMPRESSION:</header><p><textarea name=\"impression\">Normal MRA neck.</textarea></p></section></body></html>",
+    "organizations": [
+        {
+            "id": "284",
+            "name": "Kaiser Permanente",
+            "code": null
+        }
+    ],
+    "specialty": [
+        {
+            "code": "HN",
+            "name": "Head and Neck"
+        },
+        {
+            "code": "NR",
+            "name": "Neuroradiology"
+        },
+        {
+            "code": "MR",
+            "name": "Magnetic Resonance Imaging"
+        }
+    ],
+    "coauthors": [],
+    "cdeSets": [],
+    "translators": [],
+    "references": [],
+    "procedures": [
+        {
+            "procedure_id": "36549-4",
+            "procedure_name": "MRA Neck vessels WO contrast",
+            "source": "LOINC"
+        }
+    ],
+    "radlex": [],
+    "isFavorite": "0"
+}

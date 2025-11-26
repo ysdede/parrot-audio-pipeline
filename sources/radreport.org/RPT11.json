@@ -1,0 +1,80 @@
+{
+    "currentVersion": {
+        "created": "2010-11-16 00:00:00",
+        "template_version": "e1bea9f3-814f-11e9-af35-0eaa5a9daa9c"
+    },
+    "prevVersions": [],
+    "template_id": "RPT11",
+    "selectedVersion": "e1bea9f3-814f-11e9-af35-0eaa5a9daa9c",
+    "is_public": "1",
+    "TLAP_Approved": "1",
+    "published_at": "2010-11-16 00:00:00",
+    "title": "CT Liver Surveillance",
+    "template_status": null,
+    "description": null,
+    "author": "",
+    "firstname": null,
+    "lastname": null,
+    "originalAuthor": "",
+    "originalAuthorFirstname": null,
+    "originalAuthorLastName": null,
+    "views": "687",
+    "downloads": "5817",
+    "created": "2010-11-16 00:00:00",
+    "dataType": "html",
+    "reviewInProgress": null,
+    "englishName": "English",
+    "langCode": "en",
+    "favCount": "0",
+    "templateData": "<!DOCTYPE html>\n<html>\n<head>\n<meta charset=\"UTF-8\"/>\n<meta content=\"CT Liver Surveillance\" name=\"dcterms.title\"/>\n<meta content=\"CT Liver Surveillance template\" name=\"dcterms.description\"/>\n<meta content=\"http://www.radreport.org/template/0000011\" name=\"dcterms.identifier\"/>\n<meta content=\"en\" name=\"dcterms.language\"/>\n<meta content=\"IMAGE_REPORT_TEMPLATE\" name=\"dcterms.type\"/>\n<meta content=\"Radiological Society of North America (RSNA)\" name=\"dcterms.publisher\"/>\n<meta content=\"May be used gratis, subject to license agreement\" name=\"dcterms.rights\"/>\n<meta content=\"http://www.radreport.org/license.pdf\" name=\"dcterms.license\"/>\n<meta content=\"2012-05-22\" name=\"dcterms.date\"/>\n<meta content=\"Kahn CE Jr\" name=\"dcterms.creator\"/>\n<meta content=\"Kahn CE Jr [editor]\" name=\"dcterms.contributor\"/>\n<meta content=\"Society for Computed Body Tomography and Magnetic Resonance (SCBTMR)\" name=\"dcterms.contributor\"/>\n<link rel=\"stylesheet\" type=\"text/css\" href=\"IHE_Template_Style.css\"/>\n<!-- The absolute link to the CSS file is http://www.radreport.org/html/IHE_Template_Style.css -->\n<script type=\"text/xml\">\n<!--\n<template_attributes>\n<top-level-flag>true</top-level-flag>\n<status>ACTIVE</status>\n<coding_schemes>\n <coding_scheme name=\"RadLex\" designator=\"2.16.840.1.113883.6.256\" />\n <coding_scheme name=\"SNOMEDCT\" designator=\"2.16.840.1.113883.6.96\" />\n <coding_scheme name=\"LOINC\" designator=\"2.16.840.1.113883.6.1\" />\n</coding_schemes>\n<term>\n <code meaning=\"cirrhosis\" value=\"RID3822\" scheme=\"RadLex\">\n</term>\n<term>\n <code meaning=\"computed tomography\" value=\"RID10321\" scheme=\"RadLex\">\n</term>\n<term>\n <code meaning=\"hepatocellular carcinoma\" value=\"RID4271\" scheme=\"RadLex\">\n</term>\n<term>\n <code meaning=\"liver\" value=\"RID58\" scheme=\"RadLex\">\n</term>\n<coded_content>\n<entry ORIGTXT=\"T11_4\">\n <term>\n  <code meaning=\"contrast agent\" value=\"RID11582\" scheme=\"RadLex\">\n </term>\n</entry>\n<entry ORIGTXT=\"T11_8\">\n <term>\n  <code meaning=\"clinical information\" value=\"RID13166\" scheme=\"RadLex\">\n </term>\n</entry>\n<entry ORIGTXT=\"T11_13\">\n <term>\n  <code meaning=\"comparison\" value=\"RID28483\" scheme=\"RadLex\">\n </term>\n</entry>\n<entry ORIGTXT=\"T11_24\">\n <term>\n  <code meaning=\"liver\" value=\"RID58\" scheme=\"RadLex\">\n </term>\n <term>\n  <code meaning=\"morphology\" value=\"RID28825\" scheme=\"RadLex\">\n </term>\n</entry>\n<entry ORIGTXT=\"T11_40\">\n <term>\n  <code meaning=\"absent\" value=\"RID28473\" scheme=\"RadLex\">\n </term>\n</entry>\n<entry ORIGTXT=\"T11_42\">\n <term>\n  <code meaning=\"portal hypertension\" value=\"RID34614\" scheme=\"RadLex\">\n </term>\n</entry>\n<entry ORIGTXT=\"T11_43\">\n <term>\n  <code meaning=\"spleen\" value=\"RID86\" scheme=\"RadLex\">\n </term>\n</entry>\n<entry ORIGTXT=\"T11_44\">\n <term>\n  <code meaning=\"size descriptor\" value=\"RID5772\" scheme=\"RadLex\">\n </term>\n</entry>\n<entry ORIGTXT=\"T11_53\">\n  <term>\n  <code meaning=\"Ascites (disorder)\" value=\"389026000\" scheme=\"SNOMEDCT\">\n </term>\n</entry>\n<entry ORIGTXT=\"T11_59\">\n <term>\n  <code meaning=\"collateral\" value=\"RID3375\" scheme=\"RadLex\">\n </term>\n <term>\n  <code meaning=\"vasculature\" value=\"RID15989\" scheme=\"RadLex\">\n </term>\n</entry>\n<entry ORIGTXT=\"T11_64\">\n <term>\n  <code meaning=\"spontaneous\" value=\"RID5666\" scheme=\"RadLex\">\n </term>\n <term>\n  <code meaning=\"shunt\" value=\"RID4969\" scheme=\"RadLex\">\n </term>\n</entry>\n<entry ORIGTXT=\"T11_109\">\n  <term>\n  <code meaning=\"Entire gallbladder (body structure)\" value=\"181269000\" scheme=\"SNOMEDCT\">\n </term>\n</entry>\n<entry ORIGTXT=\"T11_111\">\n  <term>\n  <code meaning=\"Entire biliary system (body structure)\" value=\"361354009\" scheme=\"SNOMEDCT\">\n </term>\n</entry>\n<entry ORIGTXT=\"T11_113\">\n  <term>\n  <code meaning=\"Entire pancreas (body structure)\" value=\"181277001\" scheme=\"SNOMEDCT\">\n </term>\n</entry>\n<entry ORIGTXT=\"T11_115\">\n  <term>\n  <code meaning=\"Both kidneys (body structure)\" value=\"17373004\" scheme=\"SNOMEDCT\">\n </term>\n</entry>\n<entry ORIGTXT=\"T11_117\">\n  <term>\n  <code meaning=\"Entire urinary tract proper (body structure)\" value=\"432045005\" scheme=\"SNOMEDCT\">\n </term>\n</entry>\n<entry ORIGTXT=\"T11_128\">\n  <term>\n  <code meaning=\"Bilateral adrenal glands (body structure)\" value=\"134315000\" scheme=\"SNOMEDCT\">\n </term>\n</entry>\n<entry ORIGTXT=\"T11_130\">\n  <term>\n  <code meaning=\"Entire gastrointestinal tract (body structure)\" value=\"279972009\" scheme=\"SNOMEDCT\">\n </term>\n</entry>\n<entry ORIGTXT=\"T11_132\">\n <term>\n  <code meaning=\"peritoneum\" value=\"RID410\" scheme=\"RadLex\">\n </term>\n <term>\n  <code meaning=\"retroperitoneum\" value=\"RID431\" scheme=\"RadLex\">\n </term>\n</entry>\n<entry ORIGTXT=\"T11_134\">\n <term>\n  <code meaning=\"set of pelvic viscera\" value=\"RID30970\" scheme=\"RadLex\">\n </term>\n</entry>\n<entry ORIGTXT=\"T11_136\">\n  <term>\n  <code meaning=\"Tissue of urinary bladder (body structure)\" value=\"314398008\" scheme=\"SNOMEDCT\">\n </term>\n</entry>\n<entry ORIGTXT=\"T11_138\">\n <term>\n  <code meaning=\"set of pelvic viscera\" value=\"RID30970\" scheme=\"RadLex\">\n </term>\n</entry>\n<entry ORIGTXT=\"T11_153\">\n <term>\n  <code meaning=\"musculoskeletal system\" value=\"RID13209\" scheme=\"RadLex\">\n </term>\n</entry>\n<entry ORIGTXT=\"T11_155\">\n  <term>\n  <code meaning=\"Entire base of lung (body structure)\" value=\"314791004\" scheme=\"SNOMEDCT\">\n </term>\n</entry>\n<entry ORIGTXT=\"T11_272\">\n <term>\n  <code meaning=\"impression section\" value=\"RID13170\" scheme=\"RadLex\">\n </term>\n</entry>\n<entry ORIGTXT=\"T11_279\">\n <term>\n  <code meaning=\"Radiology Study recommendation (narrative)\" value=\"18783-1\" scheme=\"LOINC\">\n </term>\n</entry>\n</coded_content>\n</template_attributes>\n-->\n</script>\n<title>CT Liver Surveillance</title>\n</head>\n<body>\n<section data-section-name=\"Procedure\">\n<header class=\"level1\">CT Liver Surveillance</header>\n<p>\n<label for=\"T11_4\">IV contrast: </label>\n<input type=\"text\" id=\"T11_4\" name=\"IV contrast\" value=\"\"/>\n</p>\n</section>\n<section data-section-name=\"Clinical information\">\n<header class=\"level1\">Clinical information</header>\n<p>\n<textarea id=\"T11_8\" name=\"Clinical information\">Surveillance for hepatocellular carcinoma. </textarea>\n</p>\n</section>\n<section data-section-name=\"Comparison\">\n<header class=\"level1\">Comparison</header>\n<p>\n<textarea id=\"T11_13\" name=\"Comparison\">None. </textarea>\n</p>\n</section>\n<section data-section-name=\"Findings\">\n<header class=\"level1\">Findings</header>\n<p>\n<label for=\"T11_24\">Liver morphology: </label>\n<input type=\"text\" id=\"T11_24\" name=\"Liver morphology\" value=\"Normal. No evidence of cirrhosis, nodular regeneration, or lobar or segmental atrophy. \"/>\n</p>\n<p>\n<label for=\"T11_40\">Liver lesions: </label>\n<input type=\"text\" id=\"T11_40\" name=\"Liver lesions\" value=\"None. \"/>\n</p>\n\n<p>\n<label for=\"T11_42\">Portal hypertension: </label>\n<input type=\"text\" id=\"T11_42\" name=\"Portal hypertension\" value=\"\"/>\n</p>\n<p>\n<label for=\"T11_43\">Spleen: </label>\n<input type=\"text\" id=\"T11_43\" name=\"Spleen\" value=\"\"/>\n</p>\n<p>\n<label for=\"T11_44\">Spleen size: </label>\n<input type=\"number\" id=\"T11_44\" name=\"Spleen size\" data-field-units=\"cm\" min=\"\" max=\"\"/> <label for=\"T11_44\">cm</label>\n</p>\n<p>\n<label for=\"T11_53\">Ascites: </label>\n<input type=\"text\" id=\"T11_53\" name=\"Ascites\" value=\"None. \"/>\n</p>\n<p>\n<label for=\"T11_59\">Collateral veins: </label>\n<input type=\"text\" id=\"T11_59\" name=\"Collateral veins\" value=\"None. \"/>\n</p>\n<p>\n<label for=\"T11_64\">Spontaneous shunt: </label>\n<input type=\"text\" id=\"T11_64\" name=\"Spontaneous shunt\" value=\"None. \"/>\n</p>\n<p>\n<label for=\"T11_109\">Gallbladder:</label>\n<input type=\"text\" id=\"T11_109\" name=\"Gallbladder\" value=\"Normal. \"/>\n</p>\n<p>\n<label for=\"T11_111\">Biliary system:</label>\n<input type=\"text\" id=\"T11_111\" name=\"Biliary system\" value=\"Normal.\"/>\n</p>\n<p>\n<label for=\"T11_113\">Pancreas:</label>\n<input type=\"text\" id=\"T11_113\" name=\"Pancreas\" value=\"Normal\"/>\n</p>\n<p>\n<label for=\"T11_115\">Kidneys</label>\n<input type=\"text\" id=\"T11_115\" name=\"Kidneys\" value=\"Normal.\"/>\n</p>\n<p>\n<label for=\"T11_117\">Urinary tract:</label>\n<input type=\"text\" id=\"T11_117\" name=\"Urinary tract\" value=\"Normal.\"/>\n</p>\n<p>\n<label for=\"T11_128\">Adrenal glands:</label>\n<input type=\"text\" id=\"T11_128\" name=\"Adrenal glands\" value=\"Normal. \"/>\n</p>\n<p>\n<label for=\"T11_130\">GI tract:</label>\n<input type=\"text\" id=\"T11_130\" name=\"GI tract\" value=\"Normal.\"/>\n</p>\n<p>\n<label for=\"T11_132\">Peritoneum or retroperitoneum:</label>\n<input type=\"text\" id=\"T11_132\" name=\"Peritoneum or retroperitoneum\" value=\"Normal.\"/>\n</p>\n<p>\n<label for=\"T11_134\">Pelvic structures:</label>\n<input type=\"text\" id=\"T11_134\" name=\"Pelvic structures\" value=\"Normal. \"/>\n</p>\n<p>\n<label for=\"T11_136\">Bladder:</label>\n<input type=\"text\" id=\"T11_136\" name=\"Bladder\" value=\"Normal.\"/>\n</p>\n<p>\n<label for=\"T11_138\">Pelvic structures:</label>\n<input type=\"text\" id=\"T11_138\" name=\"Pelvic structures\" value=\"Normal.\"/>\n</p>\n<p>\n<label for=\"T11_153\">Musculoskeletal:</label>\n<input type=\"text\" id=\"T11_153\" name=\"Musculoskeletal\" value=\"Normal/\"/>\n</p>\n<p>\n<label for=\"T11_155\">Visualized lower thorax:</label>\n<input type=\"text\" id=\"T11_155\" name=\"Visualized lower thorax\" value=\"Normal.\"/>\n</p>\n</section>\n<section data-section-name=\"Impression\">\n<header class=\"level1\">Impression</header>\n<p>\n<textarea id=\"T11_272\" name=\"Impression\"> </textarea>\n</p>\n<p>\n<label for=\"T11_279\">Recommendation:</label>\n<input type=\"text\" id=\"T11_279\" name=\"Recommendation\" value=\"\"/>\n</p>\n</section>\n</body>\n</html>\n",
+    "organizations": [
+        {
+            "id": "281",
+            "name": "Society of Abdominal Radiology",
+            "code": "SAR"
+        },
+        {
+            "id": "160",
+            "name": "Radiological Society of North America",
+            "code": "RSNA"
+        }
+    ],
+    "specialty": [
+        {
+            "code": "CT",
+            "name": "Computed Tomography"
+        },
+        {
+            "code": "GI",
+            "name": "Gastrointestinal Radiology"
+        },
+        {
+            "code": "OI",
+            "name": "Oncologic Imaging"
+        }
+    ],
+    "coauthors": [],
+    "cdeSets": [],
+    "translators": [],
+    "references": [],
+    "procedures": [],
+    "radlex": [
+        {
+            "id": "RID10321",
+            "prefLabel": "computed tomography"
+        },
+        {
+            "id": "RID58",
+            "prefLabel": "liver"
+        },
+        {
+            "id": "RID4271",
+            "prefLabel": "hepatocellular carcinoma"
+        },
+        {
+            "id": "RID3822",
+            "prefLabel": "cirrhosis"
+        }
+    ],
+    "isFavorite": "0"
+}

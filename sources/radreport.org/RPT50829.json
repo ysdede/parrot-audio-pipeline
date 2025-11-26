@@ -1,0 +1,252 @@
+{
+    "currentVersion": {
+        "created": "2021-09-27 18:38:40",
+        "template_version": "227a26eb-1fc2-11ec-a1f6-0eaa5a9daa9c"
+    },
+    "prevVersions": [],
+    "template_id": "RPT50829",
+    "selectedVersion": "227a26eb-1fc2-11ec-a1f6-0eaa5a9daa9c",
+    "is_public": null,
+    "TLAP_Approved": null,
+    "published_at": "2021-09-30 14:00:00",
+    "title": "CT Angiography or CT Enterography - GI Bleed",
+    "template_status": null,
+    "description": "This CT angiography or CT enterography structured report template was created by members of the Society of Abdominal Radiology GI Bleeding Disease-Focused Panel. Instructions for using this template are included throughout the document. The purpose of this template is to provide a framework for reporting CT angiography or CT enterography in patients with GI bleeding. This template should be modified to comply with individual institutional requirements. ",
+    "author": "rsna_00005112",
+    "firstname": "Flavius F.",
+    "lastname": "Guglielmo",
+    "originalAuthor": "rsna_00005112",
+    "originalAuthorFirstname": "Flavius F.",
+    "originalAuthorLastName": "Guglielmo",
+    "views": "11184",
+    "downloads": "5863",
+    "created": "2021-09-27 18:38:40",
+    "dataType": "html",
+    "reviewInProgress": null,
+    "englishName": "English",
+    "langCode": "en",
+    "favCount": "2",
+    "templateData": "<!DOCTYPE html>\n<html>\n    <head>\n        <title>CT Angiography or CT Enterography - GI Bleed</title>\n        <meta charset=\"UTF-8\" />\n        <meta name=\"dcterms.identifier\" content=\"f14eeaa4-55de-4b38-87c8-1cb9f8ac324b\" />\n        <meta name=\"dcterms.title\" content=\"CT Angiography or CT Enterography - GI Bleed\" />\n        <meta name=\"dcterms.description\" content=\"\" />\n        <meta name=\"dcterms.type\" content=\"IMAGE_REPORT_TEMPLATE\" />\n        <meta name=\"dcterms.language\" content=\"en\" />\n        <meta name=\"dcterms.publisher\" content=\"SAR GI Bleeding Disease-Focused Panel\" />\n        <meta name=\"dcterms.rights\" content=\"May be used freely, subject to license agreement\" />\n        <meta name=\"dcterms.license\" content=\"http://www.radreport.org/license.pdf\" />\n        <meta name=\"dcterms.date\" content=\"2021-09-27\" />\n        <meta name=\"dcterms.creator\" content=\"Flavius F. Guglielmo, MD\" />\n        <script type=\"text/xml\">\n            <template_attributes>\n                <coded_content>\n                    <coding_schemes>\n                        <coding_scheme name=\"RADLEX\" designator=\"2.16.840.1.113883.6.256\"></coding_scheme>\n                        <coding_scheme name=\"LOINC\" designator=\"2.16.840.1.113883.6.1\"></coding_scheme>\n                    </coding_schemes>\n                    <entry origtxt=\"TEXT_1572484216324\">\n                        <term>\n                            <code meaning=\"observations section\" value=\"http://radlex.org/RID/RID28486\" scheme=\"RADLEX\"></code>\n                        </term>\n                    </entry>\n                    <entry origtxt=\"findings\">\n                        <term>\n                            <code meaning=\"Procedure Findings\" value=\"59776-5\" scheme=\"LOINC\"></code>\n                        </term>\n                    </entry>\n                    <entry origtxt=\"RADIO_1572484216321\">\n                        <term>\n                            <code meaning=\"imaging technique descriptor\" value=\"http://radlex.org/RID/RID28642\" scheme=\"RADLEX\"></code>\n                        </term>\n                    </entry>\n                    <entry origtxt=\"RADIO_1572484216321_0\">\n                        <term>\n                            <code meaning=\"angiography\" value=\"http://radlex.org/RID/RID10371\" scheme=\"RADLEX\"></code>\n                        </term>\n                    </entry>\n                    <entry origtxt=\"RADIO_1572484216321_1\">\n                        <term>\n                            <code meaning=\"dynamic contrast-enhanced magnetic resonance imaging\" value=\"http://radlex.org/RID/RID49531\" scheme=\"RADLEX\"></code>\n                        </term>\n                    </entry>\n                    <entry origtxt=\"clinicalInformationText\">\n                        <term>\n                            <code meaning=\"clinical information section\" value=\"http://radlex.org/RID/RID13166\" scheme=\"RADLEX\"></code>\n                        </term>\n                    </entry>\n                    <entry origtxt=\"procedureInformation\">\n                        <term>\n                            <code meaning=\"Current Imaging Procedure Description\" value=\"55111-9\" scheme=\"LOINC\"></code>\n                        </term>\n                    </entry>\n                    <entry origtxt=\"RADIO_1572484216316\">\n                        <term>\n                            <code meaning=\"imaging procedure\" value=\"http://radlex.org/RID/RID13060\" scheme=\"RADLEX\"></code>\n                        </term>\n                    </entry>\n                    <entry origtxt=\"RADIO_1572484216316_0\">\n                        <term>\n                            <code meaning=\"angiography\" value=\"http://radlex.org/RID/RID10371\" scheme=\"RADLEX\"></code>\n                        </term>\n                    </entry>\n                    <entry origtxt=\"RADIO_1572484216316_1\">\n                        <term>\n                            <code meaning=\"enterography\" value=\"http://radlex.org/RID/RID28549\" scheme=\"RADLEX\"></code>\n                        </term>\n                    </entry>\n                    <entry origtxt=\"comparisons\">\n                        <term>\n                            <code meaning=\"Radiology Comparison Study\" value=\"18834-2\" scheme=\"LOINC\"></code>\n                        </term>\n                    </entry>\n                    <entry origtxt=\"impression\">\n                        <term>\n                            <code meaning=\"Impressions\" value=\"19005-8\" scheme=\"LOINC\"></code>\n                        </term>\n                    </entry>\n                    <entry origtxt=\"TEXT_1631631997888\">\n                        <term>\n                            <code meaning=\"observations section\" value=\"http://radlex.org/RID/RID28486\" scheme=\"RADLEX\"></code>\n                        </term>\n                    </entry>\n                    <entry origtxt=\"TEXT_1572227404910\">\n                        <term>\n                            <code meaning=\"oral contrast\" value=\"http://radlex.org/RID/RID35817\" scheme=\"RADLEX\"></code>\n                        </term>\n                    </entry>\n                    <entry origtxt=\"TEXT_1572227404909\">\n                        <term>\n                            <code meaning=\"intravenous contrast\" value=\"http://radlex.org/RID/RID49553\" scheme=\"RADLEX\"></code>\n                        </term>\n                    </entry>\n                    <entry origtxt=\"TEXT_1626355957006\">\n                        <term>\n                            <code meaning=\"GI-bleed\" value=\"http://radlex.org/RID/RID43369\" scheme=\"RADLEX\"></code>\n                        </term>\n                    </entry>\n                    <entry origtxt=\"TEXT_1626355957008\">\n                        <term>\n                            <code meaning=\"intraluminal\" value=\"http://radlex.org/RID/RID11135\" scheme=\"RADLEX\"></code>\n                        </term>\n                    </entry>\n                    <entry origtxt=\"TEXT_1626355957007\">\n                        <term>\n                            <code meaning=\"location\" value=\"http://radlex.org/RID/RID39038\" scheme=\"RADLEX\"></code>\n                        </term>\n                    </entry>\n                    <entry origtxt=\"comparisonsText\">\n                        <term>\n                            <code meaning=\"most recent comparison\" value=\"http://radlex.org/RID/RID50133\" scheme=\"RADLEX\"></code>\n                        </term>\n                    </entry>\n                    <entry origtxt=\"clinicalInformation\">\n                        <term>\n                            <code meaning=\"Clinical Information\" value=\"55752-0\" scheme=\"LOINC\"></code>\n                        </term>\n                    </entry>\n                    <entry origtxt=\"TEXT_1631631997887\">\n                        <term>\n                            <code meaning=\"impression\" value=\"http://radlex.org/RID/RID49895\" scheme=\"RADLEX\"></code>\n                        </term>\n                    </entry>\n                </coded_content>\n            </template_attributes>\n        </script>\n    </head>\n    <body>\n        <section id=\"procedureInformation\" class=\"level1\" data-section-name=\"Procedure Information\">\n            <header class=\"level1\">\n                Procedure Information\n            </header>\n            <p title=\"\">\n                <label for=\"RADIO_1572484216316\">Exam</label>\n                <span id=\"RADIO_1572484216316\" name=\"\" data-field-type=\"RADIO\" data-field-completion-action=\"NONE\" value=\"\">\n                    <br />\n                    <input id=\"RADIO_1572484216316_0\" type=\"radio\" name=\"RADIO_1572484216316\" value=\"CT Angiography\" checked=\"\">CT Angiography</input>\n                    <br />\n                    <input id=\"RADIO_1572484216316_1\" type=\"radio\" name=\"RADIO_1572484216316\" value=\"CT Enterography\">CT Enterography</input>\n                </span>\n            </p>\n            <p title=\"\">\n                <label for=\"RADIO_1572484216321\">Technique</label>\n                <span id=\"RADIO_1572484216321\" name=\"\" data-field-type=\"RADIO\" data-field-completion-action=\"NONE\" value=\"\">\n                    <br />\n                    <input id=\"RADIO_1572484216321_0\" type=\"radio\" name=\"RADIO_1572484216321\" value=\"Contrast Enhanced CT Angiography\" checked=\"\">Contrast Enhanced CT Angiography</input>\n                    <br />\n                    <input id=\"RADIO_1572484216321_1\" type=\"radio\" name=\"RADIO_1572484216321\" value=\"Contrast Enhanced CT Enterography\">Contrast Enhanced CT Enterography</input>\n                </span>\n            </p>\n            <p title=\"\">\n                <label for=\"TEXT_1572227404909\">IV contrast material (agent and volume administered)</label>\n                <input type=\"text\" id=\"TEXT_1572227404909\" name=\"\" data-field-type=\"TEXT\" data-field-completion-action=\"NONE\" value=\"\" />\n            </p>\n            <p title=\"\">\n                <label for=\"TEXT_1572227404910\">Oral contrast material (name and amount administered)</label>\n                <input type=\"text\" id=\"TEXT_1572227404910\" name=\"\" data-field-type=\"TEXT\" data-field-completion-action=\"NONE\" value=\"\" />\n            </p>\n        </section>\n        <section id=\"clinicalInformation\" class=\"level1\" data-section-name=\"Clinical Information\">\n            <header class=\"level1\">\n                Clinical Information\n            </header>\n            <p title=\"\">\n                <label for=\"clinicalInformationText\"></label>\n                <textarea rows=\"3\" cols=\"100\" id=\"clinicalInformationText\" name=\"\" data-field-type=\"TEXTAREA\" data-field-completion-action=\"NONE\">Rule out gastrointestinal bleed</textarea>\n            </p>\n        </section>\n        <section id=\"comparisons\" class=\"level1\" data-section-name=\"Comparison\">\n            <header class=\"level1\">\n                Comparison\n            </header>\n            <p title=\"\">\n                <label for=\"comparisonsText\"></label>\n                <input type=\"text\" id=\"comparisonsText\" name=\"\" data-field-type=\"TEXT\" data-field-completion-action=\"NONE\" value=\"None\" />\n            </p>\n        </section>\n        <section id=\"findings\" class=\"level1\" data-section-name=\"Findings\">\n            <header class=\"level1\">\n                Findings\n            </header>\n            <p title=\"\">\n                <label for=\"TEXT_1631631997888\"></label>\n                <textarea rows=\"3\" cols=\"100\" id=\"TEXT_1631631997888\" name=\"\" data-field-type=\"TEXTAREA\" data-field-completion-action=\"NONE\"></textarea>\n            </p>\n            <section id=\"SECTION_HEADER_1579014383889\" class=\"level2\" data-section-name=\"There is no contrast extravasation or intraluminal blood. The bowel is normal in appearance without evidence of inflammation, vascular malformation, or mass. (INSTRUCTIONS: If there is contrast extravasation or intraluminal blood, or if there are abnormal bowel segments, delete one or both of these sentences.)\">\n                <header class=\"level2\">\n                    There is no contrast extravasation or intraluminal blood. The bowel is normal in appearance without evidence of inflammation, vascular malformation, or mass. (INSTRUCTIONS: If there is contrast extravasation or intraluminal blood, or if there are abnormal bowel segments, delete one or both of these sentences.)\n                </header>\n            </section>\n            <section id=\"SECTION_HEADER_1579111956053\" class=\"level2\" data-section-name=\"_________________________________________________________________________________________________________________________________\">\n                <header class=\"level2\">\n                    _________________________________________________________________________________________________________________________________\n                </header>\n            </section>\n            <section id=\"SECTION_HEADER_1574954488887\" class=\"level2\" data-section-name=\"INSTRUCTIONS FOR REPORTING THE FOLLOWING FINDINGS: If there is contrast extravasation and/or intraluminal blood with or without a sentinel clot, report the amount and location within the bowel. For contrast extravasation, describe whether this is likely an arterial or venous source of bleeding. If the associated cause of GI bleeding is identified, report the etiology and location. If a potential cause of GI bleeding is identified without associated active extravasation and/or intraluminal blood, report the lesion diagnosis and location. Consider including the series number(s) and image number(s) for important findings.\">\n                <header class=\"level2\">\n                    INSTRUCTIONS FOR REPORTING THE FOLLOWING FINDINGS: If there is contrast extravasation and/or intraluminal blood with or without a sentinel clot, report the amount and location within the bowel. For contrast extravasation, describe whether this is likely an arterial or venous source of bleeding. If the associated cause of GI bleeding is identified, report the etiology and location. If a potential cause of GI bleeding is identified without associated active extravasation and/or intraluminal blood, report the lesion diagnosis and location. Consider including the series number(s) and image number(s) for important findings.\n                </header>\n            </section>\n            <p title=\"\">\n                <label for=\"TEXT_1626355957006\">Imaging findings of active bleeding and location</label>\n                <textarea rows=\"3\" cols=\"100\" id=\"TEXT_1626355957006\" name=\"\" data-field-type=\"TEXTAREA\" data-field-completion-action=\"NONE\">Not present</textarea>\n            </p>\n            <p title=\"\">\n                <label for=\"TEXT_1626355957007\">Suspected GI bleeding etiology and location</label>\n                <input type=\"text\" id=\"TEXT_1626355957007\" name=\"\" data-field-type=\"TEXT\" data-field-completion-action=\"NONE\" value=\"None\" />\n            </p>\n            <p title=\"\">\n                <label for=\"TEXT_1626355957008\">Location of intraluminal blood, with or without a sentinel clot</label>\n                <input type=\"text\" id=\"TEXT_1626355957008\" name=\"\" data-field-type=\"TEXT\" data-field-completion-action=\"NONE\" value=\"Not present\" />\n            </p>\n            <p title=\"\">\n                <label for=\"TEXT_1626355957009\">Other potential causes of GI bleeding</label>\n                <input type=\"text\" id=\"TEXT_1626355957009\" name=\"\" data-field-type=\"TEXT\" data-field-completion-action=\"NONE\" value=\"None\" />\n            </p>\n            <section id=\"SECTION_HEADER_1574954488884\" class=\"level2\" data-section-name=\"_________________________________________________________________________________________________________________________________\">\n                <header class=\"level2\">\n                    _________________________________________________________________________________________________________________________________\n                </header>\n            </section>\n            <section id=\"SECTION_HEADER_1574954488889\" class=\"level2\" data-section-name=\"SAMPLE FINDINGS 1:\">\n                <header class=\"level2\">\n                    SAMPLE FINDINGS 1:\n                </header>\n            </section>\n            <section id=\"SECTION_HEADER_1574954488881\" class=\"level2\" data-section-name=\"There is intraluminal blood in the proximal duodenum with a sentinel clot in the duodenal bulb. There is associated contrast extravasation in the duodenal bulb on arterial phase images consistent with active bleeding (image #, series #). These findings are caused by a 10 mm duodenal bulb ulcer (image #, series #).\">\n                <header class=\"level2\">\n                    There is intraluminal blood in the proximal duodenum with a sentinel clot in the duodenal bulb. There is associated contrast extravasation in the duodenal bulb on arterial phase images consistent with active bleeding (image #, series #). These findings are caused by a 10 mm duodenal bulb ulcer (image #, series #).\n                </header>\n            </section>\n            <section id=\"SECTION_HEADER_1575163279101\" class=\"level2\" data-section-name=\"SAMPLE FINDINGS 2:\">\n                <header class=\"level2\">\n                    SAMPLE FINDINGS 2:\n                </header>\n            </section>\n            <section id=\"SECTION_HEADER_1575163279105\" class=\"level2\" data-section-name=\"There is a large amount of intraluminal blood in the ascending and transverse colon with a sentinel clot in the hepatic flexure. There is a diverticulum in the hepatic flexure which has associated contrast extravasation on arterial phase images consistent with active bleeding (image #, series #).\">\n                <header class=\"level2\">\n                    There is a large amount of intraluminal blood in the ascending and transverse colon with a sentinel clot in the hepatic flexure. There is a diverticulum in the hepatic flexure which has associated contrast extravasation on arterial phase images consistent with active bleeding (image #, series #).\n                </header>\n            </section>\n            <section id=\"SECTION_HEADER_1575163279100\" class=\"level2\" data-section-name=\"SAMPLE FINDINGS 3:\">\n                <header class=\"level2\">\n                    SAMPLE FINDINGS 3:\n                </header>\n            </section>\n            <section id=\"SECTION_HEADER_1575163279104\" class=\"level2\" data-section-name=\"There is contrast extravasation in the stomach antrum on arterial phase images consistent with active bleeding (image #, series #). However, there is no associated bowel lesion.\">\n                <header class=\"level2\">\n                    There is contrast extravasation in the stomach antrum on arterial phase images consistent with active bleeding (image #, series #). However, there is no associated bowel lesion.\n                </header>\n            </section>\n            <section id=\"SECTION_HEADER_1626355956985\" class=\"level2\" data-section-name=\"SAMPLE FINDINGS 4:\">\n                <header class=\"level2\">\n                    SAMPLE FINDINGS 4:\n                </header>\n            </section>\n            <section id=\"SECTION_HEADER_1626355956987\" class=\"level2\" data-section-name=\"There is intraluminal blood in the proximal jejunum (image #, series #). However, there is no associated contrast extravasation or bowel lesion.\">\n                <header class=\"level2\">\n                    There is intraluminal blood in the proximal jejunum (image #, series #). However, there is no associated contrast extravasation or bowel lesion.\n                </header>\n            </section>\n            <section id=\"SECTION_HEADER_1626355956988\" class=\"level2\" data-section-name=\"_________________________________________________________________________________________________________________________________\">\n                <header class=\"level2\">\n                    _________________________________________________________________________________________________________________________________\n                </header>\n            </section>\n            <p title=\"\">\n                <label for=\"TEXT_1572484216324\">Other findings</label>\n                <textarea rows=\"3\" cols=\"100\" id=\"TEXT_1572484216324\" name=\"\" data-field-type=\"TEXTAREA\" data-field-completion-action=\"NONE\">The lower thorax, liver, spleen, biliary system, gallbladder, pancreas, kidneys, adrenals and urinary bladder appear within normal limits. The abdominal vessels and bones appear within normal limits. There is no intra-abdominal fluid collection or lymphadenopathy.</textarea>\n            </p>\n            <section id=\"SECTION_HEADER_1626355957017\" class=\"level2\" data-section-name=\"_________________________________________________________________________________________________________________________________\">\n                <header class=\"level2\">\n                    _________________________________________________________________________________________________________________________________\n                </header>\n            </section>\n        </section>\n        <section id=\"impression\" class=\"level1\" data-section-name=\"Impression\">\n            <header class=\"level1\">\n                Impression\n            </header>\n            <p title=\"\">\n                <label for=\"TEXT_1631631997887\"></label>\n                <textarea rows=\"3\" cols=\"100\" id=\"TEXT_1631631997887\" name=\"\" data-field-type=\"TEXTAREA\" data-field-completion-action=\"NONE\"></textarea>\n            </p>\n            <section id=\"SECTION_HEADER_1626361233100\" class=\"level2\" data-section-name=\"No evidence of active GI bleeding or intraluminal blood. No finding to account for GI bleeding. (INSTRUCTIONS: If there is active GI bleeding or intraluminal blood, and/or if there are abnormal bowel segments, delete one or both of these sentences.)\">\n                <header class=\"level2\">\n                    No evidence of active GI bleeding or intraluminal blood. No finding to account for GI bleeding. (INSTRUCTIONS: If there is active GI bleeding or intraluminal blood, and/or if there are abnormal bowel segments, delete one or both of these sentences.)\n                </header>\n            </section>\n            <section id=\"SECTION_HEADER_1575163279086\" class=\"level2\" data-section-name=\"_________________________________________________________________________________________________________________________________\">\n                <header class=\"level2\">\n                    _________________________________________________________________________________________________________________________________\n                </header>\n            </section>\n            <section id=\"SECTION_HEADER_1574954488878\" class=\"level2\" data-section-name=\"INSTRUCTIONS FOR CREATING IMPRESSION STATEMENTS WHEN ABNORMAL FINDINGS ARE PRESENT:\">\n                <header class=\"level2\">\n                    INSTRUCTIONS FOR CREATING IMPRESSION STATEMENTS WHEN ABNORMAL FINDINGS ARE PRESENT:\n                </header>\n            </section>\n            <section id=\"SECTION_HEADER_1626361233101\" class=\"level2\" data-section-name=\"For GI bleeding cases, the impression statement should indicate whether or not active bleeding is present and if there is an associated etiology that is causing the bleeding. If a bowel abnormality is present without associated active bleeding, this should be stated. The term &quot;active bleeding&quot;, which is familiar to treating physicians, should be used in the impression statement rather than &quot;active extravasation&quot;. &quot;Active extravasation&quot; or &quot;active contrast extravasation&quot; is an imaging finding, and can be used in the findings section of the report.\">\n                <header class=\"level2\">\n                    For GI bleeding cases, the impression statement should indicate whether or not active bleeding is present and if there is an associated etiology that is causing the bleeding. If a bowel abnormality is present without associated active bleeding, this should be stated. The term \"active bleeding\", which is familiar to treating physicians, should be used in the impression statement rather than \"active extravasation\". \"Active extravasation\" or \"active contrast extravasation\" is an imaging finding, and can be used in the findings section of the report.\n                </header>\n            </section>\n            <section id=\"SECTION_HEADER_1574954488879\" class=\"level2\" data-section-name=\"_________________________________________________________________________________________________________________________________\">\n                <header class=\"level2\">\n                    _________________________________________________________________________________________________________________________________\n                </header>\n            </section>\n            <section id=\"SECTION_HEADER_1574994665853\" class=\"level2\" data-section-name=\"SAMPLE IMPRESSION STATEMENT 1:\">\n                <header class=\"level2\">\n                    SAMPLE IMPRESSION STATEMENT 1:\n                </header>\n            </section>\n            <section id=\"SECTION_HEADER_1575163279089\" class=\"level2\" data-section-name=\"Active bleeding in the duodenal bulb caused by a duodenal bulb ulcer. There is associated intraluminal blood.\">\n                <header class=\"level2\">\n                    Active bleeding in the duodenal bulb caused by a duodenal bulb ulcer. There is associated intraluminal blood.\n                </header>\n            </section>\n            <section id=\"SECTION_HEADER_1575206825526\" class=\"level2\" data-section-name=\"\">\n                <header class=\"level2\">\n                </header>\n            </section>\n            <section id=\"SECTION_HEADER_1575206825522\" class=\"level2\" data-section-name=\"SAMPLE IMPRESSION STATEMENT 2:\">\n                <header class=\"level2\">\n                    SAMPLE IMPRESSION STATEMENT 2:\n                </header>\n            </section>\n            <section id=\"SECTION_HEADER_1575206825523\" class=\"level2\" data-section-name=\"Active bleeding in the hepatic flexure of the colon caused by a colonic diverticulum. There is associated intraluminal blood.\">\n                <header class=\"level2\">\n                    Active bleeding in the hepatic flexure of the colon caused by a colonic diverticulum. There is associated intraluminal blood.\n                </header>\n            </section>\n            <section id=\"SECTION_HEADER_1574994665859\" class=\"level2\" data-section-name=\"\">\n                <header class=\"level2\">\n                </header>\n            </section>\n            <section id=\"SECTION_HEADER_1575163279087\" class=\"level2\" data-section-name=\"SAMPLE IMPRESSION STATEMENT 3:\">\n                <header class=\"level2\">\n                    SAMPLE IMPRESSION STATEMENT 3:\n                </header>\n            </section>\n            <section id=\"SECTION_HEADER_1575163279096\" class=\"level2\" data-section-name=\"Active bleeding in the stomach antrum. However, there is no associated bowel lesion.\">\n                <header class=\"level2\">\n                    Active bleeding in the stomach antrum. However, there is no associated bowel lesion.\n                </header>\n            </section>\n            <section id=\"SECTION_HEADER_1575163279094\" class=\"level2\" data-section-name=\"\">\n                <header class=\"level2\">\n                </header>\n            </section>\n            <section id=\"SECTION_HEADER_1575163279090\" class=\"level2\" data-section-name=\"SAMPLE IMPRESSION STATEMENT 4:\">\n                <header class=\"level2\">\n                    SAMPLE IMPRESSION STATEMENT 4:\n                </header>\n            </section>\n            <section id=\"SECTION_HEADER_1574994665854\" class=\"level2\" data-section-name=\"Intraluminal blood in the proximal jejunum. However, there is no associated active bleeding or bowel lesion.\">\n                <header class=\"level2\">\n                    Intraluminal blood in the proximal jejunum. However, there is no associated active bleeding or bowel lesion.\n                </header>\n            </section>\n            <section id=\"SECTION_HEADER_1626361233102\" class=\"level2\" data-section-name=\"_________________________________________________________________________________________________________________________________\">\n                <header class=\"level2\">\n                    _________________________________________________________________________________________________________________________________\n                </header>\n            </section>\n        </section>\n    </body>\n</html>\n",
+    "organizations": [
+        {
+            "id": "279",
+            "name": "Thomas Jefferson University",
+            "code": "TJU"
+        },
+        {
+            "id": "301",
+            "name": "Mayo Clinic",
+            "code": null
+        },
+        {
+            "id": "365",
+            "name": "University of Washington ",
+            "code": null
+        },
+        {
+            "id": "366",
+            "name": "Pontificia Universidad Cat\u00f3lica de Chile",
+            "code": null
+        },
+        {
+            "id": "314",
+            "name": "Boston University Medical Center",
+            "code": null
+        },
+        {
+            "id": "311",
+            "name": "Duke University Medical Center",
+            "code": null
+        },
+        {
+            "id": "308",
+            "name": "Massachusetts General Hospital",
+            "code": null
+        },
+        {
+            "id": "367",
+            "name": "Beth Israel Deaconess Medical Center",
+            "code": null
+        },
+        {
+            "id": "368",
+            "name": "The Warren Alpert Medical School of Brown University/Rhode Island Hospital",
+            "code": null
+        },
+        {
+            "id": "319",
+            "name": "University of Ulsan College of Medicine",
+            "code": null
+        },
+        {
+            "id": "383",
+            "name": "Beaumont Health, Oakland University William Beaumont School of Medicine",
+            "code": null
+        }
+    ],
+    "specialty": [
+        {
+            "code": "AB",
+            "name": "Abdominal Radiology"
+        },
+        {
+            "code": "CT",
+            "name": "Computed Tomography"
+        },
+        {
+            "code": "ER",
+            "name": "Emergency Radiology"
+        },
+        {
+            "code": "GI",
+            "name": "Gastrointestinal Radiology"
+        },
+        {
+            "code": "VI",
+            "name": "Vascular Imaging"
+        }
+    ],
+    "coauthors": [
+        {
+            "id": null,
+            "fullname": "Michael L. Wells"
+        },
+        {
+            "id": null,
+            "fullname": "David H. Bruining"
+        },
+        {
+            "id": null,
+            "fullname": "Lisa L. Strate"
+        },
+        {
+            "id": null,
+            "fullname": "\u00c1lvaro Huete"
+        },
+        {
+            "id": null,
+            "fullname": "Avneesh Gupta"
+        },
+        {
+            "id": null,
+            "fullname": "Jorge A. Soto"
+        },
+        {
+            "id": null,
+            "fullname": "Brian C. Allen"
+        },
+        {
+            "id": null,
+            "fullname": "Mark A. Anderson"
+        },
+        {
+            "id": null,
+            "fullname": "Olga R. Brook"
+        },
+        {
+            "id": null,
+            "fullname": "Michael S. Gee"
+        },
+        {
+            "id": null,
+            "fullname": "David J. Grand"
+        },
+        {
+            "id": null,
+            "fullname": "Martin L. Gunn "
+        },
+        {
+            "id": null,
+            "fullname": "Ashish Khandelwal"
+        },
+        {
+            "id": null,
+            "fullname": "Seong Ho Park"
+        },
+        {
+            "id": null,
+            "fullname": "Vijay Ramalingam"
+        },
+        {
+            "id": null,
+            "fullname": "Farnoosh Sokhandon"
+        },
+        {
+            "id": null,
+            "fullname": "Don C. Yoo"
+        },
+        {
+            "id": null,
+            "fullname": "Jeff L. Fidler"
+        }
+    ],
+    "cdeSets": [],
+    "translators": [],
+    "references": [
+        "Gastrointestinal Bleeding at CT Angiography and CT Enterography: Imaging Atlas and Glossary of Terms Flavius F. Guglielmo, Michael L. Wells, David H. Bruining, Lisa L. Strate, \u00c1lvaro Huete, Avneesh Gupta, Jorge A. Soto, Brian C. Allen, Mark A. Anderson, Olga R. Brook, Michael S. Gee, David J. Grand, Martin L. Gunn, Ashish Khandelwal, Seong Ho Park, Vijay Ramalingam, Farnoosh Sokhandon, Don C. Yoo,  Jeff L. Fidler, MD RadioGraphics 2021:41(6) https://doi.org/10.1148/rg.2021210043"
+    ],
+    "procedures": [
+        {
+            "procedure_id": "36813-4",
+            "procedure_name": "CT Abdomen and Pelvis W contrast IV",
+            "source": "LOINC"
+        },
+        {
+            "procedure_id": "42274-1",
+            "procedure_name": "CT Abdomen and Pelvis WO and W contrast IV",
+            "source": "LOINC"
+        },
+        {
+            "procedure_id": "72250-4",
+            "procedure_name": "CT Small bowel W contrast PO and W contrast IV",
+            "source": "LOINC"
+        },
+        {
+            "procedure_id": "82689-1",
+            "procedure_name": "CT Small bowel W contrast PO and WO and W contrast IV",
+            "source": "LOINC"
+        },
+        {
+            "procedure_id": "69908-2",
+            "procedure_name": "CTA Abdominal vessels and Pelvis vessels W contrast IV",
+            "source": "LOINC"
+        },
+        {
+            "procedure_id": "82679-2",
+            "procedure_name": "CTA Abdominal vessels and Pelvis vessels WO and W contrast IV",
+            "source": "LOINC"
+        },
+        {
+            "procedure_id": "94687-1",
+            "procedure_name": "CTA Abdominal vessels and Pelvis vessels WO contrast",
+            "source": "LOINC"
+        }
+    ],
+    "radlex": [
+        {
+            "id": "RID94",
+            "prefLabel": "gastrointestinal tract"
+        },
+        {
+            "id": "RID43369",
+            "prefLabel": "GI-bleed"
+        },
+        {
+            "id": "RID10321",
+            "prefLabel": "computed tomography"
+        },
+        {
+            "id": "RID10371",
+            "prefLabel": "angiography"
+        },
+        {
+            "id": "RID28549",
+            "prefLabel": "enterography"
+        },
+        {
+            "id": "RID11583",
+            "prefLabel": "iodinated contrast agent"
+        }
+    ],
+    "isFavorite": "0"
+}

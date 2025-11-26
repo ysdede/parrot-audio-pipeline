@@ -1,0 +1,71 @@
+{
+    "currentVersion": {
+        "created": "2013-12-10 00:00:00",
+        "template_version": "e1c5a0f0-814f-11e9-af35-0eaa5a9daa9c"
+    },
+    "prevVersions": [],
+    "template_id": "RPT276",
+    "selectedVersion": "e1c5a0f0-814f-11e9-af35-0eaa5a9daa9c",
+    "is_public": "1",
+    "TLAP_Approved": "1",
+    "published_at": "2013-12-10 00:00:00",
+    "title": "US Paracentesis",
+    "template_status": null,
+    "description": null,
+    "author": "Tolat P",
+    "firstname": null,
+    "lastname": null,
+    "originalAuthor": "Tolat P",
+    "originalAuthorFirstname": null,
+    "originalAuthorLastName": null,
+    "views": "765",
+    "downloads": "5771",
+    "created": "2013-12-10 00:00:00",
+    "dataType": "html",
+    "reviewInProgress": null,
+    "englishName": "English",
+    "langCode": "en",
+    "favCount": "0",
+    "templateData": "<!DOCTYPE html>\r\n<html>\r\n    <head>\r\n\t\t<meta charset=\"UTF-8\"/>\r\n\t\t<meta content=\"US Paracentesis\" name=\"dcterms.title\"/>\r\n\t\t<meta content=\"US Paracentesis template :: Authored by Kahn CE Jr\" name=\"dcterms.description\"/>\r\n\t\t<meta content=\"http://www.radreport.org/template/0000276\" name=\"dcterms.identifier\"/>\r\n\t\t<meta content=\"en\" name=\"dcterms.language\"/>\r\n\t\t<meta content=\"IMAGE_REPORT_TEMPLATE\" name=\"dcterms.type\"/>\r\n\t\t<meta content=\"Radiological Society of North America (RSNA)\" name=\"dcterms.publisher\"/>\r\n\t\t<meta content=\"May be used gratis, subject to license agreement\" name=\"dcterms.rights\"/>\r\n\t\t<meta content=\"http://www.radreport.org/license.pdf\" name=\"dcterms.license\"/>\r\n\t\t<meta content=\"2013-12-10\" name=\"dcterms.date\"/>\r\n\t\t<meta content=\"Tolat P\" name=\"dcterms.creator\"/>\r\n\t\t<meta content=\"Kahn CE Jr [editor]\" name=\"dcterms.contributor\"/>\r\n\t\t<meta content=\"Medical College of Wisconsin (MCW)\" name=\"dcterms.contributor\"/>\r\n        <link rel=\"stylesheet\" type=\"text/css\" href=\"IHE_Template_Style.css\" />\r\n\t\t<!-- The absolute link to the CSS file is http://www.radreport.org/html/IHE_Template_Style.css -->\r\n        <script type=\"text/xml\">\r\n\t\t\t<!--\r\n\t\t\t<template_attributes>\r\n\t\t\t<top-level-flag>true</top-level-flag>\r\n\t\t\t<status>ACTIVE</status>\r\n\t\t\t<coded_content>\n</coded_content>\r\n\t\t\t</template_attributes>\r\n\t\t\t-->\r\n        </script>\r\n        <title>US Paracentesis</title>\r\n    </head>\r\n    <body>\r\n        <section data-section-name=\"Procedure\">\r\n            <header class=\"level1\">Ultrasound-guided paracentesis</header>\r\n        </section>\r\n\r\n        <section data-section-name=\"Clinical information\">\r\n            <header class=\"level1\">Clinical information</header>\r\n            <p>\r\n                <textarea id=\"T276_1\" name=\"Clinical information\">Ascites.</textarea>\r\n            </p>\r\n        </section>\r\n        <section data-section-name=\"Comparison\">\r\n            <header class=\"level1\">Comparison</header>\r\n            <p>\r\n                <textarea id=\"T276_2\" name=\"Comparison\">None.</textarea>\r\n            </p>\r\n        </section>\r\n\r\n        <section data-section-name=\"Findings\">\r\n            <header class=\"level1\">Procedure</header>\r\n\r\n            <section data-section-name=\"Informed consent\">\r\n                <header class=\"level2\">Informed consent</header>\r\n                <p>\r\n                    <select id=\"T276_3\" name=\"Consent\">\r\n                        <option id=\"T276_4\" name=\"Consent yes\" value=\"yes\" selected>The risks, benefits, and alternatives of the procedure were discussed with the patient. Verbal and written consent was obtained. </option>\r\n                        <option id=\"T276_5\" name=\"Consent POA\" value=\"POA\">The risks, benefits, and alternatives of the procedure were discussed with the patient's Power of Attorney. Verbal and written consent was obtained.</option>\r\n                        <option id=\"T276_6\" name=\"Consent no\" value=\"no\">Consent was not obtained.</option>\r\n                    </select>\r\n                </p>\r\n            </section>\r\n\r\n            <section data-section-name=\"Time-out\">\r\n                <header class=\"level2\">Time-out</header>\r\n                <p>\r\n                    <select id=\"T276_7\" name=\"Time-Out\">\r\n                        <option id=\"T276_8\" name=\"Time-Out yes\" value=\"yes\" selected>Time-out was performed to confirm the correct patient, procedure, and site. </option>\r\n                        <option id=\"T276_9\" name=\"Time-Out no\" value=\"no\">Not performed. </option>\r\n                    </select>\r\n                </p>\r\n            </section>\r\n\r\n            <section data-section-name=\"Preparation\">\r\n                <header class=\"level2\">Preparation</header>\r\n                <p>\r\n                    <textarea id=\"T276_10\" name=\"Preparation\">A suitable skin site was identified. The patient was prepped and draped in usual sterile fashion. Lidocaine 1% was used for local anaesthesia. </textarea>\r\n                </p>\r\n            </section>\r\n\r\n            <section data-section-name=\"Catheter\">\r\n                <header class=\"level2\">Catheter</header>\r\n                <p>\r\n                    <input type=\"text\" id=\"T276_11\" name=\"Catheter\" value=\"4 French One-Step catheter.\" />\r\n                </p>\r\n            </section>\r\n\r\n            <section data-section-name=\"Site\">\r\n                <header class=\"level2\">Site</header>\r\n                <p>\r\n                    <input type=\"text\" id=\"T276_12\" name=\"Site\" value=\"Right lower quadrant.\" />\r\n                </p>\r\n            </section>\r\n\r\n            <section data-section-name=\"Fluid\">\r\n                <header class=\"level2\">Fluid</header>\r\n                <p>\r\n                    <label for=\"T276_13\">Volume:</label>\r\n                    <input type=\"number\" id=\"T276_13\" name=\"Volume\" value=\"\" /> <label for=\"T276_13\">ml.</label> </p>\r\n                <p>\r\n                    <label>Color:</label>\r\n                    <input type=\"text\" id=\"T276_14\" name=\"Color\" value=\"\" />\r\n                </p>\r\n                <p>\r\n                    <label>Disposition:</label>\r\n                    <select id=\"T276_15\" name=\"Disposition\">\r\n                        <option id=\"T276_16\" name=\"discarded\" value=\"discarded\">Discarded safely.</option>\r\n                        <option id=\"T276_17\" name=\"labs\" value=\"labs\">Sent to the laboratory for analysis.\r\n                        </option>\r\n                    </select>\r\n                </p>\r\n            </section>\r\n\r\n            <section data-section-name=\"Complications\">\r\n                <header class=\"level2\">Complications</header>\r\n                <p>\r\n                    <input type=\"text\" id=\"T276_18\" name=\"Complications\" value=\"None.\" />\r\n                </p>\r\n            </section>\r\n\r\n            <section data-section-name=\"Patient disposition\">\r\n                <header class=\"level2\">Patient disposition</header>\r\n                <p>\r\n                    <input type=\"text\" id=\"T276_19\" name=\"Patient\" value=\"Discharged from the department in stable condition.\" />\r\n                </p>\r\n            </section>\r\n        </section>\r\n\r\n        <section data-section-name=\"Impression\">\r\n            <header class=\"level1\">Impression</header>\r\n            <p>\r\n                <textarea id=\"T276_20\" name=\"Impression\">Ultrasound-guided paracentesis.</textarea>\r\n            </p>\r\n        </section>\r\n    </body>\r\n</html>\r\n",
+    "organizations": [
+        {
+            "id": "274",
+            "name": "Medical College of Wisconsin",
+            "code": "MCW"
+        }
+    ],
+    "specialty": [
+        {
+            "code": "GI",
+            "name": "Gastrointestinal Radiology"
+        },
+        {
+            "code": "IR",
+            "name": "Interventional Radiology"
+        },
+        {
+            "code": "US",
+            "name": "Ultrasound"
+        }
+    ],
+    "coauthors": [],
+    "cdeSets": [],
+    "translators": [],
+    "references": [],
+    "procedures": [],
+    "radlex": [
+        {
+            "id": "RID35813",
+            "prefLabel": "paracentesis"
+        },
+        {
+            "id": "RID1541",
+            "prefLabel": "ascites"
+        },
+        {
+            "id": "RID10326",
+            "prefLabel": "ultrasound"
+        }
+    ],
+    "isFavorite": "0"
+}

@@ -1,0 +1,63 @@
+{
+    "currentVersion": {
+        "created": "2012-06-08 00:00:00",
+        "template_version": "e1c43cb2-814f-11e9-af35-0eaa5a9daa9c"
+    },
+    "prevVersions": [],
+    "template_id": "RPT226",
+    "selectedVersion": "e1c43cb2-814f-11e9-af35-0eaa5a9daa9c",
+    "is_public": "1",
+    "TLAP_Approved": "1",
+    "published_at": "2012-06-08 00:00:00",
+    "title": "Skull Xray",
+    "template_status": null,
+    "description": null,
+    "author": "Kahn CE Jr",
+    "firstname": null,
+    "lastname": null,
+    "originalAuthor": "Kahn CE Jr",
+    "originalAuthorFirstname": null,
+    "originalAuthorLastName": null,
+    "views": "1784",
+    "downloads": "5898",
+    "created": "2012-06-08 00:00:00",
+    "dataType": "html",
+    "reviewInProgress": null,
+    "englishName": "English",
+    "langCode": "en",
+    "favCount": "2",
+    "templateData": "<!DOCTYPE html>\n<html>\n<head>\n<meta charset=\"UTF-8\"/>\n<meta content=\"Skull Xray\" name=\"dcterms.title\"/>\n<meta content=\"Skull Xray template :: Authored by Kahn CE Jr\" name=\"dcterms.description\"/>\n<meta content=\"http://www.radreport.org/template/0000226\" name=\"dcterms.identifier\"/>\n<meta content=\"en\" name=\"dcterms.language\"/>\n<meta content=\"IMAGE_REPORT_TEMPLATE\" name=\"dcterms.type\"/>\n<meta content=\"Radiological Society of North America (RSNA)\" name=\"dcterms.publisher\"/>\n<meta content=\"May be used gratis, subject to license agreement\" name=\"dcterms.rights\"/>\n<meta content=\"http://www.radreport.org/license.pdf\" name=\"dcterms.license\"/>\n<meta content=\"2012-06-08\" name=\"dcterms.date\"/>\n<meta content=\"Kahn CE Jr\" name=\"dcterms.creator\"/>\n\n<meta content=\"Kahn CE Jr [editor]\" name=\"dcterms.contributor\"/>\n<meta content=\"Medical College of Wisconsin (MCW)\" name=\"dcterms.contributor\"/>\n<link rel=\"stylesheet\" type=\"text/css\" href=\"IHE_Template_Style.css\"/>\n<!-- The absolute link to the CSS file is http://www.radreport.org/html/IHE_Template_Style.css -->\n<script type=\"text/xml\">\r\n<!--\r\n<template_attributes>\n<top-level-flag>true</top-level-flag>\n<status>ACTIVE</status>\n<coding_schemes>\n <coding_scheme name=\"RadLex\" designator=\"2.16.840.1.113883.6.256\" />\n <coding_scheme name=\"SNOMEDCT\" designator=\"2.16.840.1.113883.6.96\" />\n <coding_scheme name=\"LOINC\" designator=\"2.16.840.1.113883.6.1\" />\n</coding_schemes>\n<term>\n <code meaning=\"projection radiography\" value=\"RID10345\" scheme=\"RadLex\">\n</term>\n<term>\n <code meaning=\"skull\" value=\"RID9196\" scheme=\"RadLex\">\n</term>\n<coded_content>\n<entry ORIGTXT=\"T226_2\">\n <term>\n  <code meaning=\"procedure\" value=\"RID1559\" scheme=\"RadLex\">\n </term>\n</entry>\n<entry ORIGTXT=\"T226_4\">\n  <term>\n  <code meaning=\"Clinical information\" value=\"55752-0\" scheme=\"LOINC\">\n </term>\n</entry>\n<entry ORIGTXT=\"T226_5\">\n <term>\n  <code meaning=\"comparison\" value=\"RID28483\" scheme=\"RadLex\">\n </term>\n</entry>\n<entry ORIGTXT=\"T226_7\">\n  <term>\n  <code meaning=\"Radiology Study observation (narrative)\" value=\"18782-3\" scheme=\"LOINC\">\n </term>\n</entry>\n<entry ORIGTXT=\"T226_9\">\n <term>\n  <code meaning=\"impression section\" value=\"RID13170\" scheme=\"RadLex\">\n </term>\n</entry>\n</coded_content>\n</template_attributes>\r\n-->\r\n</script>\n<title>Skull Xray</title>\n</head>\n<body>\n<section data-section-name=\"Procedure\">\n<header class=\"level1\">Skull Xray</header>\n<p>\n<textarea id=\"T226_2\" name=\"Procedure\">AP and lateral views of the skull were obtained. </textarea>\n</p>\n</section>\n<section data-section-name=\"Clinical information\">\n<header class=\"level1\">Clinical information</header>\n<p>\n<textarea id=\"T226_4\" name=\"Clinical information\"> </textarea>\n</p>\n</section>\n<section data-section-name=\"Comparison\">\n<header class=\"level1\">Comparison</header>\n<p>\n<textarea id=\"T226_5\" name=\"Comparison\">None. </textarea>\n</p>\n</section>\n<section data-section-name=\"Findings\">\n<header class=\"level1\">Findings</header>\n<p>\n<textarea id=\"T226_7\" name=\"Findings\">No fracture or other significant abnormality is seen. The calvaria and skull base are normal. </textarea>\n</p>\n</section>\n<section data-section-name=\"Impression\">\n<header class=\"level1\">Impression</header>\n<p>\n<textarea id=\"T226_9\" name=\"Impression\">Normal skull. </textarea>\n</p>\n</section>\n</body>\n</html>\n",
+    "organizations": [
+        {
+            "id": "274",
+            "name": "Medical College of Wisconsin",
+            "code": "MCW"
+        }
+    ],
+    "specialty": [
+        {
+            "code": "MK",
+            "name": "Musculoskeletal Radiology"
+        },
+        {
+            "code": "NR",
+            "name": "Neuroradiology"
+        }
+    ],
+    "coauthors": [],
+    "cdeSets": [],
+    "translators": [],
+    "references": [],
+    "procedures": [],
+    "radlex": [
+        {
+            "id": "RID10345",
+            "prefLabel": "projection radiography"
+        },
+        {
+            "id": "RID9196",
+            "prefLabel": "skull"
+        }
+    ],
+    "isFavorite": "0"
+}

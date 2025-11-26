@@ -1,0 +1,63 @@
+{
+    "currentVersion": {
+        "created": "2013-12-27 00:00:00",
+        "template_version": "e1c544b0-814f-11e9-af35-0eaa5a9daa9c"
+    },
+    "prevVersions": [],
+    "template_id": "RPT264",
+    "selectedVersion": "e1c544b0-814f-11e9-af35-0eaa5a9daa9c",
+    "is_public": "1",
+    "TLAP_Approved": "1",
+    "published_at": "2013-12-27 00:00:00",
+    "title": "AAST Kidney Injury Grade",
+    "template_status": null,
+    "description": null,
+    "author": "Tolat P, Kahn CE Jr",
+    "firstname": null,
+    "lastname": null,
+    "originalAuthor": "Tolat P, Kahn CE Jr",
+    "originalAuthorFirstname": null,
+    "originalAuthorLastName": null,
+    "views": "400",
+    "downloads": "5027",
+    "created": "2013-12-27 00:00:00",
+    "dataType": "html",
+    "reviewInProgress": null,
+    "englishName": "English",
+    "langCode": "en",
+    "favCount": "0",
+    "templateData": "<!DOCTYPE html>\n<html>\n<head>\n<meta charset=\"UTF-8\"/>\n<meta content=\"AAST Kidney Injury Grade\" name=\"dcterms.title\"/>\n<meta content=\"AAST Kidney Injury Grade report module\" name=\"dcterms.description\"/>\n<meta content=\"http://www.radreport.org/template/0000264\" name=\"dcterms.identifier\"/>\n<meta content=\"en\" name=\"dcterms.language\"/>\n<meta content=\"IMAGE_REPORT_TEMPLATE\" name=\"dcterms.type\"/>\n<meta content=\"Radiological Society of North America (RSNA)\" name=\"dcterms.publisher\"/>\n<meta content=\"May be used gratis, subject to license agreement\" name=\"dcterms.rights\"/>\n<meta content=\"http://www.radreport.org/license.pdf\" name=\"dcterms.license\"/>\n<meta content=\"2013-12-27\" name=\"dcterms.date\"/>\n<meta content=\"Tolat P, Kahn CE Jr\" name=\"dcterms.creator\"/>\n\n<meta content=\"Kahn CE Jr [editor]\" name=\"dcterms.contributor\"/>\n<meta content=\"Medical College of Wisconsin (MCW)\" name=\"dcterms.contributor\"/>\n<link rel=\"stylesheet\" type=\"text/css\" href=\"IHE_Template_Style.css\" />\n<!-- The absolute link to the CSS file is http://www.radreport.org/html/IHE_Template_Style.css -->\n<script type=\"text/xml\">\r\n<!--\r\n<template_attributes>\n<top-level-flag>false</top-level-flag>\n<status>ACTIVE</status>\r\n<coded_content>\n<entry ORIGTXT=\"T264_1\">\r\n     <term>\n  <code meaning=\"kidney\" value=\"RID205\" scheme=\"RadLex\">\n </term>\r\n  </entry>\n<entry ORIGTXT=\"T264_1\">\r\n     <term>\n  <code meaning=\"injury\" value=\"RID4628\" scheme=\"RadLex\">\n </term>\r\n  </entry>\n</coded_content>\r\n</template_attributes>\r\n-->\r\n</script>\n<title>AAST Kidney Injury Grade</title>\n</head>\n<body>\n<section data-section-name=\"AAST Kidney Injury Grade\">\n<header class=\"level1\">+ AAST Kidney Injury Grade</header>\n<p>\n<select id=\"T264_1\" name=\"AAST Kidney Injury Grade\">\n<option id=\"T264_2\" name=\"AAST Kidney Injury Grade\" value=\"0\">0.\n    No kidney injury. </option>\n<option id=\"T264_3\" name=\"AAST Kidney Injury Grade\" value=\"1\">1.\n    Contusion (microscopic or gross hematuria, urologic studies normal), or Subcapsular hematoma (nonexpanding without parenchymal laceration). </option>\n<option id=\"T264_4\" name=\"AAST Kidney Injury Grade\" value=\"2\">2.\n    Hematoma (nonexpanding perirenal hematoma confined to renal retroperitoneum), Laceration (&lt;1.0 cm parenchymal depth of renal cortex without urinary extravasation), or Multiple \"Grade 1\" injuries. </option>\n<option id=\"T264_5\" name=\"AAST Kidney Injury Grade\" value=\"3\">3.\n    Laceration (&lt;1.0 cm parenchymal depth of renal cortex without collecting system rupture or urinary extravasation), or Multiple \"Grade 2\" injuries. </option>\n<option id=\"T264_6\" name=\"AAST Kidney Injury Grade\" value=\"4\">4.\n    Parenchymal laceration (extending through renal cortex, medulla, and collecting system), or Main renal artery or vein injury with contained hemorrhage. </option>\n<option id=\"T264_7\" name=\"AAST Kidney Injury Grade\" value=\"5\">5.\n    Completely shattered kidney, or Avulsion of renal hilum which devascularizes kidney. </option>\n</select>\n</p>\n</section>\n</body>\n</html>",
+    "organizations": [
+        {
+            "id": "274",
+            "name": "Medical College of Wisconsin",
+            "code": "MCW"
+        }
+    ],
+    "specialty": [
+        {
+            "code": "ER",
+            "name": "Emergency Radiology"
+        },
+        {
+            "code": "GU",
+            "name": "Genitourinary Radiology"
+        }
+    ],
+    "coauthors": [],
+    "cdeSets": [],
+    "translators": [],
+    "references": [],
+    "procedures": [],
+    "radlex": [
+        {
+            "id": "RID205",
+            "prefLabel": "kidney"
+        },
+        {
+            "id": "RID4630",
+            "prefLabel": "injury due to mechanical trauma"
+        }
+    ],
+    "isFavorite": "0"
+}

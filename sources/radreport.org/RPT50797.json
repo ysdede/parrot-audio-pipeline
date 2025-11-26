@@ -1,0 +1,121 @@
+{
+    "currentVersion": {
+        "created": "2019-10-28 17:20:08",
+        "template_version": "195bbbc0-f9d1-11e9-af35-0eaa5a9daa9c"
+    },
+    "prevVersions": [],
+    "template_id": "RPT50797",
+    "selectedVersion": "195bbbc0-f9d1-11e9-af35-0eaa5a9daa9c",
+    "is_public": "1",
+    "TLAP_Approved": null,
+    "published_at": "2019-10-28 17:20:08",
+    "title": "CT Wrist/Hand - Avulsion Fracture",
+    "template_status": null,
+    "description": "Template used to record diagnosis of avulsion fracture from CT of the wrist and hand.",
+    "author": "rsna_00559298",
+    "firstname": "Hailey",
+    "lastname": "Allen",
+    "originalAuthor": "rsna_00559298",
+    "originalAuthorFirstname": "Hailey",
+    "originalAuthorLastName": "Allen",
+    "views": "5206",
+    "downloads": "5198",
+    "created": "2019-10-28 17:20:08",
+    "dataType": "html",
+    "reviewInProgress": null,
+    "englishName": "English",
+    "langCode": "en",
+    "favCount": "1",
+    "templateData": "<!DOCTYPE html>\n<html>\n    <head>\n        <title>CT Wrist/Hand - Avulsion Fracture</title>\n        <meta charset=\"UTF-8\" />\n        <meta name=\"dcterms.identifier\" content=\"808231c6-a0c1-468d-8fa2-42431851b31c\" />\n        <meta name=\"dcterms.title\" content=\"CT Wrist/Hand - Avulsion Fracture\" />\n        <meta name=\"dcterms.description\" content=\"Template used to record diagnosis of avulsion fracture from CT of the wrist and hand.\" />\n        <meta name=\"dcterms.type\" content=\"IMAGE_REPORT_TEMPLATE\" />\n        <meta name=\"dcterms.language\" content=\"en\" />\n        <meta name=\"dcterms.publisher\" content=\"\" />\n        <meta name=\"dcterms.rights\" content=\"May be used freely, subject to license agreement\" />\n        <meta name=\"dcterms.license\" content=\"http://www.radreport.org/license.pdf\" />\n        <meta name=\"dcterms.date\" content=\"2019-10-31\" />\n        <meta name=\"dcterms.creator\" content=\"\" />\n        <script type=\"text/xml\">\n            <template_attributes>\n                <coded_content>\n                    <coding_schemes>\n                        <coding_scheme name=\"RADLEX\" designator=\"2.16.840.1.113883.6.256\"></coding_scheme>\n                        <coding_scheme name=\"LOINC\" designator=\"2.16.840.1.113883.6.1\"></coding_scheme>\n                    </coding_schemes>\n                    <entry origtxt=\"RADIO_1571697741615_0\">\n                        <term>\n                            <code meaning=\"marked\" value=\"http://radlex.org/RID/RID34299\" scheme=\"RADLEX\"></code>\n                        </term>\n                    </entry>\n                    <entry origtxt=\"RADIO_1571697741615_1\">\n                        <term>\n                            <code meaning=\"minimal\" value=\"http://radlex.org/RID/RID5670\" scheme=\"RADLEX\"></code>\n                        </term>\n                    </entry>\n                    <entry origtxt=\"RADIO_1571697741615_2\">\n                        <term>\n                            <code meaning=\"none\" value=\"http://radlex.org/RID/RID28454\" scheme=\"RADLEX\"></code>\n                        </term>\n                    </entry>\n                    <entry origtxt=\"findings\">\n                        <term>\n                            <code meaning=\"Procedure Findings\" value=\"59776-5\" scheme=\"LOINC\"></code>\n                        </term>\n                    </entry>\n                    <entry origtxt=\"RADIO_1571697741611_0\">\n                        <term>\n                            <code meaning=\"transverse\" value=\"http://radlex.org/RID/RID5854\" scheme=\"RADLEX\"></code>\n                        </term>\n                    </entry>\n                    <entry origtxt=\"RADIO_1571697741611_2\">\n                        <term>\n                            <code meaning=\"longitudinal\" value=\"http://radlex.org/RID/RID5855\" scheme=\"RADLEX\"></code>\n                        </term>\n                    </entry>\n                    <entry origtxt=\"RADIO_1571697741634_0\">\n                        <term>\n                            <code meaning=\"acute\" value=\"http://radlex.org/RID/RID5718\" scheme=\"RADLEX\"></code>\n                        </term>\n                    </entry>\n                    <entry origtxt=\"RADIO_1571697741634_2\">\n                        <term>\n                            <code meaning=\"chronic\" value=\"http://radlex.org/RID/RID5719\" scheme=\"RADLEX\"></code>\n                        </term>\n                    </entry>\n                    <entry origtxt=\"RADIO_1571697741634_3\">\n                        <term>\n                            <code meaning=\"indeterminate\" value=\"http://radlex.org/RID/RID39110\" scheme=\"RADLEX\"></code>\n                        </term>\n                    </entry>\n                    <entry origtxt=\"RADIO_1571697741602_0\">\n                        <term>\n                            <code meaning=\"wrist\" value=\"http://radlex.org/RID/RID2177\" scheme=\"RADLEX\"></code>\n                        </term>\n                    </entry>\n                    <entry origtxt=\"RADIO_1571697741602_1\">\n                        <term>\n                            <code meaning=\"wrist\" value=\"http://radlex.org/RID/RID2177\" scheme=\"RADLEX\"></code>\n                        </term>\n                    </entry>\n                    <entry origtxt=\"RADIO_1571697741630_0\">\n                        <term>\n                            <code meaning=\"present\" value=\"http://radlex.org/RID/RID28472\" scheme=\"RADLEX\"></code>\n                        </term>\n                    </entry>\n                    <entry origtxt=\"RADIO_1571697741630_1\">\n                        <term>\n                            <code meaning=\"absent\" value=\"http://radlex.org/RID/RID28473\" scheme=\"RADLEX\"></code>\n                        </term>\n                    </entry>\n                    <entry origtxt=\"RADIO_1571697741620\">\n                        <term>\n                            <code meaning=\"articular surface\" value=\"http://radlex.org/RID/RID6076\" scheme=\"RADLEX\"></code>\n                        </term>\n                    </entry>\n                    <entry origtxt=\"RADIO_1571697741620_0\">\n                        <term>\n                            <code meaning=\"marked\" value=\"http://radlex.org/RID/RID34299\" scheme=\"RADLEX\"></code>\n                        </term>\n                    </entry>\n                    <entry origtxt=\"RADIO_1571697741620_1\">\n                        <term>\n                            <code meaning=\"minimal\" value=\"http://radlex.org/RID/RID5670\" scheme=\"RADLEX\"></code>\n                        </term>\n                    </entry>\n                    <entry origtxt=\"RADIO_1571697741620_2\">\n                        <term>\n                            <code meaning=\"none\" value=\"http://radlex.org/RID/RID28454\" scheme=\"RADLEX\"></code>\n                        </term>\n                    </entry>\n                    <entry origtxt=\"findingsText\">\n                        <term>\n                            <code meaning=\"fracture\" value=\"http://radlex.org/RID/RID4650\" scheme=\"RADLEX\"></code>\n                        </term>\n                    </entry>\n                    <entry origtxt=\"procedureInformation\">\n                        <term>\n                            <code meaning=\"Current Imaging Procedure Description\" value=\"55111-9\" scheme=\"LOINC\"></code>\n                        </term>\n                    </entry>\n                    <entry origtxt=\"comparisons\">\n                        <term>\n                            <code meaning=\"Radiology Comparison Study\" value=\"18834-2\" scheme=\"LOINC\"></code>\n                        </term>\n                    </entry>\n                    <entry origtxt=\"impression\">\n                        <term>\n                            <code meaning=\"Impressions\" value=\"19005-8\" scheme=\"LOINC\"></code>\n                        </term>\n                    </entry>\n                    <entry origtxt=\"clinicalInformation\">\n                        <term>\n                            <code meaning=\"Clinical Information\" value=\"55752-0\" scheme=\"LOINC\"></code>\n                        </term>\n                    </entry>\n                    <entry origtxt=\"NUMBER_1571697741626\">\n                        <term>\n                            <code meaning=\"retraction\" value=\"http://radlex.org/RID/RID46033\" scheme=\"RADLEX\"></code>\n                        </term>\n                    </entry>\n                </coded_content>\n            </template_attributes>\n        </script>\n    </head>\n    <body>\n        <section id=\"procedureInformation\" class=\"level1\" data-section-name=\"Procedure Information\">\n            <header class=\"level1\">\n                Procedure Information\n            </header>\n            <p title=\"\">\n                <label for=\"procedureInformationText\">Exam:</label>\n                <textarea rows=\"3\" cols=\"100\" id=\"procedureInformationText\" name=\"\" data-field-type=\"TEXTAREA\" data-field-completion-action=\"NONE\">CT of the wrist and hand</textarea>\n            </p>\n            <p title=\"\">\n                <label for=\"RADIO_1571697741602\">Wrist/Hand examined</label>\n                <span id=\"RADIO_1571697741602\" name=\"\" data-field-type=\"RADIO\" data-field-completion-action=\"NONE\" value=\"\">\n                    <br />\n                    <input id=\"RADIO_1571697741602_0\" type=\"radio\" name=\"RADIO_1571697741602\" value=\"Right wrist/hand\" checked=\"\">Right wrist/hand</input>\n                    <br />\n                    <input id=\"RADIO_1571697741602_1\" type=\"radio\" name=\"RADIO_1571697741602\" value=\"Left wrist/hand\">Left wrist/hand</input>\n                </span>\n            </p>\n        </section>\n        <section id=\"clinicalInformation\" class=\"level1\" data-section-name=\"Clinical Information\">\n            <header class=\"level1\">\n                Clinical Information\n            </header>\n            <p title=\"\">\n                <label for=\"clinicalInformationText\"></label>\n                <textarea rows=\"3\" cols=\"100\" id=\"clinicalInformationText\" name=\"\" data-field-type=\"TEXTAREA\" data-field-completion-action=\"NONE\"></textarea>\n            </p>\n        </section>\n        <section id=\"comparisons\" class=\"level1\" data-section-name=\"Comparison\">\n            <header class=\"level1\">\n                Comparison\n            </header>\n            <p title=\"\">\n                <label for=\"comparisonsText\"></label>\n                <textarea rows=\"3\" cols=\"100\" id=\"comparisonsText\" name=\"\" data-field-type=\"TEXTAREA\" data-field-completion-action=\"NONE\">None</textarea>\n            </p>\n        </section>\n        <section id=\"findings\" class=\"level1\" data-section-name=\"Findings\">\n            <header class=\"level1\">\n                Findings\n            </header>\n            <p title=\"\">\n                <label for=\"findingsText\">Fracture description:</label>\n                <textarea rows=\"3\" cols=\"100\" id=\"findingsText\" name=\"\" data-field-type=\"TEXTAREA\" data-field-completion-action=\"NONE\"></textarea>\n            </p>\n            <p title=\"\">\n                <label for=\"RADIO_1571697741607\">Fracture comminution:</label>\n                <span id=\"RADIO_1571697741607\" name=\"\" data-field-type=\"RADIO\" data-field-completion-action=\"NONE\" value=\"\">\n                    <br />\n                    <input id=\"RADIO_1571697741607_0\" type=\"radio\" name=\"RADIO_1571697741607\" value=\"Marked\" checked=\"\">Marked</input>\n                    <br />\n                    <input id=\"RADIO_1571697741607_1\" type=\"radio\" name=\"RADIO_1571697741607\" value=\"Minimal\">Minimal</input>\n                    <br />\n                    <input id=\"RADIO_1571697741607_2\" type=\"radio\" name=\"RADIO_1571697741607\" value=\"None\">None</input>\n                </span>\n            </p>\n            <p title=\"\">\n                <label for=\"RADIO_1571697741611\">Fracture orientation:</label>\n                <span id=\"RADIO_1571697741611\" name=\"\" data-field-type=\"RADIO\" data-field-completion-action=\"NONE\" value=\"\">\n                    <br />\n                    <input id=\"RADIO_1571697741611_0\" type=\"radio\" name=\"RADIO_1571697741611\" value=\"Transverse\" checked=\"\">Transverse</input>\n                    <br />\n                    <input id=\"RADIO_1571697741611_1\" type=\"radio\" name=\"RADIO_1571697741611\" value=\"Oblique\">Oblique</input>\n                    <br />\n                    <input id=\"RADIO_1571697741611_2\" type=\"radio\" name=\"RADIO_1571697741611\" value=\"Longitudinal\">Longitudinal</input>\n                </span>\n            </p>\n            <p title=\"\">\n                <label for=\"RADIO_1571697741615\">Fracture fragment rotation:</label>\n                <span id=\"RADIO_1571697741615\" name=\"\" data-field-type=\"RADIO\" data-field-completion-action=\"NONE\" value=\"\">\n                    <br />\n                    <input id=\"RADIO_1571697741615_0\" type=\"radio\" name=\"RADIO_1571697741615\" value=\"Marked\" checked=\"\">Marked</input>\n                    <br />\n                    <input id=\"RADIO_1571697741615_1\" type=\"radio\" name=\"RADIO_1571697741615\" value=\"Minimal\">Minimal</input>\n                    <br />\n                    <input id=\"RADIO_1571697741615_2\" type=\"radio\" name=\"RADIO_1571697741615\" value=\"None\">None</input>\n                </span>\n            </p>\n            <p title=\"\">\n                <label for=\"TEXT_1571697741619\">Intra-articular extension:</label>\n                <textarea rows=\"3\" cols=\"100\" id=\"TEXT_1571697741619\" name=\"\" data-field-type=\"TEXTAREA\" data-field-completion-action=\"NONE\"></textarea>\n            </p>\n            <p title=\"\">\n                <label for=\"RADIO_1571697741620\">Articular surface involvement:</label>\n                <span id=\"RADIO_1571697741620\" name=\"\" data-field-type=\"RADIO\" data-field-completion-action=\"NONE\" value=\"\">\n                    <br />\n                    <input id=\"RADIO_1571697741620_0\" type=\"radio\" name=\"RADIO_1571697741620\" value=\"Marked\" checked=\"\">Marked</input>\n                    <br />\n                    <input id=\"RADIO_1571697741620_1\" type=\"radio\" name=\"RADIO_1571697741620\" value=\"Minimal\">Minimal</input>\n                    <br />\n                    <input id=\"RADIO_1571697741620_2\" type=\"radio\" name=\"RADIO_1571697741620\" value=\"None\">None</input>\n                </span>\n            </p>\n            <p title=\"\">\n                <label for=\"NUMBER_1571697741624\">Fracture fragment distraction:</label>\n                <span>\n                    <input type=\"number\" step=\"1.0\" data-field-units=\"mm\" id=\"NUMBER_1571697741624\" name=\"\" data-field-type=\"NUMBER\" data-field-completion-action=\"NONE\" value=\"\" />\n                    mm\n                </span>\n            </p>\n            <p title=\"\">\n                <label for=\"NUMBER_1571697741626\">Tendon stump retraction:</label>\n                <span>\n                    <input type=\"number\" step=\"1.0\" data-field-units=\"mm\" id=\"NUMBER_1571697741626\" name=\"\" data-field-type=\"NUMBER\" data-field-completion-action=\"NONE\" value=\"\" />\n                    mm\n                </span>\n            </p>\n            <p title=\"\">\n                <label for=\"RADIO_1571697741630\">Soft tissue swelling:</label>\n                <span id=\"RADIO_1571697741630\" name=\"\" data-field-type=\"RADIO\" data-field-completion-action=\"NONE\" value=\"\">\n                    <br />\n                    <input id=\"RADIO_1571697741630_0\" type=\"radio\" name=\"RADIO_1571697741630\" value=\"Present\" checked=\"\">Present</input>\n                    <br />\n                    <input id=\"RADIO_1571697741630_1\" type=\"radio\" name=\"RADIO_1571697741630\" value=\"Absent\">Absent</input>\n                </span>\n            </p>\n            <p title=\"\">\n                <label for=\"RADIO_1571697741634\">Fracture acuity:</label>\n                <span id=\"RADIO_1571697741634\" name=\"\" data-field-type=\"RADIO\" data-field-completion-action=\"NONE\" value=\"\">\n                    <br />\n                    <input id=\"RADIO_1571697741634_0\" type=\"radio\" name=\"RADIO_1571697741634\" value=\"Acute\" checked=\"\">Acute</input>\n                    <br />\n                    <input id=\"RADIO_1571697741634_1\" type=\"radio\" name=\"RADIO_1571697741634\" value=\"Subacute\">Subacute</input>\n                    <br />\n                    <input id=\"RADIO_1571697741634_2\" type=\"radio\" name=\"RADIO_1571697741634\" value=\"Chronic\">Chronic</input>\n                    <br />\n                    <input id=\"RADIO_1571697741634_3\" type=\"radio\" name=\"RADIO_1571697741634\" value=\"Age indeterminate\">Age indeterminate</input>\n                </span>\n            </p>\n            <p title=\"\">\n                <label for=\"TEXT_1571697741639\">Additional information:</label>\n                <textarea rows=\"3\" cols=\"100\" id=\"TEXT_1571697741639\" name=\"\" data-field-type=\"TEXTAREA\" data-field-completion-action=\"NONE\"></textarea>\n            </p>\n        </section>\n        <section id=\"impression\" class=\"level1\" data-section-name=\"Impression\">\n            <header class=\"level1\">\n                Impression\n            </header>\n            <p title=\"\">\n                <label for=\"impressionText\"></label>\n                <textarea rows=\"3\" cols=\"100\" id=\"impressionText\" name=\"\" data-field-type=\"TEXTAREA\" data-field-completion-action=\"NONE\"></textarea>\n            </p>\n        </section>\n    </body>\n</html>\n",
+    "organizations": [
+        {
+            "id": "277",
+            "name": "University of Utah",
+            "code": "Utah"
+        }
+    ],
+    "specialty": [
+        {
+            "code": "MK",
+            "name": "Musculoskeletal Radiology"
+        },
+        {
+            "code": "CT",
+            "name": "Computed Tomography"
+        }
+    ],
+    "coauthors": [
+        {
+            "id": null,
+            "fullname": "Michael D. Weintraub"
+        },
+        {
+            "id": null,
+            "fullname": "Barry G. Hansford"
+        },
+        {
+            "id": null,
+            "fullname": "Sarah E. Stilwill"
+        },
+        {
+            "id": null,
+            "fullname": "Richard L. Leake"
+        },
+        {
+            "id": null,
+            "fullname": "Christopher J. Hanrahan"
+        },
+        {
+            "id": null,
+            "fullname": "Brian Y. Chan"
+        },
+        {
+            "id": null,
+            "fullname": "Maryam Soltanolkotabi"
+        },
+        {
+            "id": null,
+            "fullname": "Patrick Kobes"
+        },
+        {
+            "id": null,
+            "fullname": "Megan K. Mills"
+        }
+    ],
+    "cdeSets": [],
+    "translators": [],
+    "references": [
+        "Avulsion Injuries of the Hand and Wrist RadioGraphics 2020; 40(1) https://doi.org/10.1148/rg.2020190085"
+    ],
+    "procedures": [
+        {
+            "procedure_id": "37428-0",
+            "procedure_name": "CT Wrist",
+            "source": "LOINC"
+        },
+        {
+            "procedure_id": "36002-4",
+            "procedure_name": "CT Hand",
+            "source": "LOINC"
+        }
+    ],
+    "radlex": [
+        {
+            "id": "RID4653",
+            "prefLabel": "avulsion fracture"
+        },
+        {
+            "id": "RID2318",
+            "prefLabel": "hand"
+        },
+        {
+            "id": "RID2177",
+            "prefLabel": "wrist"
+        },
+        {
+            "id": "RID10321",
+            "prefLabel": "computed tomography"
+        }
+    ],
+    "isFavorite": "0"
+}

@@ -1,0 +1,50 @@
+{
+    "currentVersion": {
+        "created": "2018-11-18 19:12:03",
+        "template_version": "e1ccb2bb-814f-11e9-af35-0eaa5a9daa9c"
+    },
+    "prevVersions": [],
+    "template_id": "RPT50486",
+    "selectedVersion": "e1ccb2bb-814f-11e9-af35-0eaa5a9daa9c",
+    "is_public": "1",
+    "TLAP_Approved": null,
+    "published_at": "2018-11-18 19:12:03",
+    "title": "MR Brain Headache",
+    "template_status": null,
+    "description": "headache",
+    "author": "rsna_00456600",
+    "firstname": "Mark",
+    "lastname": "Mamlouk",
+    "originalAuthor": "rsna_00456600",
+    "originalAuthorFirstname": "Mark",
+    "originalAuthorLastName": "Mamlouk",
+    "views": "1515",
+    "downloads": "4762",
+    "created": "2018-11-18 19:12:03",
+    "dataType": "txt",
+    "reviewInProgress": null,
+    "englishName": "English",
+    "langCode": "en",
+    "favCount": "1",
+    "templateData": "MRI BRAIN WITHOUT CONTRAST \r\n\r\nHISTORY:\u00e2\u20ac\u00a8[<AgeGender>], [headache.] \r\n\r\nTECHNIQUE:\u00e2\u20ac\u00a8MR images of the brain were acquired without intravenous contrast. \r\n\r\nCOMPARISON: [<PriorExamDate>|None available.] \r\n\r\nFINDINGS:\u00e2\u20ac\u00a8\r\nBRAIN PARENCHYMA: [No acute infarct or hemorrhage. No mass effect or herniation.] [<white matter>Signal intensities are within normal limits for age.|Multiple nodular T2 hyperintense foci within the subcortical white matter, which can be associated with migraines.| [<white matter severity>Mild|Moderate|Severe] white matter chronic small vessel ischemic changes.] \r\n\r\n[<headache>No cerebellar tonsillar ectopia. No brainstem sag or other secondary signs of intracranial hypotension. No empty sella or other secondary signs of elevated intracranial pressure.] \r\n\r\nVENTRICLES/EXTRA-AXIAL SPACES: [No hydrocephalus or extra-axial fluid collections.] \r\n\r\nFLOW VOIDS: [Intact.|Not well assessed.] \r\n\r\nSINUSES/MASTOIDS: [Clear.]\u00e2\u20ac\u00a8\r\n\r\nOTHER EXTRACRANIAL STRUCTURES: [Normal.] \r\n\r\nIMPRESSION:\u00e2\u20ac\u00a8\r\n\r\n[Normal MRI of the brain. No findings to account for headaches.]  \r\n",
+    "organizations": [
+        {
+            "id": "160",
+            "name": "Radiological Society of North America",
+            "code": "RSNA"
+        }
+    ],
+    "specialty": [
+        {
+            "code": "NR",
+            "name": "Neuroradiology"
+        }
+    ],
+    "coauthors": [],
+    "cdeSets": [],
+    "translators": [],
+    "references": [],
+    "procedures": [],
+    "radlex": [],
+    "isFavorite": "0"
+}
