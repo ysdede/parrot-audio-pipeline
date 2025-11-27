@@ -81,3 +81,14 @@ cython_debug/
 .vscode/
 .ruff_cache/
 .pypirc
+.~lock.*
+
+# asrtk scaffold
+# data/**
+!data/metadata/**
+logs/**
+# .tmp/**
+# .cache/**
+.DS_Store
+__pycache__/**
+*.log
