@@ -1,0 +1,130 @@
+TEXT CLEANING SUMMARY REPORT
+Stage 05: Fix Text Corruptions
+Generated: 2025-11-29
+=============================================================================
+
+INPUT FILE:  PARROT_v1_0_translations_normalized.txt
+OUTPUT FILE: PARROT_v1_0_cleaned.txt
+
+=============================================================================
+CLEANING RESULTS
+=============================================================================
+
+Original file size:  2,673,701 characters
+Final file size:     2,670,150 characters
+Characters removed:  3,551 characters (0.13%)
+
+Total replacements made: 3,944
+
+=============================================================================
+DETAILED BREAKDOWN
+=============================================================================
+
+STEP 1: Private Use Area (PUA) Corrupted Characters
+----------------------------------------------------
+✅ Removed U+F06C: 40 occurrences
+✅ Removed U+F0D8: 6 occurrences
+✅ Removed U+F076: 3 occurrences
+✅ Removed U+F06E: 2 occurrences
+TOTAL PUA REMOVED: 51 corrupted characters
+
+STEP 2: Whitespace Normalization
+---------------------------------
+✅ Normalized U+00A0 (non-breaking space): 41 occurrences
+✅ Removed U+200B (zero-width space): 4 occurrences
+✅ Normalized U+0009 (tab): 5 occurrences
+TOTAL WHITESPACE FIXED: 50 characters
+
+STEP 3: Typography Normalization
+---------------------------------
+✅ Normalized U+2013 (en-dash –): 298 occurrences → -
+✅ Normalized U+2014 (em-dash —): 108 occurrences → -
+✅ Normalized U+2019 (smart quote '): 28 occurrences → '
+✅ Normalized U+201C (left quote "): 5 occurrences → "
+✅ Normalized U+201D (right quote "): 5 occurrences → "
+✅ Normalized U+2022 (bullet •): 66 occurrences → -
+TOTAL TYPOGRAPHY NORMALIZED: 510 characters
+
+STEP 4: Multiple Space Cleanup
+-------------------------------
+✅ Cleaned up 3,333 instances of multiple consecutive spaces
+
+=============================================================================
+CHARACTER SET COMPARISON
+=============================================================================
+
+BEFORE CLEANING:
+- Total characters: 2,673,701
+- Unique characters: 121
+
+AFTER CLEANING:
+- Total characters: 2,670,150
+- Unique characters: 108 ✓ (13 fewer)
+
+SUCCESSFULLY REMOVED:
+✅ All PUA corrupted characters (U+F06C, U+F0D8, U+F076, U+F06E)
+✅ All problematic whitespace (U+00A0, U+200B, U+0009)
+✅ All non-ASCII typography (U+2013, U+2014, U+2019, U+201C, U+201D, U+2022)
+
+REMAINING ISSUES:
+⚠️ Polish characters still present (152 total):
+   - ł (U+0142): 41 occurrences
+   - ś (U+015B): 29 occurrences
+   - ę (U+0119): 25 occurrences
+   - ą (U+0105): 18 occurrences
+   - ó (U+00F3): 16 occurrences
+   - ż (U+017C): 14 occurrences
+   - ć (U+0107): 8 occurrences
+   - ń (U+0144): 1 occurrence
+
+   Note: These were intentionally kept pending investigation of context.
+   They may be legitimate in patient names or medical terminology.
+
+🟢 Scientific symbols retained (as intended):
+   - ² (U+00B2): 90 occurrences (mm², cm²)
+   - ³ (U+00B3): 24 occurrences (cm³, ml)
+   - ° (U+00B0): 23 occurrences (degrees)
+   - μ (U+03BC): 6 occurrences (micrometer)
+   - µ (U+00B5): 10 occurrences (micro)
+   - × (U+00D7): 36 occurrences (multiplication)
+
+=============================================================================
+PIPELINE PROGRESS
+=============================================================================
+
+Stage 00: Raw JSONL files (original data) ✓
+Stage 01: Converted to CSV with escaped characters ✓
+Stage 02: Extracted translation column to plain text ✓
+Stage 03: Normalized line separators (U+2028 → \n) ✓
+Stage 04: Pattern analysis (n-grams, phrases, headers) ✓
+Stage 05: Fixed text corruptions and normalized typography ✓
+Stage 06: [Ready for next transformation]
+
+=============================================================================
+NEXT STEPS RECOMMENDATIONS
+=============================================================================
+
+The cleaned file is now ready for further processing. Possible next stages:
+
+1. ✅ COMPLETED: Remove PUA corruptions
+2. ✅ COMPLETED: Normalize whitespace
+3. ✅ COMPLETED: Normalize typography
+4. ⚠️  PENDING: Investigate and handle Polish characters
+5. 📋 FUTURE: Text normalization (case, punctuation)
+6. 📋 FUTURE: Sentence segmentation
+7. 📋 FUTURE: Remove/standardize headers
+
+=============================================================================
+OUTPUT FILES
+=============================================================================
+
+Main output:
+- PARROT_v1_0_cleaned.txt (2,670,150 characters)
+
+Supporting files:
+- 05_fix_text_corruptions.py (this script)
+- text_cleaning_summary.txt (this report)
+
+=============================================================================
+END OF REPORT
+=============================================================================

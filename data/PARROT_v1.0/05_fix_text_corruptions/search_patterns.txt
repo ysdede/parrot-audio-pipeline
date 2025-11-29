@@ -1,0 +1,122 @@
+EXACT PATTERN SEARCH RESULTS
+======================================================================
+
+Corpus size: 2,664,374 characters
+Total lines: 2,738
+
+======================================================================
+PATTERN OCCURRENCE COUNTS
+======================================================================
+
+Legend:
+  CS = Case-Sensitive
+  CI = Case-Insensitive
+
+
+Pattern: 'CT'
+  Total occurrences (CS):      1407
+  Total occurrences (CI):      9679
+  Appears in N lines (CS):      870 / 2738 (31.8%)
+  Appears in N lines (CI):     2411 / 2738 (88.1%)
+
+Pattern: 'CONCLUSION'
+  Total occurrences (CS):       326
+  Total occurrences (CI):       780
+  Appears in N lines (CS):      326 / 2738 (11.9%)
+  Appears in N lines (CI):      779 / 2738 (28.5%)
+
+Pattern: 'MRI'
+  Total occurrences (CS):       767
+  Total occurrences (CI):       767
+  Appears in N lines (CS):      524 / 2738 (19.1%)
+  Appears in N lines (CI):      524 / 2738 (19.1%)
+
+Pattern: 'No evidence of'
+  Total occurrences (CS):       360
+  Total occurrences (CI):       583
+  Appears in N lines (CS):      266 / 2738 (9.7%)
+  Appears in N lines (CI):      381 / 2738 (13.9%)
+
+Pattern: 'Unremarkable'
+  Total occurrences (CS):       239
+  Total occurrences (CI):       475
+  Appears in N lines (CS):       85 / 2738 (3.1%)
+  Appears in N lines (CI):      248 / 2738 (9.1%)
+
+Pattern: 'Technique:'
+  Total occurrences (CS):       178
+  Total occurrences (CI):       390
+  Appears in N lines (CS):      178 / 2738 (6.5%)
+  Appears in N lines (CI):      390 / 2738 (14.2%)
+
+Pattern: 'Indication:'
+  Total occurrences (CS):       211
+  Total occurrences (CI):       338
+  Appears in N lines (CS):      211 / 2738 (7.7%)
+  Appears in N lines (CI):      338 / 2738 (12.3%)
+
+Pattern: 'within normal limits'
+  Total occurrences (CS):       259
+  Total occurrences (CI):       265
+  Appears in N lines (CS):      234 / 2738 (8.5%)
+  Appears in N lines (CI):      240 / 2738 (8.8%)
+
+Pattern: 'The examination was performed'
+  Total occurrences (CS):       210
+  Total occurrences (CI):       210
+  Appears in N lines (CS):      210 / 2738 (7.7%)
+  Appears in N lines (CI):      210 / 2738 (7.7%)
+
+Pattern: 'Brainstem'
+  Total occurrences (CS):        43
+  Total occurrences (CI):       125
+  Appears in N lines (CS):       43 / 2738 (1.6%)
+  Appears in N lines (CI):      122 / 2738 (4.5%)
+
+Pattern: 'Clinical Information'
+  Total occurrences (CS):        79
+  Total occurrences (CI):       111
+  Appears in N lines (CS):       79 / 2738 (2.9%)
+  Appears in N lines (CI):      111 / 2738 (4.1%)
+
+Pattern: 'Fourth Ventricle'
+  Total occurrences (CS):        27
+  Total occurrences (CI):       104
+  Appears in N lines (CS):       27 / 2738 (1.0%)
+  Appears in N lines (CI):      101 / 2738 (3.7%)
+
+Pattern: 'Cerebellum'
+  Total occurrences (CS):        36
+  Total occurrences (CI):       102
+  Appears in N lines (CS):       36 / 2738 (1.3%)
+  Appears in N lines (CI):       96 / 2738 (3.5%)
+
+Pattern: 'Posterior Fossa'
+  Total occurrences (CS):        32
+  Total occurrences (CI):       101
+  Appears in N lines (CS):       32 / 2738 (1.2%)
+  Appears in N lines (CI):       95 / 2738 (3.5%)
+
+Pattern: 'Diagnostic Impression'
+  Total occurrences (CS):        38
+  Total occurrences (CI):        79
+  Appears in N lines (CS):       38 / 2738 (1.4%)
+  Appears in N lines (CI):       79 / 2738 (2.9%)
+
+Pattern: 'Normal shape and size'
+  Total occurrences (CS):        63
+  Total occurrences (CI):        70
+  Appears in N lines (CS):       35 / 2738 (1.3%)
+  Appears in N lines (CI):       42 / 2738 (1.5%)
+
+Pattern: 'Description and Findings'
+  Total occurrences (CS):        44
+  Total occurrences (CI):        44
+  Appears in N lines (CS):       43 / 2738 (1.6%)
+  Appears in N lines (CI):       43 / 2738 (1.6%)
+
+Pattern: 'Imaging Comment'
+  Total occurrences (CS):        30
+  Total occurrences (CI):        35
+  Appears in N lines (CS):       29 / 2738 (1.1%)
+  Appears in N lines (CI):       34 / 2738 (1.2%)

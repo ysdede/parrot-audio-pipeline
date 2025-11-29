@@ -1,0 +1,161 @@
+POLISH REPORTS REMOVAL SUMMARY
+Stage 05b: Remove Polish Language Reports
+Generated: 2025-11-29
+=============================================================================
+
+OBJECTIVE: Remove all reports containing Polish language text from the corpus
+
+=============================================================================
+PROCESSING RESULTS
+=============================================================================
+
+Input file:  PARROT_v1_0_cleaned.txt
+Total reports: 2,738
+
+POLISH CHARACTER DETECTION:
+- ł (U+0142) - L with stroke
+- ś (U+015B) - S with acute
+- ę (U+0119) - E with ogonek
+- ą (U+0105) - A with ogonek
+- ó (U+00F3) - O with acute
+- ż (U+017C) - Z with dot above
+- ć (U+0107) - C with acute
+- ń (U+0144) - N with acute
+
+=============================================================================
+SEPARATION RESULTS
+=============================================================================
+
+✅ ENGLISH-ONLY CORPUS: 2,735 reports (99.89%)
+   File: PARROT_v1_0_english_only.txt
+   - Total characters: 2,666,435
+   - Average length: 974.9 chars/report
+   - Status: CLEAN - No Polish characters detected
+
+❌ POLISH REPORTS REMOVED: 3 reports (0.11%)
+   File: PARROT_v1_0_polish_reports.txt
+   - Total characters: 3,715
+   - Average length: 1,238.3 chars/report
+   
+   Polish character distribution in removed reports:
+   - ł (U+0142): found in 3 reports
+   - ś (U+015B): found in 3 reports
+   - ę (U+0119): found in 3 reports
+   - ó (U+00F3): found in 3 reports
+   - ą (U+0105): found in 2 reports
+   - ż (U+017C): found in 2 reports
+   - ć (U+0107): found in 2 reports
+   - ń (U+0144): found in 1 report
+
+=============================================================================
+CHARACTER SET VERIFICATION
+=============================================================================
+
+BEFORE POLISH REMOVAL:
+- Total characters: 2,670,150
+- Unique characters: 108
+- Polish characters: 8 types (152 total occurrences)
+
+AFTER POLISH REMOVAL:
+- Total characters: 2,666,435 ✓
+- Unique characters: 100 ✓ (8 fewer)
+- Polish characters: 0 ✓ ALL REMOVED
+
+Characters removed: 3,715 (0.14%)
+Reports removed: 3 (0.11%)
+
+✅ VERIFICATION: All Polish-specific diacritics successfully removed!
+
+Remaining non-English characters are scientific/medical symbols:
+- ² (U+00B2): 90 - superscript 2 (mm², cm²)
+- ³ (U+00B3): 24 - superscript 3 (cm³)
+- ° (U+00B0): 23 - degree symbol
+- μ (U+03BC): 6 - Greek mu (micrometer)
+- µ (U+00B5): 10 - micro sign
+- × (U+00D7): 36 - multiplication sign
+- é, ë, ä, ö: 10 total - from proper nouns/medical terms
+
+=============================================================================
+COMPLETE CLEANING PIPELINE SUMMARY
+=============================================================================
+
+Stage 01: Convert JSONL to CSV ✓
+  - Input: 2,738 reports in JSONL
+  - Output: CSV with proper field escaping
+
+Stage 02: Extract Translation Column ✓
+  - Input: CSV file
+  - Output: Plain text, one report per line
+
+Stage 03: Normalize Line Separators ✓
+  - Converted U+2028 → \n
+  - Fixed: 278 line separator characters
+
+Stage 04: Pattern Analysis ✓
+  - Identified repeating phrases and headers
+  - Discovered character encoding issues
+
+Stage 05a: Fix Text Corruptions ✓
+  - Removed PUA corrupted characters: 51
+  - Normalized whitespace: 50
+  - Normalized typography: 510
+  - Cleaned multiple spaces: 3,333
+  - Total replacements: 3,944
+
+Stage 05b: Remove Polish Reports ✓
+  - Identified Polish reports: 3
+  - Removed Polish characters: 152
+  - Final corpus: 2,735 reports
+
+=============================================================================
+FINAL CORPUS STATUS
+=============================================================================
+
+✅ CLEAN ENGLISH-ONLY MEDICAL RADIOLOGY CORPUS
+
+File: PARROT_v1_0_english_only.txt
+Reports: 2,735
+Characters: 2,666,435
+Average report length: 974.9 characters
+Unique characters: 100
+
+Quality indicators:
+✅ No PUA corrupted characters
+✅ No Polish language contamination
+✅ Normalized whitespace
+✅ Normalized typography (ASCII-compatible)
+✅ Scientific symbols preserved
+✅ Consistent line separators
+
+=============================================================================
+NEXT RECOMMENDED STEPS
+=============================================================================
+
+The corpus is now clean and ready for:
+1. Sentence segmentation
+2. Further text normalization
+3. Header removal/standardization
+4. Training data preparation
+5. Model training
+
+=============================================================================
+OUTPUT FILES (Stage 05)
+=============================================================================
+
+Final corpus:
+- PARROT_v1_0_english_only.txt (2,735 reports, CLEAN)
+
+Excluded data:
+- PARROT_v1_0_polish_reports.txt (3 reports, Polish language)
+
+Scripts:
+- 05_fix_text_corruptions.py
+- 05b_remove_polish_reports.py
+
+Reports:
+- text_cleaning_summary.txt
+- polish_removal_summary.txt (this file)
+
+=============================================================================
+END OF REPORT
+=============================================================================

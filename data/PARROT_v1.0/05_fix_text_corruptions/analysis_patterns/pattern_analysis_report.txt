@@ -1,0 +1,193 @@
+TEXT PATTERN ANALYSIS REPORT
+======================================================================
+
+Corpus Statistics:
+  Total lines: 20,492
+  Total characters: 2,628,972
+  Total words: 389,032
+
+
+======================================================================
+TOP 20 MOST COMMON 2-WORD PHRASES
+======================================================================
+
+  1. [ 8892x] of the
+  2. [ 6799x] in the
+  3. [ 2427x] the right
+  4. [ 2245x] the left
+  5. [ 1250x] on the
+  6. [ 1192x] with a
+  7. [ 1101x] at the
+  8. [ 1088x] There is
+  9. [ 1011x] to the
+ 10. [  765x] signs of
+ 11. [  703x] evidence of
+ 12. [  700x] is a
+ 13. [  693x] up to
+ 14. [  688x] In the
+ 15. [  670x] with no
+ 16. [  623x] and the
+ 17. [  617x] was performed
+ 18. [  598x] of normal
+ 19. [  554x] lymph nodes
+ 20. [  531x] there is
+
+======================================================================
+TOP 20 MOST COMMON 3-WORD PHRASES
+======================================================================
+
+  1. [  897x] of the right
+  2. [  850x] of the left
+  3. [  702x] in the right
+  4. [  617x] in the left
+  5. [  462x] changes in the
+  6. [  374x] observed in the
+  7. [  372x] on the right
+  8. [  360x] No evidence of
+  9. [  356x] There is a
+ 10. [  345x] on the left
+ 11. [  331x] of normal size
+ 12. [  294x] there is a
+ 13. [  270x] There is no
+ 14. [  262x] is of normal
+ 15. [  259x] within normal limits
+ 16. [  249x] no signs of
+ 17. [  239x] are not dilated
+ 18. [  238x] noted in the
+ 19. [  235x] is not enlarged
+ 20. [  231x] the level of
+
+======================================================================
+TOP 20 MOST COMMON 4-WORD PHRASES
+======================================================================
+
+  1. [  210x] The examination was performed
+  2. [  197x] on the right side
+  3. [  188x] the level of the
+  4. [  180x] are observed in the
+  5. [  175x] at the level of
+  6. [  172x] on the left side
+  7. [  160x] is of normal size
+  8. [  130x] CT scan of the
+  9. [  125x] is within normal limits
+ 10. [  124x] is observed in the
+ 11. [  124x] ducts are not dilated
+ 12. [  117x] and extrahepatic bile ducts
+ 13. [  115x] of normal size and
+ 14. [  114x] are noted in the
+ 15. [  108x] bile ducts are not
+ 16. [  108x] of the right lung
+ 17. [  105x] the abdomen and pelvis
+ 18. [  101x] examination was performed using
+ 19. [  100x] are not dilated The
+ 20. [   99x] in the abdominal cavity
+
+======================================================================
+TOP 20 MOST COMMON 5-WORD PHRASES
+======================================================================
+
+  1. [  136x] at the level of the
+  2. [  106x] bile ducts are not dilated
+  3. [  101x] The examination was performed using
+  4. [   87x] of the abdomen and pelvis
+  5. [   76x] in the wall of the
+  6. [   74x] ducts are not dilated The
+  7. [   73x] intrahepatic and extrahepatic bile ducts
+  8. [   67x] There is no evidence of
+  9. [   67x] and extrahepatic bile ducts are
+ 10. [   65x] is of normal size and
+ 11. [   65x] in the area of the
+ 12. [   63x] enlarged lymph nodes in the
+ 13. [   60x] the wall of the arch
+ 14. [   59x] extrahepatic bile ducts are not
+ 15. [   59x] in the projection of the
+ 16. [   56x] calcifications in the wall of
+ 17. [   54x] brain and intracranial fluid spaces
+ 18. [   52x] abdomen and pelvis was performed
+ 19. [   50x] evidence of plaque or stenosis
+ 20. [   49x] in the left pleural cavity
+
+======================================================================
+TOP 15 MOST COMMON 10-CHARACTER PATTERNS
+======================================================================
+
+  1. [ 2427x]  the right
+  2. [ 2291x] the right 
+  3. [ 2071x]  the left 
+  4. [ 1548x] on of the 
+  5. [ 1539x] ion of the
+  6. [ 1418x] xamination
+  7. [ 1262x] tion of th
+  8. [ 1226x] n the righ
+  9. [ 1166x]  measuring
+ 10. [ 1166x] measuring 
+ 11. [ 1109x] ed in the 
+ 12. [ 1108x]  contrast 
+ 13. [ 1100x] n the left
+ 14. [ 1072x] es in the 
+ 15. [ 1071x] examinatio
+
+======================================================================
+TOP 15 MOST COMMON 15-CHARACTER PATTERNS
+======================================================================
+
+  1. [  706x]  approximately 
+  2. [  557x]  was performed 
+  3. [  462x]  changes in the
+  4. [  461x]  abnormalities 
+  5. [  461x] changes in the 
+  6. [  432x] he examination 
+  7. [  396x]  administration
+  8. [  376x]  observed in th
+  9. [  375x] bserved in the 
+ 10. [  374x] observed in the
+ 11. [  360x] No evidence of 
+ 12. [  331x]  of normal size
+ 13. [  326x]  within normal 
+ 14. [  320x] erative changes
+ 15. [  313x] ontrast enhance
+
+======================================================================
+TOP 15 MOST COMMON 20-CHARACTER PATTERNS
+======================================================================
+
+  1. [  311x] contrast enhancement
+  2. [  285x]  contrast enhancemen
+  3. [  266x] egenerative changes 
+  4. [  265x] trahepatic bile duct
+  5. [  259x] rahepatic bile ducts
+  6. [  259x]  within normal limit
+  7. [  259x] within normal limits
+  8. [  225x]  enlarged lymph node
+  9. [  224x] The examination was 
+ 10. [  219x] enlarged lymph nodes
+ 11. [  218x] ation was performed 
+ 12. [  214x] xamination was perfo
+ 13. [  214x] amination was perfor
+ 14. [  214x] mination was perform
+ 15. [  214x] ination was performe
+
+======================================================================
+TOP 20 MOST COMMON HEADERS (first 50 chars)
+======================================================================
+
+  1. [  174x] CONCLUSION:...
+  2. [  156x] Conclusion:...
+  3. [  131x] CONCLUSION...
+  4. [   73x] INDICATION...
+  5. [   58x] TECHNIQUE:...
+  6. [   56x] Conclusions:...
+  7. [   55x] Examination description:...
+  8. [   41x] Description and Findings...
+  9. [   37x] Impression:...
+ 10. [   34x] INDICATION:...
+ 11. [   33x] Brainstem: Unremarkable...
+ 12. [   33x] Cerebellum: Unremarkable...
+ 13. [   33x] Examination Description:...
+ 14. [   31x] Technique:...
+ 15. [   30x] Posterior Fossa:...
+ 16. [   30x] Imaging Comment:...
+ 17. [   30x] DIAGNOSTIC IMPRESSION:...
+ 18. [   29x] IMPRESSION:...
+ 19. [   29x] Brain MRI Report...
+ 20. [   28x] CORONARY CT ANGIOGRAPHY AND CALCIUM SCORE...

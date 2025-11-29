@@ -1,0 +1,181 @@
+CHARACTER SET ANALYSIS REPORT
+PARROT v1.0 Medical Radiology Reports Corpus
+Generated: 2025-11-29
+=============================================================================
+
+OVERVIEW
+--------
+Total characters analyzed: 2,673,701
+Unique characters found: 121
+Source file: PARROT_v1_0_translations_normalized.txt
+
+=============================================================================
+CRITICAL ISSUES FOUND
+=============================================================================
+
+1. PRIVATE USE AREA (PUA) CHARACTERS - ENCODING CORRUPTION
+-----------------------------------------------------------
+These are INVALID/CORRUPTED characters that should not appear in medical text.
+They likely result from PDF extraction errors or font encoding issues.
+
+Character  Unicode  Frequency  Issue
+---------  -------  ---------  ----------------------------------------
+<U+F06C>   U+F06C   40         Corrupted character in Private Use Area
+<U+F0D8>   U+F0D8   6          Corrupted character in Private Use Area
+<U+F076>   U+F076   3          Corrupted character in Private Use Area
+<U+F06E>   U+F06E   2          Corrupted character in Private Use Area
+
+TOTAL CORRUPTED: 51 characters
+SEVERITY: 🔴 CRITICAL - These must be investigated and corrected
+
+
+2. POLISH LANGUAGE CHARACTERS - LANGUAGE MIXING ISSUE
+------------------------------------------------------
+The corpus contains Polish diacritics, suggesting untranslated or 
+mixed-language content. This is unusual for an English medical corpus.
+
+Character  Unicode  Frequency  Description
+---------  -------  ---------  ------------------------------------
+ł          U+0142   41         Polish L with stroke
+ś          U+015B   29         Polish S with acute
+ę          U+0119   25         Polish E with ogonek
+ą          U+0105   18         Polish A with ogonek
+ó          U+00F3   16         Polish O with acute
+ż          U+017C   14         Polish Z with dot above
+ć          U+0107   8          Polish C with acute
+ń          U+0144   1          Polish N with acute
+
+TOTAL POLISH CHARS: 152 characters
+SEVERITY: 🔴 CRITICAL - Indicates potential data quality issues
+
+Recommendation: Search for these characters in context to determine if they
+are legitimate medical terms, proper nouns, or translation errors.
+
+
+=============================================================================
+MINOR ISSUES
+=============================================================================
+
+3. WHITESPACE NORMALIZATION NEEDED
+-----------------------------------
+Non-standard whitespace characters that should be normalized:
+
+Character  Unicode  Frequency  Recommendation
+---------  -------  ---------  ------------------------------------
+<U+00A0>   U+00A0   41         Non-breaking space → regular space
+<U+200B>   U+200B   4          Zero-width space → remove
+<U+0009>   U+0009   5          Tab character → regular space
+
+TOTAL: 50 irregular whitespace characters
+SEVERITY: 🟡 MINOR - Should be normalized for consistency
+
+
+4. TYPOGRAPHY TO NORMALIZE (OPTIONAL)
+--------------------------------------
+Non-ASCII typography that could be normalized to ASCII equivalents:
+
+Character  Unicode  Frequency  Recommendation
+---------  -------  ---------  ------------------------------------
+–          U+2013   298        En-dash → hyphen (-)
+—          U+2014   108        Em-dash → hyphen (-)
+'          U+2019   28         Smart apostrophe → straight quote (')
+"          U+201C   5          Smart quote (left) → straight quote (")
+"          U+201D   5          Smart quote (right) → straight quote (")
+•          U+2022   66         Bullet point → asterisk (*) or hyphen (-)
+
+TOTAL: ~510 typographic characters
+SEVERITY: 🟡 MINOR - Normalization improves ASCII compatibility
+
+
+5. SCIENTIFIC/MEDICAL SYMBOLS (ACCEPTABLE)
+-------------------------------------------
+These characters are legitimate in medical/scientific context:
+
+Character  Unicode  Frequency  Usage
+---------  -------  ---------  ------------------------------------
+²          U+00B2   90         Superscript 2 (mm², cm²)
+³          U+00B3   24         Superscript 3 (cm³, ml)
+°          U+00B0   23         Degree symbol (angles, temperature)
+μ          U+03BC   6          Greek mu (micrometer)
+µ          U+00B5   10         Micro sign (alternative)
+×          U+00D7   36         Multiplication sign (dimensions)
+·          U+00B7   27         Middle dot (separator)
+
+TOTAL: ~216 scientific symbols
+SEVERITY: 🟢 OK - These should be retained as medically relevant
+
+
+6. ADDITIONAL FOREIGN CHARACTERS
+---------------------------------
+Other non-English characters found:
+
+Character  Unicode  Frequency  Language
+---------  -------  ---------  ------------------------------------
+é          U+00E9   5          French/Spanish E with acute
+ë          U+00EB   3          Dutch/French E with diaeresis
+ä          U+00E4   1          German A with umlaut
+ö          U+00F6   1          German O with umlaut
+
+TOTAL: 10 characters
+SEVERITY: 🟢 OK - Likely from proper nouns or medical terms
+
+
+=============================================================================
+SUMMARY AND RECOMMENDATIONS
+=============================================================================
+
+Issue Category              Count   Severity   Action Required
+--------------------------  ------  ---------  ---------------------------
+PUA/Corrupted characters    51      🔴 CRITICAL Must investigate and fix
+Polish language characters  152     🔴 CRITICAL Must investigate source
+Whitespace issues           50      🟡 MINOR    Should normalize
+Typography                  ~510    🟡 MINOR    Optional normalization
+Scientific symbols          ~216    🟢 OK       Retain as-is
+Other foreign chars         10      🟢 OK       Retain as-is
+
+
+RECOMMENDED NEXT STEPS:
+-----------------------
+
+Stage 05: Text Cleaning and Normalization
+
+Priority 1 (CRITICAL):
+✅ Investigate and fix corrupted PUA characters (U+F06C, U+F0D8, etc.)
+   - Search for context of these characters
+   - Determine what they should represent
+   - Create replacement mapping
+
+✅ Investigate Polish characters
+   - Search for context (patient names? medical terms? errors?)
+   - Determine if these are legitimate or translation artifacts
+   - Decide on handling strategy (keep, transliterate, or remove)
+
+Priority 2 (RECOMMENDED):
+✅ Normalize whitespace
+   - Non-breaking spaces (U+00A0) → regular spaces
+   - Remove zero-width spaces (U+200B)
+   - Convert tabs to spaces
+
+Priority 3 (OPTIONAL - for ASCII compatibility):
+⚠️ Normalize typography
+   - Smart quotes → ASCII quotes
+   - En/em dashes → hyphens
+   - Bullets → asterisks or hyphens
+
+Priority 4 (DO NOT CHANGE):
+❌ Keep scientific/medical symbols (μ, ², ³, °, ×)
+   - These are essential for accurate medical reporting
+   - Removing them would lose information
+
+
+NOTES:
+------
+- The presence of PUA characters suggests possible OCR or PDF extraction issues
+- Polish characters may indicate source documents were partially untranslated
+- Consider creating a mapping/patch file for systematic corrections
+- Before bulk changes, sample and verify corrections manually
+
+
+=============================================================================
+END OF REPORT
+=============================================================================

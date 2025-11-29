@@ -1,0 +1,236 @@
+EXACT PATTERN SEARCH RESULTS
+======================================================================
+
+Corpus size: 2,674,179 characters
+Total translations: 2,738
+
+======================================================================
+PATTERN OCCURRENCE COUNTS
+======================================================================
+
+
+Pattern: 'CT'
+  Total occurrences (case-sensitive):      1402
+  Total occurrences (case-insensitive):    9666
+  Appears in N translations (CS):           868 / 2738 (31.7%)
+  Appears in N translations (CI):          2409 / 2738 (88.0%)
+
+Pattern: 'CONCLUSION'
+  Total occurrences (case-sensitive):       326
+  Total occurrences (case-insensitive):     780
+  Appears in N translations (CS):           326 / 2738 (11.9%)
+  Appears in N translations (CI):           779 / 2738 (28.5%)
+
+Pattern: 'MRI'
+  Total occurrences (case-sensitive):       767
+  Total occurrences (case-insensitive):     767
+  Appears in N translations (CS):           524 / 2738 (19.1%)
+  Appears in N translations (CI):           524 / 2738 (19.1%)
+
+Pattern: 'No evidence of'
+  Total occurrences (case-sensitive):       360
+  Total occurrences (case-insensitive):     583
+  Appears in N translations (CS):           266 / 2738 (9.7%)
+  Appears in N translations (CI):           381 / 2738 (13.9%)
+
+Pattern: 'Unremarkable'
+  Total occurrences (case-sensitive):       239
+  Total occurrences (case-insensitive):     475
+  Appears in N translations (CS):            85 / 2738 (3.1%)
+  Appears in N translations (CI):           248 / 2738 (9.1%)
+
+Pattern: 'Technique:'
+  Total occurrences (case-sensitive):       178
+  Total occurrences (case-insensitive):     390
+  Appears in N translations (CS):           178 / 2738 (6.5%)
+  Appears in N translations (CI):           390 / 2738 (14.2%)
+
+Pattern: 'Indication:'
+  Total occurrences (case-sensitive):       211
+  Total occurrences (case-insensitive):     338
+  Appears in N translations (CS):           211 / 2738 (7.7%)
+  Appears in N translations (CI):           338 / 2738 (12.3%)
+
+Pattern: 'within normal limits'
+  Total occurrences (case-sensitive):       259
+  Total occurrences (case-insensitive):     265
+  Appears in N translations (CS):           234 / 2738 (8.5%)
+  Appears in N translations (CI):           240 / 2738 (8.8%)
+
+Pattern: 'The examination was performed'
+  Total occurrences (case-sensitive):       210
+  Total occurrences (case-insensitive):     210
+  Appears in N translations (CS):           210 / 2738 (7.7%)
+  Appears in N translations (CI):           210 / 2738 (7.7%)
+
+Pattern: 'Brainstem'
+  Total occurrences (case-sensitive):        43
+  Total occurrences (case-insensitive):     125
+  Appears in N translations (CS):            43 / 2738 (1.6%)
+  Appears in N translations (CI):           122 / 2738 (4.5%)
+
+Pattern: 'Clinical Information'
+  Total occurrences (case-sensitive):        79
+  Total occurrences (case-insensitive):     111
+  Appears in N translations (CS):            79 / 2738 (2.9%)
+  Appears in N translations (CI):           111 / 2738 (4.1%)
+
+Pattern: 'Fourth Ventricle'
+  Total occurrences (case-sensitive):        27
+  Total occurrences (case-insensitive):     104
+  Appears in N translations (CS):            27 / 2738 (1.0%)
+  Appears in N translations (CI):           101 / 2738 (3.7%)
+
+Pattern: 'Cerebellum'
+  Total occurrences (case-sensitive):        36
+  Total occurrences (case-insensitive):     102
+  Appears in N translations (CS):            36 / 2738 (1.3%)
+  Appears in N translations (CI):            96 / 2738 (3.5%)
+
+Pattern: 'Posterior Fossa'
+  Total occurrences (case-sensitive):        32
+  Total occurrences (case-insensitive):     101
+  Appears in N translations (CS):            32 / 2738 (1.2%)
+  Appears in N translations (CI):            95 / 2738 (3.5%)
+
+Pattern: 'Diagnostic Impression'
+  Total occurrences (case-sensitive):        38
+  Total occurrences (case-insensitive):      79
+  Appears in N translations (CS):            38 / 2738 (1.4%)
+  Appears in N translations (CI):            79 / 2738 (2.9%)
+
+Pattern: 'Normal shape and size'
+  Total occurrences (case-sensitive):        63
+  Total occurrences (case-insensitive):      70
+  Appears in N translations (CS):            35 / 2738 (1.3%)
+  Appears in N translations (CI):            42 / 2738 (1.5%)
+
+Pattern: 'Description and Findings'
+  Total occurrences (case-sensitive):        44
+  Total occurrences (case-insensitive):      44
+  Appears in N translations (CS):            43 / 2738 (1.6%)
+  Appears in N translations (CI):            43 / 2738 (1.6%)
+
+Pattern: 'Imaging Comment'
+  Total occurrences (case-sensitive):        30
+  Total occurrences (case-insensitive):      35
+  Appears in N translations (CS):            29 / 2738 (1.1%)
+  Appears in N translations (CI):            34 / 2738 (1.2%)
+
+Pattern: 'height and signal preserved'
+  Total occurrences (case-sensitive):        27
+  Total occurrences (case-insensitive):      27
+  Appears in N translations (CS):             7 / 2738 (0.3%)
+  Appears in N translations (CI):             7 / 2738 (0.3%)
+
+Pattern: 'Alignment: preserved'
+  Total occurrences (case-sensitive):         7
+  Total occurrences (case-insensitive):       8
+  Appears in N translations (CS):             7 / 2738 (0.3%)
+  Appears in N translations (CI):             8 / 2738 (0.3%)
+
+
+======================================================================
+TOP 100 PHRASES APPEARING 20+ TIMES
+======================================================================
+
+  1. [ 897x] of the right
+  2. [ 850x] of the left
+  3. [ 702x] in the right
+  4. [ 616x] in the left
+  5. [ 462x] changes in the
+  6. [ 374x] observed in the
+  7. [ 372x] on the right
+  8. [ 345x] on the left
+  9. [ 331x] of normal size
+ 10. [ 294x] there is a
+ 11. [ 262x] is of normal
+ 12. [ 259x] within normal limits
+ 13. [ 252x] No evidence of
+ 14. [ 248x] There is a
+ 15. [ 243x] no signs of
+ 16. [ 238x] noted in the
+ 17. [ 238x] are not dilated
+ 18. [ 236x] There is no
+ 19. [ 234x] is not enlarged
+ 20. [ 231x] the right side
+ 21. [ 230x] the level of
+ 22. [ 229x] dilation of the
+ 23. [ 226x] segment of the
+ 24. [ 219x] no evidence of
+ 25. [ 217x] enlarged lymph nodes
+ 26. [ 213x] examination was performed
+ 27. [ 212x] CT of the
+ 28. [ 206x] part of the
+ 29. [ 202x] visible in the
+ 30. [ 198x] fluid in the
+ 31. [ 197x] are observed in
+ 32. [ 197x] on the right side
+ 33. [ 194x] appearance of the
+ 34. [ 193x] the left side
+ 35. [ 189x] level of the
+ 36. [ 187x] the level of the
+ 37. [ 186x] lymph nodes are
+ 38. [ 185x] on both sides
+ 39. [ 184x] of the brain
+ 40. [ 180x] are observed in the
+ 41. [ 180x] was performed using
+ 42. [ 179x] measuring up to
+ 43. [ 175x] at the level
+ 44. [ 175x] thickening of the
+ 45. [ 174x] at the level of
+ 46. [ 172x] on the left side
+ 47. [ 172x] extrahepatic bile ducts
+ 48. [ 160x] is of normal size
+ 49. [ 160x] is within normal
+ 50. [ 159x] in the lower
+ 51. [ 158x] are of normal
+ 52. [ 150x] fracture of the
+ 53. [ 146x] to the previous
+ 54. [ 145x] as well as
+ 55. [ 144x] of the abdomen
+ 56. [ 143x] abnormalities in the
+ 57. [ 143x] no focal changes
+ 58. [ 142x] before and after
+ 59. [ 141x] the previous examination
+ 60. [ 141x] calcifications in the
+ 61. [ 140x] the right lung
+ 62. [ 137x] the left kidney
+ 63. [ 136x] abdomen and pelvis
+ 64. [ 136x] of the head
+ 65. [ 135x] at the level of the
+ 66. [ 135x] not dilated The
+ 67. [ 135x] The examination was
+ 68. [ 132x] the presence of
+ 69. [ 132x] is observed in
+ 70. [ 132x] No signs of
+ 71. [ 132x] scan of the
+ 72. [ 132x] in the abdominal
+ 73. [ 131x] bile ducts are
+ 74. [ 129x] focal changes The
+ 75. [ 128x] normal size and
+ 76. [ 128x] in the upper
+ 77. [ 127x] MRI of the
+ 78. [ 126x] ducts are not
+ 79. [ 125x] n nThere is
+ 80. [ 125x] is within normal limits
+ 81. [ 125x] the right kidney
+ 82. [ 124x] is observed in the
+ 83. [ 124x] ducts are not dilated
+ 84. [ 123x] The spleen is
+ 85. [ 123x] The examination was performed
+ 86. [ 122x] wall of the
+ 87. [ 122x] present in the
+ 88. [ 121x] n nCONCLUSION n
+ 89. [ 121x] are noted in
+ 90. [ 120x] compared to the
+ 91. [ 120x] of the chest
+ 92. [ 117x] structures of the
+ 93. [ 117x] and extrahepatic bile
+ 94. [ 117x] and extrahepatic bile ducts
+ 95. [ 115x] of normal size and
+ 96. [ 115x] common bile duct
+ 97. [ 115x] in the wall
+ 98. [ 114x] CT scan of
+ 99. [ 114x] are noted in the
+100. [ 113x] CT scan of the

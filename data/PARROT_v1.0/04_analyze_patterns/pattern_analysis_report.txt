@@ -1,0 +1,193 @@
+MEDICAL RADIOLOGY REPORTS - PATTERN ANALYSIS
+======================================================================
+
+Corpus Statistics:
+  Total translations: 2,738
+  Total characters: 2,674,103
+  Total words: 377,658
+
+
+======================================================================
+TOP 20 MOST COMMON 2-WORD PHRASES
+======================================================================
+
+  1. [ 8886x] of the
+  2. [ 6791x] in the
+  3. [ 2425x] the right
+  4. [ 2242x] the left
+  5. [ 1250x] on the
+  6. [ 1189x] with a
+  7. [ 1098x] at the
+  8. [ 1010x] to the
+  9. [  886x] n nThe
+ 10. [  850x] There is
+ 11. [  762x] signs of
+ 12. [  703x] evidence of
+ 13. [  700x] is a
+ 14. [  683x] up to
+ 15. [  670x] with no
+ 16. [  623x] and the
+ 17. [  616x] was performed
+ 18. [  598x] of normal
+ 19. [  552x] lymph nodes
+ 20. [  531x] there is
+
+======================================================================
+TOP 20 MOST COMMON 3-WORD PHRASES
+======================================================================
+
+  1. [  897x] of the right
+  2. [  850x] of the left
+  3. [  702x] in the right
+  4. [  616x] in the left
+  5. [  462x] changes in the
+  6. [  374x] observed in the
+  7. [  372x] on the right
+  8. [  345x] on the left
+  9. [  331x] of normal size
+ 10. [  294x] there is a
+ 11. [  262x] is of normal
+ 12. [  259x] within normal limits
+ 13. [  252x] No evidence of
+ 14. [  248x] There is a
+ 15. [  243x] no signs of
+ 16. [  238x] noted in the
+ 17. [  238x] are not dilated
+ 18. [  236x] There is no
+ 19. [  234x] is not enlarged
+ 20. [  231x] the right side
+
+======================================================================
+TOP 20 MOST COMMON 4-WORD PHRASES
+======================================================================
+
+  1. [  197x] on the right side
+  2. [  187x] the level of the
+  3. [  180x] are observed in the
+  4. [  174x] at the level of
+  5. [  172x] on the left side
+  6. [  160x] is of normal size
+  7. [  125x] is within normal limits
+  8. [  124x] is observed in the
+  9. [  124x] ducts are not dilated
+ 10. [  123x] The examination was performed
+ 11. [  117x] and extrahepatic bile ducts
+ 12. [  115x] of normal size and
+ 13. [  114x] are noted in the
+ 14. [  113x] CT scan of the
+ 15. [  108x] bile ducts are not
+ 16. [  108x] of the right lung
+ 17. [  105x] the abdomen and pelvis
+ 18. [  101x] examination was performed using
+ 19. [   99x] are not dilated The
+ 20. [   97x] with no evidence of
+
+======================================================================
+TOP 20 MOST COMMON 5-WORD PHRASES
+======================================================================
+
+  1. [  135x] at the level of the
+  2. [  106x] bile ducts are not dilated
+  3. [   87x] of the abdomen and pelvis
+  4. [   76x] in the wall of the
+  5. [   74x] ducts are not dilated The
+  6. [   73x] intrahepatic and extrahepatic bile ducts
+  7. [   73x] The examination was performed using
+  8. [   67x] and extrahepatic bile ducts are
+  9. [   65x] is of normal size and
+ 10. [   65x] in the area of the
+ 11. [   63x] There is no evidence of
+ 12. [   62x] enlarged lymph nodes in the
+ 13. [   61x] n nThe examination was performed
+ 14. [   60x] the wall of the arch
+ 15. [   59x] extrahepatic bile ducts are not
+ 16. [   59x] in the projection of the
+ 17. [   56x] calcifications in the wall of
+ 18. [   54x] brain and intracranial fluid spaces
+ 19. [   52x] abdomen and pelvis was performed
+ 20. [   51x] Normal shape and size n
+
+======================================================================
+TOP 15 MOST COMMON 10-CHARACTER PATTERNS
+======================================================================
+
+  1. [ 2425x]  the right
+  2. [ 2289x] the right 
+  3. [ 2068x]  the left 
+  4. [ 1548x] on of the 
+  5. [ 1539x] ion of the
+  6. [ 1418x] xamination
+  7. [ 1262x] tion of th
+  8. [ 1226x] n the righ
+  9. [ 1163x]  measuring
+ 10. [ 1163x] measuring 
+ 11. [ 1108x] ed in the 
+ 12. [ 1107x]  contrast 
+ 13. [ 1098x] n the left
+ 14. [ 1071x] es in the 
+ 15. [ 1071x] examinatio
+
+======================================================================
+TOP 15 MOST COMMON 15-CHARACTER PATTERNS
+======================================================================
+
+  1. [  706x]  approximately 
+  2. [  557x]  was performed 
+  3. [  462x]  changes in the
+  4. [  461x]  abnormalities 
+  5. [  461x] changes in the 
+  6. [  432x] he examination 
+  7. [  395x]  administration
+  8. [  376x]  observed in th
+  9. [  375x] bserved in the 
+ 10. [  374x] observed in the
+ 11. [  360x] No evidence of 
+ 12. [  331x]  of normal size
+ 13. [  326x]  within normal 
+ 14. [  320x] erative changes
+ 15. [  313x] ontrast enhance
+
+======================================================================
+TOP 15 MOST COMMON 20-CHARACTER PATTERNS
+======================================================================
+
+  1. [  311x] contrast enhancement
+  2. [  285x]  contrast enhancemen
+  3. [  266x] egenerative changes 
+  4. [  265x] trahepatic bile duct
+  5. [  259x] rahepatic bile ducts
+  6. [  259x]  within normal limit
+  7. [  259x] within normal limits
+  8. [  224x] The examination was 
+  9. [  223x]  enlarged lymph node
+ 10. [  218x] ation was performed 
+ 11. [  217x] enlarged lymph nodes
+ 12. [  214x] xamination was perfo
+ 13. [  214x] amination was perfor
+ 14. [  214x] mination was perform
+ 15. [  214x] ination was performe
+
+======================================================================
+TOP 20 MOST COMMON HEADERS (first 50 chars)
+======================================================================
+
+  1. [   27x] Clinical Information, Question, Justification for ...
+  2. [   27x] Mammography of both breasts in two projections sho...
+  3. [   23x] Description and Findings\n\nPosterior Fossa:\n- Fo...
+  4. [   13x] **Brain MRI Report**\n\n**Reason for Examination:*...
+  5. [   12x] Clinic, Question, Justifying Indication:Patient wi...
+  6. [   12x] Chest X-ray PA: The costophrenic angles are clear....
+  7. [   11x] The thoracic cage is symmetrical on both sides, wi...
+  8. [    8x] MRI was performed using standard imaging technique...
+  9. [    8x] The gray-white matter differentiation in both cere...
+ 10. [    7x] An MRI was performed using standard imaging techni...
+ 11. [    7x] CT CHEST\n\nTechnique: The examination was perform...
+ 12. [    7x] CT SCAN OF THE UPPER AND LOWER ABDOMEN\n\nTechniqu...
+ 13. [    7x] Examination and description in emergency mode.\nCl...
+ 14. [    7x] Examination and description in emergency mode. Dat...
+ 15. [    6x] Exam performed using volumetric multi-slice techni...
+ 16. [    6x] Examination and description in on-call mode. Data ...
+ 17. [    6x] Ultrasound of the posterior segment of the RIGHT e...
+ 18. [    5x] The examination conducted using radial linear scan...
+ 19. [    5x] An MRI of the breasts was performed following the ...
+ 20. [    5x] Technique: The examination was performed using a h...
