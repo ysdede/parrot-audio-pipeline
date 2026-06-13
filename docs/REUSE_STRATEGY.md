@@ -22,9 +22,19 @@ Use this repo as the complete, reproducible story for the PARROT radiology ASR d
 
 This makes the repo a finished case study and a defensible dataset creation record.
 
-### Extract A Generic Skeleton Later
+### Extracted Generic Skeleton
 
-Create a separate repo such as `text-to-audio-dataset-pipeline` or `audio-dataset-pipeline-template` after this one is cleaned up.
+A separate skeleton project should live outside this PARROT case-study repo. The local skeleton created from these lessons is:
+
+```text
+N:\github\ysdede\text-to-audio-dataset-pipeline
+```
+
+A good GitHub repo name for it is:
+
+```text
+ysdede/text-to-audio-dataset-pipeline
+```
 
 The skeleton should contain:
 

@@ -2,15 +2,15 @@
 
 Use this checklist before updating GitHub.
 
-## Recommended Repository Name
+## Repository Name
 
-The current remote is `ysdede/scribe-ds`. The project reads more clearly as one of:
+This repository has been renamed to:
 
-- `parrot-audio-pipeline`
-- `parrot-audio`
-- `text-to-audio-dataset-pipeline`
+```text
+ysdede/parrot-audio-pipeline
+```
 
-`parrot-audio-pipeline` is the most explicit name because this repo is not only the final dataset. It is the process for creating the dataset.
+`parrot-audio-pipeline` is explicit because this repo is not only the final dataset. It is the process for creating the dataset.
 
 ## What To Commit
 
@@ -84,11 +84,9 @@ git commit -m "docs: describe parrot audio pipeline"
 git push origin main
 ```
 
-## GitHub Rename Steps
+## Local Remote
 
-1. Rename the repository on GitHub: `Settings -> General -> Repository name`.
-2. Pick `parrot-audio-pipeline` unless you want a shorter brand name.
-3. Update the local remote:
+Use this remote after the rename:
 
 ```powershell
 git remote set-url origin git@github.com:ysdede/parrot-audio-pipeline.git

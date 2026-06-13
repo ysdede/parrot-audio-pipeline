@@ -2,7 +2,7 @@
 
 Parrot Audio Pipeline is a step-by-step workspace for turning text datasets into speech datasets for ASR experiments. The current pipeline builds a synthetic English radiology speech dataset from PARROT v1.0 reports, normalizes the text for speech, renders Kokoro TTS audio, chunks long reports, validates audio/metadata pairs, and packages the result as a Hugging Face `datasets` dataset.
 
-The repository name is still `scribe-ds` on GitHub, but the clearer project name is **Parrot Audio Pipeline**. A good future GitHub repository rename would be `parrot-audio-pipeline` or `parrot-audio`.
+This project lives at `ysdede/parrot-audio-pipeline`.
 
 This repo should remain the PARROT-dedicated finished work: it shows the real decisions, fixes, data stages, and scripts used to create the dataset. A cleaner generic skeleton can be extracted from this repo after the PARROT workflow is documented.
 
@@ -129,7 +129,7 @@ Before pushing:
 
 See `docs/PUBLISHING.md` for a concrete cleanup checklist.
 
-See `docs/REUSE_STRATEGY.md` for the recommended split between this PARROT-specific project and a future generic skeleton.
+See `docs/REUSE_STRATEGY.md` for the split between this PARROT-specific project and the reusable skeleton project.
 
 See `docs/TEXT_TO_AUDIO_DATASET_METHOD.md` for the reusable method distilled from this project.
 
