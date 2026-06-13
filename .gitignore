@@ -84,7 +84,18 @@ cython_debug/
 .~lock.*
 
 # asrtk scaffold
-# data/**
+# Keep generated corpora, audio, and packaged datasets local by default.
+# Commit only small documented examples, scripts, and intentional metadata.
+data/**/*
+!data/.gitkeep
+!data/**/
+!data/**/.gitkeep
+!data/**/README.md
+!data/**/*.py
+!data/**/*.md
+!data/**/*.txt.example
+!data/**/*.csv.example
+!data/**/*.json.example
 !data/metadata/**
 logs/**
 # .tmp/**
@@ -92,3 +103,33 @@ logs/**
 .DS_Store
 __pycache__/**
 *.log
+
+# Generated audio/dataset artifacts
+*.wav
+*.mp3
+*.flac
+*.ogg
+*.parquet
+*.arrow
+*.sqlite
+*.sqlite3
+*.db
+*.zip
+
+# Local model/vendor clones and heavyweight tokenizers
+kokoro/
+**/deepseek_v3_tokenizer/
+**/voices/*.bin
+
+# Local processing outputs
+**/cache/**
+**/logs/**
+**/.pytest_cache/**
+**/__pycache__/**
+tmp/**
+
+# Notebook outputs are often large and machine-specific.
+notebooks/*.wav
+notebooks/*.mp3
+notebooks/*.ipynb
+!notebooks/README.md

@@ -1,0 +1,22 @@
+{
+  "tts": "kokoro-82m",
+  "tts_version": "0.1.0",
+  "corpus": "sentence_pairs.csv",
+  "sample_rate": 16000,
+  "format_version": "v3",
+  "index": 1,
+  "csv_id": "mini-001",
+  "csv_hash": "samplehash001",
+  "chunk_id": 0,
+  "parent_audio": "samplehash001.wav",
+  "normalized": "Chest radiograph shows clear lungs. No pleural effusion or pneumothorax.",
+  "transcription": "Chest radiograph shows clear lungs. No pleural effusion or pneumothorax.",
+  "normalized_hash": "example-normalized-hash",
+  "transcription_hash": "example-transcription-hash",
+  "audio_path": "samplehash001_00.wav",
+  "speed": 1.05,
+  "volume": 1.0,
+  "speaker": "af_heart",
+  "gender": "female",
+  "duration": 5.42
+}

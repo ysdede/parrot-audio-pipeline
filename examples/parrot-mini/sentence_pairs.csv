@@ -1,0 +1,3 @@
+id,original_text,hash,sentence_pairs
+mini-001,"Chest radiograph shows clear lungs. No pleural effusion or pneumothorax.",samplehash001,"[{""standardized"": ""Chest radiograph shows clear lungs."", ""tts"": ""Chest radiograph shows clear lungs.""}, {""standardized"": ""No pleural effusion or pneumothorax."", ""tts"": ""No pleural effusion or pneumothorax.""}]"
+mini-002,"MRI of the knee demonstrates mild joint effusion. Cruciate ligaments are intact.",samplehash002,"[{""standardized"": ""MRI of the knee demonstrates mild joint effusion."", ""tts"": ""M R I of the knee demonstrates mild joint effusion.""}, {""standardized"": ""Cruciate ligaments are intact."", ""tts"": ""Cruciate ligaments are intact.""}]"
